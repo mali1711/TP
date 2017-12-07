@@ -1,0 +1,1698 @@
+[ 2017-10-11T09:15:32+08:00 ] ::1 /tp/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.155602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.155602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T09:15:53+08:00 ] ::1 /tp/Admin/index/consumeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0880s ]
+SQL: SELECT * FROM `consume_list` WHERE `business_id` = 1  [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T09:16:34+08:00 ] ::1 /tp/Admin/index/consumeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `consume_list` WHERE `business_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-10-11T09:19:54+08:00 ] ::1 /tp/Admin/index/consumeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `consume_list` WHERE `business_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T09:19:56+08:00 ] ::1 /tp/Admin/index/consumeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE `business_id` = 2  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T09:22:01+08:00 ] ::1 /tp/Admin/index/consumeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `consume_list` WHERE `business_id` = 2  [ RunTime:0.0000s ]
+ERR: 1146:Table 'huike.users_id' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `users_id`
+ERR: 1146:Table 'huike.users_id' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `users_id`
+
+[ 2017-10-11T09:22:13+08:00 ] ::1 /tp/Admin/index/consumeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `consume_list` WHERE `business_id` = 2  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0699s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:14:26+08:00 ] ::1 /tp/Admin/index/consumeList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE `business_id` = 2  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:14:33+08:00 ] ::1 /tp/Admin/index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:getConsume
+
+[ 2017-10-11T10:14:45+08:00 ] ::1 /tp/Admin/Consume/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Consume
+
+[ 2017-10-11T10:30:57+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-10-11T10:30:57+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T10:31:00+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:31:22+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:37:49+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `consume_list` WHERE ( consume_time<=1507734000 and consume_time >= 1507734000 and ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `consume_list` WHERE ( consume_time<=1507734000 and consume_time >= 1507734000 and ) 
+
+[ 2017-10-11T10:38:13+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `consume_list` WHERE ( consume_time <= 1507734000 and consume_time >= 1507734000 and ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `consume_list` WHERE ( consume_time <= 1507734000 and consume_time >= 1507734000 and ) 
+
+[ 2017-10-11T10:38:19+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0025s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=< 1507734000 and consume_time >= 1507734000 and )' at line 1
+ [ SQL语句 ] : SELECT * FROM `consume_list` WHERE ( consume_time =< 1507734000 and consume_time >= 1507734000 and ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=< 1507734000 and consume_time >= 1507734000 and )' at line 1
+ [ SQL语句 ] : SELECT * FROM `consume_list` WHERE ( consume_time =< 1507734000 and consume_time >= 1507734000 and ) 
+
+[ 2017-10-11T10:39:00+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200  )  [ RunTime:0.0350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:40:43+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:42:10+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:43:21+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T10:45:42+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T10:49:06+08:00 ] ::1 /TP/index.php/Admin/Index/getConsume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T11:19:32+08:00 ] ::1 /TP/index.php/Admin/Index/addInTheDayIncome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0485s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0025s ]
+ERR: 1364:Field 'b_turnover_in_the_day_info' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`) VALUES ('640','32','32')
+ERR: 1364:Field 'b_turnover_in_the_day_info' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`) VALUES ('640','32','32')
+
+[ 2017-10-11T11:21:05+08:00 ] ::1 /tp/Admin/Consume/addInTheDayIncome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+ERR: 无法加载控制器:Consume
+
+[ 2017-10-11T11:21:09+08:00 ] ::1 /TP/index.php/Admin/Index/addInTheDayIncome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0025s ]
+ERR: 1364:Field 'b_turnover_in_the_day_time' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_info`) VALUES ('660','33','33','无')
+ERR: 1364:Field 'b_turnover_in_the_day_time' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_info`) VALUES ('660','33','33','无')
+
+[ 2017-10-11T11:21:42+08:00 ] ::1 /TP/index.php/Admin/Index/addInTheDayIncome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('660','33','33','1507692102','无') [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-10-11T11:21:42+08:00 ] ::1 /TP/index.php/Admin/Index/addInTheDayIncome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('660','33','33','1507692102','无') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T11:27:27+08:00 ] ::1 /TP/index.php/Admin/Index/addInTheDayIncome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('660','33','33','1507734000','无') [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T11:27:42+08:00 ] ::1 /TP/index.php/Admin/Index/addInTheDayIncome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('660','33','33','1507734000','无') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-10-11T15:55:14+08:00 ] ::1 /TP/index.php/Admin/Index/addInTheDayIncome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.8908s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0468s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('660','33','33','1507734000','无') [ RunTime:0.0832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T16:10:06+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and b_turnover_in_the_day_time=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:10:44+08:00 ] ::1 /TP/index.php/Admin/Index/addInTheDayIncome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('660','33','33','1507734000','无') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:10:59+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and b_turnover_in_the_day_time=2 )  [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:12:56+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and b_turnover_in_the_day_time=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:12:58+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and b_turnover_in_the_day_time=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-10-11T16:13:25+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T16:13:26+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-11T16:13:26+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:13:26+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:13:26+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T16:13:33+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:13:44+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-11T16:13:44+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:14:27+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `b_turnover_in_the_day`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:14:45+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE (  business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:14:45+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE (  business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:15:01+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:15:02+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0590s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:15:07+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time > 1507734000 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:15:07+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time > 1507734000 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-11T16:15:08+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time > 1507734000 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-11T16:15:08+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time > 1507734000 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:15:22+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:15:23+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:15:26+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-11T16:15:26+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:16:26+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time < 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T16:17:31+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:22:34+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-10-11T16:28:30+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:28:30+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1507734000 and b_turnover_in_the_day_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:28:44+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:31:59+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:32:09+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:32:40+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:33:54+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:34:49+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:34:58+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:56:24+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0810s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-11T16:57:22+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:58:20+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:58:37+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:58:38+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:58:39+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:58:39+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T16:58:39+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:58:39+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:58:39+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T16:58:54+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-10-11T17:02:15+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-10-11T17:02:36+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-10-11T17:02:58+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:06:24+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+NOTIC: [2] Cannot use a scalar value as an array C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 47 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-11T17:06:47+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:06:56+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-11T17:07:48+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:07:54+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T17:14:41+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:14:52+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:14:53+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:15:05+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:15:06+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:15:17+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.1190s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-11T17:15:39+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: users_integral_num C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:16:03+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:26:54+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:29:04+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: consume_money C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: consume_time C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 51 行.
+NOTIC: [8] Undefined index: consume_money C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: consume_time C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:29:47+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: consume_money C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: consume_time C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 52 行.
+NOTIC: [8] Undefined index: consume_money C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 45 行.
+NOTIC: [8] Undefined index: consume_time C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:30:07+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:32:21+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T17:37:53+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-10-11T17:41:36+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.3050s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0040s ]
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+
+[ 2017-10-11T17:42:16+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0130s ]
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+
+[ 2017-10-11T17:42:20+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+
+[ 2017-10-11T17:42:53+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+
+[ 2017-10-11T17:42:54+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+
+[ 2017-10-11T17:42:54+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0150s ]
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+
+[ 2017-10-11T17:42:54+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0030s ]
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+
+[ 2017-10-11T17:42:55+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0030s ]
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+
+[ 2017-10-11T17:43:01+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+
+[ 2017-10-11T17:43:56+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-11T17:49:35+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+
+[ 2017-10-11T17:50:53+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+
+[ 2017-10-11T17:51:27+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0210s ]
+ERR: 1364:Field 'business_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+ERR: 1364:Field 'business_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` () VALUES ()
+
+[ 2017-10-11T17:52:00+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0090s ]
+SQL: INSERT INTO `users_integral_list` () VALUES () [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:53:43+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1507689625','600') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','2','1507689636','20') [ RunTime:0.0100s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1507689640','40') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T19:41:36+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0230s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1507689625','600') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T19:41:36+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1507689625','600') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T19:41:55+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1507689625','600') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T19:42:27+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0160s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1507689625','600') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T19:42:29+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1507689625','600') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T19:42:56+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1507689625','600') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','2','1507689636','20') [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1507689640','40') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-11T19:43:14+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1507734000 and consume_time > 1507651200 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1507689625','600') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','2','1507689636','20') [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1507689640','40') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

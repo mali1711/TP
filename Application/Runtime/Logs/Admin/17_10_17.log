@@ -1,0 +1,2022 @@
+[ 2017-10-17T09:16:06+08:00 ] ::1 /Tp/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: Admin C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.1420s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `business` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id= ) LIMIT 1  
+
+[ 2017-10-17T09:16:34+08:00 ] ::1 /Tp/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: Admin C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id= ) LIMIT 1  
+
+[ 2017-10-17T09:17:09+08:00 ] ::1 /Tp/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: Admin C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `business` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id =  ) LIMIT 1  
+
+[ 2017-10-17T09:17:27+08:00 ] ::1 /Tp/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: Admin C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 16 行.
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `b_turnover_in_the_day` WHERE ( business_id =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `b_turnover_in_the_day` WHERE ( business_id =  ) LIMIT 1  
+
+[ 2017-10-17T09:17:58+08:00 ] ::1 /Tp/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-17T09:18:04+08:00 ] ::1 /TP/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_account` = 'root' AND `business_pass` = '14e1b600b1fd579f47433b88e8d85291' LIMIT 1   [ RunTime:0.1582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T09:18:12+08:00 ] ::1 /TP/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_account` = 'guanyu' AND `business_pass` = 'd9b1d7db4cd6e70935368a1efb10e377' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:18:14+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.1826s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0744s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 677 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T09:19:20+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 677 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T09:19:21+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 677 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:19:26+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.036002s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 677 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.037002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\TP\ThinkPHP\Library\Think\View.class.php:95) C:\wamp\www\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\TP\ThinkPHP\Library\Think\View.class.php:95) C:\wamp\www\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\wamp\www\TP\ThinkPHP\Library\Think\View.class.php:95) C:\wamp\www\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:19:33+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:21:01+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T09:21:09+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 677 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T09:22:05+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 643 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-10-17T09:22:26+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T09:22:46+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:23:08+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T09:24:03+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-10-17T09:25:15+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:25:20+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:25:26+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:25:56+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:26:11+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:26:56+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:30:51+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:31:11+08:00 ] ::1 /TP/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:31:18+08:00 ] ::1 /TP/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_account` = 'guanyu' AND `business_pass` = 'd9b1d7db4cd6e70935368a1efb10e377' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.586034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.586034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-10-17T09:31:19+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T09:34:30+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:36:05+08:00 ] ::1 /TP/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+ERR: 1364:Field 'users_get_integral' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508204048','300')
+ERR: 1364:Field 'users_get_integral' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508204048','300')
+
+[ 2017-10-17T09:38:49+08:00 ] ::1 /TP/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508204048','300') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1508204055','300') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:38:49+08:00 ] ::1 /TP/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508204048','300') [ RunTime:0.0020s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1508204055','300') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:38:54+08:00 ] ::1 /TP/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T09:39:29+08:00 ] ::1 /TP/Admin/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Admin
+
+[ 2017-10-17T09:39:40+08:00 ] ::1 /TP/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('600','2','30','30','1508252400','无') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:39:40+08:00 ] ::1 /TP/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:39:46+08:00 ] ::1 /TP/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:49:01+08:00 ] ::1 /TP/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','2','1508204896','110') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1508204902','600') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508204880','150') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:49:02+08:00 ] ::1 /TP/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','2','1508204896','110') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1508204902','600') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508204880','150') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:49:22+08:00 ] ::1 /TP/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('860','2','43','43','1508252400','无') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:49:23+08:00 ] ::1 /TP/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-17T09:49:27+08:00 ] ::1 /TP/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T09:51:45+08:00 ] ::1 /TP/Admin/Index/userProportion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='600',`business_id`='2',`users_get_integral`='30',`users_id`='3',`users_integral_addtime`='1508204902' WHERE `users_integral_id` = 38 [ RunTime:0.0580s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='7',`users_id`='1',`users_integral_addtime`='1508204880' WHERE `users_integral_id` = 39 [ RunTime:0.0020s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='110',`business_id`='2',`users_get_integral`='5',`users_id`='2',`users_integral_addtime`='1508204896' WHERE `users_integral_id` = 37 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='7',`users_id`='1',`users_integral_addtime`='1508204880' WHERE `users_integral_id` = 36 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='600',`business_id`='2',`users_get_integral`='30',`users_id`='3',`users_integral_addtime`='1508204902' WHERE `users_integral_id` = 35 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='110',`business_id`='2',`users_get_integral`='5',`users_id`='2',`users_integral_addtime`='1508204896' WHERE `users_integral_id` = 34 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-10-17T09:53:45+08:00 ] ::1 /TP/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-17T09:53:56+08:00 ] ::1 /TP/Admin/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T10:07:15+08:00 ] ::1 /TP/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T10:07:34+08:00 ] ::1 /TP/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business` WHERE `business_account` = 'liubei' AND `business_pass` = '14e1b600b1fd579f47433b88e8d85291' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T10:07:42+08:00 ] ::1 /TP/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T10:08:11+08:00 ] ::1 /TP/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business` WHERE `business_account` = 'liubei' AND `business_pass` = 'd9b1d7db4cd6e70935368a1efb10e377' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T10:08:12+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 3 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T10:08:37+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','3','1508204910','1000') [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','3','1508204917','3000') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','3','1508204923','2000') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T10:08:37+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=3 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','3','1508204910','1000') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','3','1508204917','3000') [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','3','1508204923','2000') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T10:08:45+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=3 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=3 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('6000','3','300','300','1508252400','无') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T10:08:45+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=3 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-10-17T10:09:05+08:00 ] ::1 /TP/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T10:16:14+08:00 ] ::1 /TP/index.php/Admin/Index/userProportion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='1000',`business_id`='3',`users_get_integral`='50',`users_id`='3',`users_integral_addtime`='1508204910' WHERE `users_integral_id` = 40 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='3000',`business_id`='3',`users_get_integral`='150',`users_id`='1',`users_integral_addtime`='1508204917' WHERE `users_integral_id` = 41 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='2000',`business_id`='3',`users_get_integral`='100',`users_id`='2',`users_integral_addtime`='1508204923' WHERE `users_integral_id` = 42 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='1000',`business_id`='3',`users_get_integral`='50',`users_id`='3',`users_integral_addtime`='1508204910' WHERE `users_integral_id` = 43 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='3000',`business_id`='3',`users_get_integral`='150',`users_id`='1',`users_integral_addtime`='1508204917' WHERE `users_integral_id` = 44 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='2000',`business_id`='3',`users_get_integral`='100',`users_id`='2',`users_integral_addtime`='1508204923' WHERE `users_integral_id` = 45 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T10:16:14+08:00 ] ::1 /TP/index.php/Admin/Index/userProportion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='1000',`business_id`='3',`users_get_integral`='50',`users_id`='3',`users_integral_addtime`='1508204910' WHERE `users_integral_id` = 40 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='3000',`business_id`='3',`users_get_integral`='150',`users_id`='1',`users_integral_addtime`='1508204917' WHERE `users_integral_id` = 41 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='2000',`business_id`='3',`users_get_integral`='100',`users_id`='2',`users_integral_addtime`='1508204923' WHERE `users_integral_id` = 42 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='1000',`business_id`='3',`users_get_integral`='50',`users_id`='3',`users_integral_addtime`='1508204910' WHERE `users_integral_id` = 43 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='3000',`business_id`='3',`users_get_integral`='150',`users_id`='1',`users_integral_addtime`='1508204917' WHERE `users_integral_id` = 44 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='2000',`business_id`='3',`users_get_integral`='100',`users_id`='2',`users_integral_addtime`='1508204923' WHERE `users_integral_id` = 45 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T10:26:53+08:00 ] ::1 /TP/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 3 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T10:27:51+08:00 ] ::1 /TP/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T16:17:49+08:00 ] ::1 /TP/index.php/Admin/nestable-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.254213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.043002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.043002s ]
+ERR: 无法加载控制器:Nestable-list
+
+[ 2017-10-17T16:17:49+08:00 ] ::1 /TP/index.php/Admin/nestable-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:Nestable-list
+
+[ 2017-10-17T16:41:48+08:00 ] ::1 /TP/index.php/Admin/nestable-list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Nestable-list
+
+[ 2017-10-17T16:41:50+08:00 ] ::1 /TP/index.php/Admin/Index/toGo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=3 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=3 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('0','3','0','0','1508252400','无') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T16:41:50+08:00 ] ::1 /TP/index.php/Admin/Index/toGo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=3 )  [ RunTime:0.0350s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 3  [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T16:42:07+08:00 ] ::1 /TP/index.php/Admin/Index/toGo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=3 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0230s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 3  [ RunTime:0.0000s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-17T16:43:11+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=3 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T16:43:11+08:00 ] ::1 /TP/index.php/Admin/Index/returnPointsNewUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=3 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T16:43:38+08:00 ] ::1 /TP/index.php/Admin/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 3 LIMIT 1   [ RunTime:0.0230s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 3 )  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 3 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.233013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.233013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.191011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.191011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011001s ]
+
+[ 2017-10-17T16:43:43+08:00 ] ::1 /TP/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.461026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.461026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-17T16:44:19+08:00 ] ::1 /TP/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_account` = 'weipengfei' AND `business_pass` = 'd9b1d7db4cd6e70935368a1efb10e377' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.379013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.379013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T16:44:20+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_money C:\wamp\www\TP\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 650 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T16:44:38+08:00 ] ::1 /TP/index.php/Admin/Index/toGo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('5','2','1508229767','600') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508229535','100') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','2','1508229548','150') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1508229572','200') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('4','2','1508229584','450') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('1500','2','75','75','1508252400','无') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='450',`business_id`='2',`users_get_integral`='22',`users_id`='4',`users_integral_addtime`='1508229584' WHERE `users_integral_id` = 50 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='200',`business_id`='2',`users_get_integral`='10',`users_id`='3',`users_integral_addtime`='1508229572' WHERE `users_integral_id` = 49 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='7',`users_id`='2',`users_integral_addtime`='1508229548' WHERE `users_integral_id` = 48 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='100',`business_id`='2',`users_get_integral`='5',`users_id`='1',`users_integral_addtime`='1508229535' WHERE `users_integral_id` = 47 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='600',`business_id`='2',`users_get_integral`='30',`users_id`='5',`users_integral_addtime`='1508229767' WHERE `users_integral_id` = 46 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T16:44:39+08:00 ] ::1 /TP/index.php/Admin/Index/toGo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('5','2','1508229767','600') [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508229535','100') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','2','1508229548','150') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1508229572','200') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('4','2','1508229584','450') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='450',`business_id`='2',`users_get_integral`='22',`users_id`='4',`users_integral_addtime`='1508229584' WHERE `users_integral_id` = 55 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='200',`business_id`='2',`users_get_integral`='10',`users_id`='3',`users_integral_addtime`='1508229572' WHERE `users_integral_id` = 54 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='7',`users_id`='2',`users_integral_addtime`='1508229548' WHERE `users_integral_id` = 53 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='100',`business_id`='2',`users_get_integral`='5',`users_id`='1',`users_integral_addtime`='1508229535' WHERE `users_integral_id` = 52 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='600',`business_id`='2',`users_get_integral`='30',`users_id`='5',`users_integral_addtime`='1508229767' WHERE `users_integral_id` = 51 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='450',`business_id`='2',`users_get_integral`='22',`users_id`='4',`users_integral_addtime`='1508229584' WHERE `users_integral_id` = 50 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='200',`business_id`='2',`users_get_integral`='10',`users_id`='3',`users_integral_addtime`='1508229572' WHERE `users_integral_id` = 49 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='7',`users_id`='2',`users_integral_addtime`='1508229548' WHERE `users_integral_id` = 48 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='100',`business_id`='2',`users_get_integral`='5',`users_id`='1',`users_integral_addtime`='1508229535' WHERE `users_integral_id` = 47 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='600',`business_id`='2',`users_get_integral`='30',`users_id`='5',`users_integral_addtime`='1508229767' WHERE `users_integral_id` = 46 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T16:46:48+08:00 ] ::1 /TP/index.php/Admin/Index/toGo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508229535','100') [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','2','1508229548','150') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1508229572','200') [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('4','2','1508229584','450') [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('900','2','45','45','1508252400','无') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 2  [ RunTime:0.0020s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='7',`users_id`='2',`users_integral_addtime`='1508229548' WHERE `users_integral_id` = 57 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='200',`business_id`='2',`users_get_integral`='10',`users_id`='3',`users_integral_addtime`='1508229572' WHERE `users_integral_id` = 58 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='450',`business_id`='2',`users_get_integral`='22',`users_id`='4',`users_integral_addtime`='1508229584' WHERE `users_integral_id` = 59 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='100',`business_id`='2',`users_get_integral`='5',`users_id`='1',`users_integral_addtime`='1508229535' WHERE `users_integral_id` = 56 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-17T16:50:12+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=2 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T16:50:12+08:00 ] ::1 /TP/index.php/Admin/Index/getDayincome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-17T16:50:20+08:00 ] ::1 /TP/index.php/Admin/Index/userProportion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='7',`users_id`='2',`users_integral_addtime`='1508229548' WHERE `users_integral_id` = 57 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='200',`business_id`='2',`users_get_integral`='10',`users_id`='3',`users_integral_addtime`='1508229572' WHERE `users_integral_id` = 58 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='450',`business_id`='2',`users_get_integral`='22',`users_id`='4',`users_integral_addtime`='1508229584' WHERE `users_integral_id` = 59 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='100',`business_id`='2',`users_get_integral`='5',`users_id`='1',`users_integral_addtime`='1508229535' WHERE `users_integral_id` = 56 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T16:50:20+08:00 ] ::1 /TP/index.php/Admin/Index/userProportion
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 2  [ RunTime:0.0020s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='7',`users_id`='2',`users_integral_addtime`='1508229548' WHERE `users_integral_id` = 57 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='200',`business_id`='2',`users_get_integral`='10',`users_id`='3',`users_integral_addtime`='1508229572' WHERE `users_integral_id` = 58 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='450',`business_id`='2',`users_get_integral`='22',`users_id`='4',`users_integral_addtime`='1508229584' WHERE `users_integral_id` = 59 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='100',`business_id`='2',`users_get_integral`='5',`users_id`='1',`users_integral_addtime`='1508229535' WHERE `users_integral_id` = 56 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T16:55:30+08:00 ] ::1 /TP/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users` WHERE `users_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T16:58:35+08:00 ] ::1 /TP/index.php/Admin/index/toGo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508229535','100') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','2','1508229548','150') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1508229572','200') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('4','2','1508229584','450') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='0',`users_id`='2',`users_integral_addtime`='1508229548' WHERE `users_integral_id` = 61 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='200',`business_id`='2',`users_get_integral`='0',`users_id`='3',`users_integral_addtime`='1508229572' WHERE `users_integral_id` = 62 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='450',`business_id`='2',`users_get_integral`='0',`users_id`='4',`users_integral_addtime`='1508229584' WHERE `users_integral_id` = 63 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='100',`business_id`='2',`users_get_integral`='0',`users_id`='1',`users_integral_addtime`='1508229535' WHERE `users_integral_id` = 60 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T16:58:35+08:00 ] ::1 /TP/index.php/Admin/index/toGo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508229535','100') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','2','1508229548','150') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1508229572','200') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('4','2','1508229584','450') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='450',`business_id`='2',`users_get_integral`='0',`users_id`='4',`users_integral_addtime`='1508229584' WHERE `users_integral_id` = 67 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='200',`business_id`='2',`users_get_integral`='0',`users_id`='3',`users_integral_addtime`='1508229572' WHERE `users_integral_id` = 66 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='0',`users_id`='2',`users_integral_addtime`='1508229548' WHERE `users_integral_id` = 65 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='0',`users_id`='2',`users_integral_addtime`='1508229548' WHERE `users_integral_id` = 61 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='200',`business_id`='2',`users_get_integral`='0',`users_id`='3',`users_integral_addtime`='1508229572' WHERE `users_integral_id` = 62 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='450',`business_id`='2',`users_get_integral`='0',`users_id`='4',`users_integral_addtime`='1508229584' WHERE `users_integral_id` = 63 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='100',`business_id`='2',`users_get_integral`='0',`users_id`='1',`users_integral_addtime`='1508229535' WHERE `users_integral_id` = 64 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='100',`business_id`='2',`users_get_integral`='0',`users_id`='1',`users_integral_addtime`='1508229535' WHERE `users_integral_id` = 60 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-17T16:59:04+08:00 ] ::1 /TP/index.php/Admin/index/toGo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508229535','100') [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','2','1508229548','150') [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1508229572','200') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('4','2','1508229584','450') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 2  [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+NOTIC: [2] Division by zero C:\wamp\www\TP\Application\Admin\Controller\IndexController.class.php 第 162 行.
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='450',`business_id`='2',`users_get_integral`='0',`users_id`='4',`users_integral_addtime`='1508229584' WHERE `users_integral_id` = 71 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='200',`business_id`='2',`users_get_integral`='0',`users_id`='3',`users_integral_addtime`='1508229572' WHERE `users_integral_id` = 70 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='0',`users_id`='2',`users_integral_addtime`='1508229548' WHERE `users_integral_id` = 69 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='100',`business_id`='2',`users_get_integral`='0',`users_id`='1',`users_integral_addtime`='1508229535' WHERE `users_integral_id` = 68 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T17:00:04+08:00 ] ::1 /TP/index.php/Admin/index/toGo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('1','2','1508229535','100') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('2','2','1508229548','150') [ RunTime:0.0020s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('3','2','1508229572','200') [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_integral_addtime`,`users_integral_num`) VALUES ('4','2','1508229584','450') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1508252400 and b_turnover_in_the_day_time > 1508169600 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list` WHERE ( consume_time < 1508252400 and consume_time > 1508169600 and business_id=2 )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`,`b_turnover_in_the_day_info`) VALUES ('900','2','45','45','1508252400','无') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE `business_id` = 2  [ RunTime:0.0000s ]
+SQL: SELECT `b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_money` FROM `b_turnover_in_the_day` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='450',`business_id`='2',`users_get_integral`='22',`users_id`='4',`users_integral_addtime`='1508229584' WHERE `users_integral_id` = 75 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='200',`business_id`='2',`users_get_integral`='10',`users_id`='3',`users_integral_addtime`='1508229572' WHERE `users_integral_id` = 74 [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='150',`business_id`='2',`users_get_integral`='7',`users_id`='2',`users_integral_addtime`='1508229548' WHERE `users_integral_id` = 73 [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral_list` SET `users_integral_num`='100',`business_id`='2',`users_get_integral`='5',`users_id`='1',`users_integral_addtime`='1508229535' WHERE `users_integral_id` = 72 [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-17T17:09:00+08:00 ] ::1 /TP/index.php/Admin/index/getUserIntegral
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1508252400 and users_integral_addtime > 1508169600 and business_id=2 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

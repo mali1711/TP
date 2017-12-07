@@ -1,0 +1,259 @@
+<extend name="Layout:Index" />
+<block name='content'>
+    <link href="__PUBLIC__/Style/umeditor1.23_goodDetail/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="__PUBLIC__/Style/umeditor1.23_goodDetail/third-party/jquery.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Style/umeditor1.23_goodDetail/third-party/template.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/Style/umeditor1.23_goodDetail/umeditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/Style/umeditor1.23_goodDetail/umeditor.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Style/umeditor1.23_goodDetail/lang/zh-cn/zh-cn.js"></script>
+    <style type="text/css">
+        h1{
+            font-family: "微软雅黑";
+            font-weight: normal;
+        }
+        .btn {
+            display: inline-block;
+            *display: inline;
+            padding: 4px 12px;
+            margin-bottom: 0;
+            *margin-left: .3em;
+            font-size: 14px;
+            line-height: 20px;
+            color: #333333;
+            text-align: center;
+            text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+            vertical-align: middle;
+            cursor: pointer;
+            background-color: #f5f5f5;
+            *background-color: #e6e6e6;
+            background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+            background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+            background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+            background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+            background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+            background-repeat: repeat-x;
+            border: 1px solid #cccccc;
+            *border: 0;
+            border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+            border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+            border-bottom-color: #b3b3b3;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            border-radius: 4px;
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+            filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+            *zoom: 1;
+            -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+            -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn:hover,
+        .btn:focus,
+        .btn:active,
+        .btn.active,
+        .btn.disabled,
+        .btn[disabled] {
+            color: #333333;
+            background-color: #e6e6e6;
+            *background-color: #d9d9d9;
+        }
+
+        .btn:active,
+        .btn.active {
+            background-color: #cccccc \9;
+        }
+
+        .btn:first-child {
+            *margin-left: 0;
+        }
+
+        .btn:hover,
+        .btn:focus {
+            color: #333333;
+            text-decoration: none;
+            background-position: 0 -15px;
+            -webkit-transition: background-position 0.1s linear;
+            -moz-transition: background-position 0.1s linear;
+            -o-transition: background-position 0.1s linear;
+            transition: background-position 0.1s linear;
+        }
+
+        .btn:focus {
+            outline: thin dotted #333;
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: -2px;
+        }
+
+        .btn.active,
+        .btn:active {
+            background-image: none;
+            outline: 0;
+            -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+            -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+        }
+
+        .btn.disabled,
+        .btn[disabled] {
+            cursor: default;
+            background-image: none;
+            opacity: 0.65;
+            filter: alpha(opacity=65);
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            box-shadow: none;
+        }
+    </style>
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">分享奖励</a>
+                </li>
+                <li class="active">奖励规则</li>
+            </ul><!-- .breadcrumb -->
+
+            <div class="nav-search" id="nav-search">
+                <form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<i class="icon-search nav-search-icon"></i>
+								</span>
+                </form>
+            </div><!-- #nav-search -->
+        </div>
+
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    分享
+                    <small>
+                        <i class="icon-double-angle-right"></i>
+                        奖励规则
+                    </small>
+                </h1>
+            </div><!-- /.page-header -->
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+
+                    <form class="form-horizontal" role="form" action="__MODULE__/Share/doAddReward" method="post" enctype="multipart/form-data">
+                        <!--<div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 奖励标题： </label>
+
+                            <div class="col-sm-9">
+                                <input type="text" id="form-field-1" name="bun_goods_name" placeholder="填写标题" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>-->
+                        <input name="share_id" type='hidden' value="{$id}" class="col-xs-10 col-sm-5" />
+                        <center><h3>购买奖励</h3></center><br/>
+                        <div class="form-group">
+
+                            <label class="col-sm-3 control-label no-padding-right">积分以及红包金额：</label>
+
+                            <div class="col-sm-9">
+											<span class="input-icon">
+												<input id="form-field-icon-1" type="text" name="reward_integral" placeholder="积分数量">
+												<i class="icon-leaf blue"></i>
+											</span>
+
+											<span class="input-icon input-icon-right">
+												<input id="form-field-icon-2" type="text" name="reward_red_packets" placeholder="红包金额">
+												<i class="icon-leaf green"></i>
+											</span>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-5">卡劵列表：</label>
+
+                            <div class="col-sm-9">
+                                <div class="clearfix">
+                                    <select name="reward_coupons">
+                                        <option value="">无</option>
+                                        <foreach name="couponsList" item="vo">
+                                            <option value="{$vo.coupons_id}">满{$vo.coupons_satisfy}-{$vo.coupons_money}</option>
+                                        </foreach>
+
+                                    </select>
+                                </div>
+
+                                <div class="space-2"></div>
+
+                                <div class="help-block" id="input-span-slider"></div>
+                            </div>
+                        </div>
+                        <center><h3>浏览奖励</h3></center><br/>
+                        <div class="form-group">
+
+                            <label class="col-sm-3 control-label no-padding-right">积分以及红包金额：</label>
+
+                            <div class="col-sm-9">
+											<span class="input-icon">
+												<input id="form-field-icon-1" type="text" name="reward_Visit_integral" placeholder="积分数量">
+												<i class="icon-leaf blue"></i>
+											</span>
+
+											<span class="input-icon input-icon-right">
+												<input id="form-field-icon-2" type="text" name="reward_Visit_red_packets"  placeholder="红包金额">
+												<i class="icon-leaf green"></i>
+											</span>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-5">卡劵列表x：</label>
+
+                            <div class="col-sm-9">
+                                <div class="clearfix">
+                                    <select name="reward_Visit_coupons">
+                                        <foreach name="couponsList" item="vo">
+                                            <option value="">无</option>
+                                            <option value="{$vo.coupons_id}">满{$vo.coupons_satisfy}-{$vo.coupons_money}</option>
+                                        </foreach>
+
+                                    </select>
+                                </div>
+
+                                <div class="space-2"></div>
+
+                                <div class="help-block" id="input-span-slider"></div>
+                            </div>
+                        </div>
+                        <div class="clearfix form-actions">
+                            <div class="col-md-offset-3 col-md-9">
+                                <button class="btn btn-info" type="submit">
+                                    <i class="icon-ok bigger-110"></i>
+                                    提交
+                                </button>
+
+                                &nbsp; &nbsp; &nbsp;
+                                <button class="btn" type="reset">
+                                    <i class="icon-undo bigger-110"></i>
+                                    撤销
+                                </button>
+                            </div>
+                        </div>
+
+                    </form>
+
+                    <div class="hr hr-18 dotted hr-double"></div>
+
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
+
+</block>
+</extend>

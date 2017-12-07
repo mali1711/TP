@@ -1,0 +1,242 @@
+[ 2017-11-27T19:32:34+08:00 ] ::1 /TP/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-27T19:32:41+08:00 ] ::1 /TP/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `business` WHERE `business_account` = 'root' AND `business_pass` = '14e1b600b1fd579f47433b88e8d85291' LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-27T19:32:51+08:00 ] ::1 /TP/index.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_account` = 'weipengfei' AND `business_pass` = '14e1b600b1fd579f47433b88e8d85291' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-27T19:32:52+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1511794800 and b_turnover_in_the_day_time > 1511712000 and business_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1511794800 and users_integral_addtime > 1511712000 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1511794800 and users_integral_addtime > 1511712000 and business_id = 2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-27T19:33:08+08:00 ] ::1 /TP/index.php/Admin/Shop/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: businessInfo D:\wamp64\www\TP\Application\Runtime\Cache\Admin\dca3a237a1ca47660624baca5a6d0e46.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-27T19:33:16+08:00 ] ::1 /TP/index.php/Admin/Coupons/Couponslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `coupons` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `coupons` WHERE `business_id` = 2  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: businessInfo D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 60 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-27T19:33:36+08:00 ] ::1 /TP/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( b_turnover_in_the_day_time <= 1511794800 and b_turnover_in_the_day_time > 1511712000 and business_id = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: b_turnover_in_the_day_integral_ord D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1511794800 and users_integral_addtime > 1511712000 and business_id = 2 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( users_integral_addtime <= 1511794800 and users_integral_addtime > 1511712000 and business_id = 2 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-27T19:33:39+08:00 ] ::1 /TP/index.php/Admin/Shop/addGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: businessInfo D:\wamp64\www\TP\Application\Runtime\Cache\Admin\dca3a237a1ca47660624baca5a6d0e46.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-27T20:19:24+08:00 ] ::1 /TP/index.php/Admin/Coupons/Couponslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `coupons` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `coupons` WHERE `business_id` = 2  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: businessInfo D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 60 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-27T20:37:54+08:00 ] ::1 /TP/index.php/Admin/Coupons/Couponslist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `coupons` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `coupons` WHERE `business_id` = 2  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: businessInfo D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 60 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+NOTIC: [8] Undefined index: bun_goods_id D:\wamp64\www\TP\Application\Runtime\Cache\Admin\f8c40216a61a7eb489616285e93d9b0f.php 第 606 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
