@@ -7,3 +7,1018 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\wamp64\www\TP\Application\WX\Controller\IndexController.class.php 第 56 行.
 
+[ 2017-12-07T23:04:02+08:00 ] 1.85.216.77 /TP/index.php/WX
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/wwwroot/default/TP/Application/WX/Controller/IndexController.class.php 第 56 行.
+
+[ 2017-12-07T23:04:40+08:00 ] 1.85.216.77 /TP/index.php/WX/JssdkController
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+ERR: 无法加载控制器:JssdkController
+
+[ 2017-12-07T23:05:13+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000063s ]
+
+[ 2017-12-07T23:09:11+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:30+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:31+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:31+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:32+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:32+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:32+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:32+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:33+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:33+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:41+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:42+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:42+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:09:43+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:10:00+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:10:07+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+ERR: 非法操作:text
+
+[ 2017-12-07T23:10:17+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:10:21+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:10:24+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:10:38+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:10:38+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:10:39+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:10:39+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:10:40+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:10:40+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:10:54+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:11:03+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:12:47+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+ERR: Class 'WX\Controller\Jssdk' not found
+
+[ 2017-12-07T23:12:58+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+ERR: Class 'WX\Controller\Jssdk' not found
+
+[ 2017-12-07T23:12:59+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+ERR: Class 'WX\Controller\Jssdk' not found
+
+[ 2017-12-07T23:12:59+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+ERR: Class 'WX\Controller\Jssdk' not found
+
+[ 2017-12-07T23:12:59+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+ERR: Class 'WX\Controller\Jssdk' not found
+
+[ 2017-12-07T23:13:02+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+ERR: Class 'WX\Controller\Jssdk' not found
+
+[ 2017-12-07T23:13:04+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+ERR: Class 'WX\Controller\Jssdk' not found
+
+[ 2017-12-07T23:15:20+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:15:21+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:17:15+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:17:16+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+ERR: Class 'Jssdk' not found
+
+[ 2017-12-07T23:17:19+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2017-12-07T23:18:09+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:05+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:06+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:06+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:06+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:06+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:06+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:07+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:07+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:07+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:07+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:08+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:08+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:24+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:25+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:25+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:26+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:26+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:26+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:26+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:27+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:27+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:27+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:27+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:19:42+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:20:27+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:20:37+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:20:39+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:20:40+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:20:40+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000197s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:20:40+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:20:40+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:20:40+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:20:41+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:20:41+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:20:46+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-12-07T23:20:49+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-12-07T23:20:59+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2017-12-07T23:21:00+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-12-07T23:21:00+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-12-07T23:21:01+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000085s ]
+
+[ 2017-12-07T23:21:01+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-12-07T23:21:01+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000079s ]
+
+[ 2017-12-07T23:21:01+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000114s ]
+
+[ 2017-12-07T23:21:02+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2017-12-07T23:21:02+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-12-07T23:21:02+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2017-12-07T23:21:04+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:21:06+08:00 ] 1.85.216.77 /TP/index.php/WX/text
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+ERR: Think\Controller:getSignPackage方法不存在！
+
+[ 2017-12-07T23:21:08+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-12-07T23:21:16+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 12 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-12-07T23:22:14+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 13 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 13 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-12-07T23:22:19+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 13 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 13 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000059s ]
+
+[ 2017-12-07T23:22:19+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 13 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 13 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-12-07T23:22:19+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+NOTIC: [2] Missing argument 1 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 13 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Jssdk::__construct(), called in /data/wwwroot/default/TP/Application/WX/Controller/JssdkController.class.php on line 13 and defined /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appId /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 9 行.
+NOTIC: [8] Undefined variable: appSecret /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 10 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-12-07T23:23:35+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [2] file_get_contents(jsapi_ticket.php): failed to open stream: No such file or directory /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 107 行.
+NOTIC: [8] Trying to get property of non-object /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 51 行.
+NOTIC: [2] file_get_contents(access_token.php): failed to open stream: No such file or directory /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 107 行.
+NOTIC: [8] Trying to get property of non-object /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 73 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 97 行.
+NOTIC: [2] Creating default object from empty value /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 80 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 97 行.
+NOTIC: [2] Creating default object from empty value /data/wwwroot/default/TP/ThinkPHP/Library/Org/Wxsdk/Jssdk.class.php 第 59 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000139s ]
+
+[ 2017-12-07T23:32:26+08:00 ] 1.85.216.77 /TP/index.php/WX/Jssdk/getSignPackage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+

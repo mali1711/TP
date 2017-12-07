@@ -34,6 +34,9 @@ class UsersController extends Controller {
         $list['users_name'] = $_SESSION['user']['userinfo']['users_name'];
         $list['users_phone'] = $_SESSION['user']['userinfo']['users_phone'];
         $this->userinfo = $list;
+        //获取sdk
+        $wxInfo = A('WX/Jssdk')->getSignPackage();
+        $this->assign('wxInfo',$wxInfo);
         $this->assign('list',$list);
         $this->display('Index/personal');
     }
@@ -118,6 +121,7 @@ class UsersController extends Controller {
             return $sum;
         }
     }
+
     
     
 }

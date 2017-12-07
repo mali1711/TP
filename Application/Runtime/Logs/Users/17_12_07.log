@@ -4396,3 +4396,2361 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2017-12-07T22:41:34+08:00 ] 103.67.194.134 /TP/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-12-07T22:42:30+08:00 ] 103.67.194.134 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = '1722442b586a85c95593a9c6131a0ebd' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+
+[ 2017-12-07T22:42:36+08:00 ] 103.67.194.134 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000087s ]
+
+[ 2017-12-07T22:42:40+08:00 ] 103.67.194.134 /TP/index.php/Users/Bunsiness/extension
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `share` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `share`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-12-07T22:42:45+08:00 ] 103.67.194.134 /TP/index.php/Users/Share/showShareDetail/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `share` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `share` WHERE `share_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-12-07T22:42:45+08:00 ] 103.67.194.134 /TP/index.php/Users/Share/showShareDetail/id/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `share` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `share` WHERE `share_id` = 0 LIMIT 1   [ RunTime:0.0035s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-12-07T22:43:00+08:00 ] 103.67.194.134 /TP/index.php/Users/Share/showShareDetail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `share` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `share` WHERE `share_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000053s ]
+
+[ 2017-12-07T22:43:00+08:00 ] 103.67.194.134 /TP/index.php/Users/Share/showShareDetail/id/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `share` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `share` WHERE `share_id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000101s ]
+
+[ 2017-12-07T22:43:07+08:00 ] 103.67.194.134 /TP/index.php/Users/Share/showShareDetail/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `share` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `share` WHERE `share_id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2017-12-07T22:43:07+08:00 ] 103.67.194.134 /TP/index.php/Users/Share/showShareDetail/id/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `share` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `share` WHERE `share_id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-12-07T22:43:10+08:00 ] 103.67.194.134 /TP/index.php/Users/Share/showShareDetail/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `share` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `share` WHERE `share_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-12-07T22:43:11+08:00 ] 103.67.194.134 /TP/index.php/Users/Share/showShareDetail/id/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `share` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `share` WHERE `share_id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2017-12-07T23:03:32+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-12-07T23:03:48+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-12-07T23:28:12+08:00 ] 1.85.216.77 /TP/Users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-12-07T23:28:17+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-12-07T23:29:38+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-12-07T23:29:58+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-12-07T23:30:06+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-12-07T23:30:25+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-12-07T23:30:27+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0006s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-12-07T23:30:28+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-12-07T23:30:36+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: users_pass /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 65 行.
+NOTIC: [8] Undefined index: users_phone /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 66 行.
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'd41d8cd98f00b204e9800998ecf8427e' AND `users_phone` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-12-07T23:30:44+08:00 ] 1.85.216.77 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-12-07T23:30:52+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-07T23:31:55+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-07T23:33:03+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-12-07T23:33:04+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0005s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-07T23:34:41+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0005s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-12-07T23:38:57+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-12-07T23:41:45+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-12-07T23:42:01+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: users_pass /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 66 行.
+NOTIC: [8] Undefined index: users_phone /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 67 行.
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'd41d8cd98f00b204e9800998ecf8427e' AND `users_phone` = null LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-12-07T23:42:21+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-12-07T23:42:59+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-12-07T23:43:22+08:00 ] 101.226.233.156 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: users_pass /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 66 行.
+NOTIC: [8] Undefined index: users_phone /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 67 行.
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'd41d8cd98f00b204e9800998ecf8427e' AND `users_phone` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-12-07T23:43:22+08:00 ] 103.67.194.134 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: users_pass /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 66 行.
+NOTIC: [8] Undefined index: users_phone /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 67 行.
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'd41d8cd98f00b204e9800998ecf8427e' AND `users_phone` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-12-07T23:43:23+08:00 ] 101.226.233.155 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: users_pass /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 66 行.
+NOTIC: [8] Undefined index: users_phone /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 67 行.
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'd41d8cd98f00b204e9800998ecf8427e' AND `users_phone` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-12-07T23:43:23+08:00 ] 101.226.233.139 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: users_pass /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 66 行.
+NOTIC: [8] Undefined index: users_phone /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 67 行.
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'd41d8cd98f00b204e9800998ecf8427e' AND `users_phone` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-12-07T23:43:32+08:00 ] 120.204.17.71 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: users_pass /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 66 行.
+NOTIC: [8] Undefined index: users_phone /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 67 行.
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'd41d8cd98f00b204e9800998ecf8427e' AND `users_phone` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-12-07T23:44:06+08:00 ] 1.85.216.77 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-12-07T23:44:14+08:00 ] 101.226.233.148 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-12-07T23:44:14+08:00 ] 103.67.194.134 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001671s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-12-07T23:44:15+08:00 ] 101.226.233.149 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-12-07T23:44:19+08:00 ] 103.67.194.134 /TP/index.php/Users/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `business`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0005s ]
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = 11 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-12-07T23:44:20+08:00 ] 101.226.233.144 /TP/index.php/Users/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 88 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-12-07T23:44:20+08:00 ] 101.226.233.153 /TP/index.php/Users/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 88 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-12-07T23:44:21+08:00 ] 103.67.194.134 /TP/index.php/Users/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000043s ]
+
+[ 2017-12-07T23:44:22+08:00 ] 101.226.233.141 /TP/index.php/Users/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000069s ]
+
+[ 2017-12-07T23:44:22+08:00 ] 101.226.233.158 /TP/index.php/Users/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-12-07T23:44:23+08:00 ] 120.204.17.68 /TP/index.php/Users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000070s ]
+
+[ 2017-12-07T23:44:25+08:00 ] 101.226.33.205 /TP/index.php/Users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-12-07T23:44:29+08:00 ] 120.204.17.46 /TP/index.php/Users/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 88 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000041s ]
+
+[ 2017-12-07T23:44:31+08:00 ] 120.204.17.71 /TP/index.php/Users/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-12-07T23:44:32+08:00 ] 101.226.225.85 /TP/index.php/Users/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 88 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-12-07T23:44:32+08:00 ] 101.226.33.218 /TP/index.php/Users/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-12-07T23:44:44+08:00 ] 103.67.194.134 /TP/index.php/Users/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0003s ]
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = 11 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000109s ]
+
+[ 2017-12-07T23:44:52+08:00 ] 1.85.216.77 /TP/index.php/Users/Index/BunsinessList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0004s ]
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = 11 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = 11 AND `business_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = 11 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = 11 AND `business_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000104s ]
+
+[ 2017-12-07T23:45:07+08:00 ] 1.85.216.77 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'e10adc3949ba59abbe56e057f20f883e' AND `users_phone` = '18396861513' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-12-07T23:46:40+08:00 ] 1.85.216.77 /TP/Users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-12-07T23:47:28+08:00 ] 103.67.194.134 /TP/index.php/Users/Bunsiness/getMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0005s ]
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = 11 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `coupons` [ RunTime:0.0004s ]
+SQL: SELECT a.coupons_money,get_coupons.get_coupons_id FROM coupons a INNER JOIN get_coupons ON get_coupons.coupons_id= a.coupons_id  WHERE a.business_id = 2 AND get_coupons.users_id = '11' AND ( a.coupons_satisfy >= 0  ) ORDER BY a.coupons_satisfy desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-12-07T23:47:29+08:00 ] 101.226.233.158 /TP/index.php/Users/Bunsiness/getMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 79 行.
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 131 行.
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 132 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `coupons` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 48 行.
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 49 行.
+SQL: SELECT a.coupons_money,get_coupons.get_coupons_id FROM coupons a INNER JOIN get_coupons ON get_coupons.coupons_id= a.coupons_id  WHERE a.business_id = null AND get_coupons.users_id = null AND ( a.coupons_satisfy >= ''  ) ORDER BY a.coupons_satisfy desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-12-07T23:47:29+08:00 ] 101.226.233.139 /TP/index.php/Users/Bunsiness/getMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 79 行.
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 131 行.
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 132 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `coupons` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 48 行.
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 49 行.
+SQL: SELECT a.coupons_money,get_coupons.get_coupons_id FROM coupons a INNER JOIN get_coupons ON get_coupons.coupons_id= a.coupons_id  WHERE a.business_id = null AND get_coupons.users_id = null AND ( a.coupons_satisfy >= ''  ) ORDER BY a.coupons_satisfy desc LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+
+[ 2017-12-07T23:47:38+08:00 ] 120.204.17.67 /TP/index.php/Users/Bunsiness/getMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 79 行.
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 131 行.
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 132 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `coupons` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 48 行.
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 49 行.
+SQL: SELECT a.coupons_money,get_coupons.get_coupons_id FROM coupons a INNER JOIN get_coupons ON get_coupons.coupons_id= a.coupons_id  WHERE a.business_id = null AND get_coupons.users_id = null AND ( a.coupons_satisfy >= ''  ) ORDER BY a.coupons_satisfy desc LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-12-07T23:47:40+08:00 ] 61.151.218.119 /TP/index.php/Users/Bunsiness/getMoney
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 79 行.
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 131 行.
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/BunsinessController.class.php 第 132 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = null LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `coupons` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 48 行.
+NOTIC: [8] Undefined index: user /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 49 行.
+SQL: SELECT a.coupons_money,get_coupons.get_coupons_id FROM coupons a INNER JOIN get_coupons ON get_coupons.coupons_id= a.coupons_id  WHERE a.business_id = null AND get_coupons.users_id = null AND ( a.coupons_satisfy >= ''  ) ORDER BY a.coupons_satisfy desc LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-12-07T23:48:02+08:00 ] 103.67.194.134 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: users_pass /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 66 行.
+NOTIC: [8] Undefined index: users_phone /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 67 行.
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'd41d8cd98f00b204e9800998ecf8427e' AND `users_phone` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-12-07T23:48:02+08:00 ] 101.226.233.146 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: users_pass /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 66 行.
+NOTIC: [8] Undefined index: users_phone /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 67 行.
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'd41d8cd98f00b204e9800998ecf8427e' AND `users_phone` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+
+[ 2017-12-07T23:48:03+08:00 ] 101.226.233.143 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: users_pass /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 66 行.
+NOTIC: [8] Undefined index: users_phone /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 67 行.
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'd41d8cd98f00b204e9800998ecf8427e' AND `users_phone` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-12-07T23:48:11+08:00 ] 121.51.32.144 /TP/index.php/Users/Users/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `users` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: users_pass /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 66 行.
+NOTIC: [8] Undefined index: users_phone /data/wwwroot/default/TP/Application/Users/Controller/UsersController.class.php 第 67 行.
+SQL: SELECT * FROM `users` WHERE `users_pass` = 'd41d8cd98f00b204e9800998ecf8427e' AND `users_phone` = null LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+
+[ 2017-12-07T23:48:31+08:00 ] 1.85.216.77 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-12-07T23:48:40+08:00 ] 101.226.233.153 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-12-07T23:48:40+08:00 ] 103.67.194.134 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-12-07T23:48:40+08:00 ] 101.226.233.144 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-12-07T23:48:52+08:00 ] 103.67.194.134 /TP/index.php/Users/Index/BunsinessList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0003s ]
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = 11 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = 11 AND `business_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = 11 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = 11 AND `business_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-12-07T23:48:53+08:00 ] 101.226.233.145 /TP/index.php/Users/Index/BunsinessList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 28 行.
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 61 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 61 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 61 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 61 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-12-07T23:48:53+08:00 ] 101.226.233.155 /TP/index.php/Users/Index/BunsinessList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 28 行.
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 61 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 61 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 61 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 61 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-12-07T23:48:59+08:00 ] 101.226.233.151 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-12-07T23:49:00+08:00 ] 101.226.233.153 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2017-12-07T23:49:00+08:00 ] 103.67.194.134 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-12-07T23:49:00+08:00 ] 101.226.233.143 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-12-07T23:49:02+08:00 ] 120.204.17.67 /TP/index.php/Users/Index/BunsinessList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 28 行.
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 61 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 61 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 61 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/IndexController.class.php 第 61 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001968s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-12-07T23:49:06+08:00 ] 103.67.194.134 /TP/index.php/Users/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0003s ]
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = 11 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-12-07T23:49:06+08:00 ] 101.226.233.145 /TP/index.php/Users/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 88 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-12-07T23:49:06+08:00 ] 101.226.233.151 /TP/index.php/Users/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 88 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-12-07T23:49:16+08:00 ] 120.204.17.67 /TP/index.php/Users/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `business` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `business`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: userinfo /data/wwwroot/default/TP/Application/Users/Controller/CouponsController.class.php 第 88 行.
+SQL: SELECT `users_integral_num` FROM `users_integral` WHERE `users_id` = null AND `business_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-12-07T23:54:08+08:00 ] 1.85.216.77 /TP/Users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000122s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0005s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-12-07T23:54:09+08:00 ] 1.85.216.77 /TP/Users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-12-07T23:54:09+08:00 ] 1.85.216.77 /TP/Users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0007s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000089s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000103s ]
+
+[ 2017-12-07T23:54:10+08:00 ] 1.85.216.77 /TP/Users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-12-07T23:54:10+08:00 ] 1.85.216.77 /TP/Users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-12-07T23:54:39+08:00 ] 1.85.216.77 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2017-12-07T23:54:39+08:00 ] 101.226.233.149 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000077s ]
+
+[ 2017-12-07T23:54:39+08:00 ] 101.226.233.140 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000082s ]
+
+[ 2017-12-07T23:56:02+08:00 ] 1.85.216.77 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-12-07T23:56:15+08:00 ] 1.85.216.77 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-12-07T23:56:36+08:00 ] 1.85.216.77 /TP/index.php/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-12-07T23:57:01+08:00 ] 1.85.216.77 /TP/Users
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0008s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-12-07T23:57:20+08:00 ] 1.85.216.77 /TP/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000121s ]
+
+[ 2017-12-07T23:57:29+08:00 ] 101.226.233.149 /TP/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-12-07T23:57:29+08:00 ] 1.85.216.77 /TP/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0004s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-12-07T23:57:29+08:00 ] 101.226.233.150 /TP/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-12-07T23:59:10+08:00 ] 101.226.233.158 /TP/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-12-07T23:59:10+08:00 ] 1.85.216.77 /TP/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0003s ]
+SQL: SELECT SUM(consume_money) AS tp_sum FROM `consume_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT SUM(users_get_integral) AS tp_sum FROM `users_integral_list` WHERE `users_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-12-07T23:59:10+08:00 ] 101.226.233.148 /TP/Users/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
