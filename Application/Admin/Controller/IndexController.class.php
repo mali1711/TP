@@ -8,6 +8,11 @@ class IndexController extends Controller {
         parent::__construct();
     }
 
+    public function togo()
+    {
+        $this->BusinessShouYesterday();
+    }
+    
     /*积分返还机制 start*/
     /*
      * 商家昨天所有的收益记录
