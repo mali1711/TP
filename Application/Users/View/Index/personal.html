@@ -130,10 +130,10 @@
 
 		document.querySelector('#scanQRCode1').onclick = function () {
 			wx.scanQRCode({
-				needResult: 1,
+				needResult: 0,
 				desc: 'scanQRCode desc',
 				success: function (res) {
-					alert(JSON.stringify(res));
+
 				}
 			});
 		}
