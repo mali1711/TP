@@ -4624,3 +4624,522 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2017-12-08T22:42:07+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day`  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for dump(), called in D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php on line 58 and defined D:\wamp64\www\TP\ThinkPHP\Common\functions.php 第 831 行.
+NOTIC: [8] Undefined variable: var D:\wamp64\www\TP\ThinkPHP\Common\functions.php 第 842 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T22:42:43+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `b_turnover_in_the_day`  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for dump(), called in D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php on line 59 and defined D:\wamp64\www\TP\ThinkPHP\Common\functions.php 第 831 行.
+NOTIC: [8] Undefined variable: var D:\wamp64\www\TP\ThinkPHP\Common\functions.php 第 842 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-08T22:43:09+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T22:43:59+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-08T22:44:00+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T22:44:01+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-12-08T22:44:01+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T22:44:01+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T22:47:36+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-12-08T22:52:43+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: V D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: V D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T22:52:52+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: V D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: V D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T22:53:11+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-12-08T22:55:48+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T22:56:20+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T22:59:14+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'b_turnover_in_the_day_money' in 'field list'
+ [ SQL语句 ] : SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `consume_list` 
+ERR: 1054:Unknown column 'b_turnover_in_the_day_money' in 'field list'
+ [ SQL语句 ] : SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `consume_list` 
+
+[ 2017-12-08T22:59:54+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-12-08T23:01:14+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T23:13:34+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-08T23:14:23+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T23:14:24+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-12-08T23:14:24+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T23:14:24+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T23:14:39+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T23:14:52+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T23:18:19+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T23:18:22+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0020s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-12-08T23:19:29+08:00 ] ::1 /TP/index.php/Admin/Index/returnIntegralToyesterdaySUsers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T23:33:18+08:00 ] ::1 /TP/index.php/Admin/Index/BusinessShouYesterday
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT `business_id`,sum(consume_money) as b_turnover_in_the_day_money FROM `consume_list` WHERE ( `consume_time` >= 1512662400 AND `consume_time` <= 1512748799  ) GROUP BY business_id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`business_id`,`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`) VALUES ('2','1100','55','55','1512747198'),('3','1200','60','60','1512747198') [ RunTime:0.0000s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0000s ]
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_get_integral`,`users_integral_addtime`) VALUES ('110','3','50','1512747198'),('100','3','10','1512747198'),('18','2','14','1512747198'),('17','2','17','1512747198'),('16','2','10','1512747198'),('15','2','7','1512747198'),('14','2','5','1512747198')
+ERR: 1364:Field 'users_integral_num' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_get_integral`,`users_integral_addtime`) VALUES ('110','3','50','1512747198'),('100','3','10','1512747198'),('18','2','14','1512747198'),('17','2','17','1512747198'),('16','2','10','1512747198'),('15','2','7','1512747198'),('14','2','5','1512747198')
+
+[ 2017-12-08T23:33:54+08:00 ] ::1 /TP/index.php/Admin/Index/BusinessShouYesterday
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT `business_id`,sum(consume_money) as b_turnover_in_the_day_money FROM `consume_list` WHERE ( `consume_time` >= 1512662400 AND `consume_time` <= 1512748799  ) GROUP BY business_id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`business_id`,`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`) VALUES ('2','1100','55','55','1512747234'),('3','1200','60','60','1512747234') [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 77 行.
+NOTIC: [2] Division by zero D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 77 行.
+NOTIC: [2] Division by zero D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 77 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 77 行.
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_get_integral`,`users_integral_addtime`) VALUES ('110','3','0','1512747234'),('100','3','0','1512747234'),('18','2','14','1512747234'),('17','2','17','1512747234'),('16','2','10','1512747234'),('15','2','7','1512747234'),('14','2','5','1512747234') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T23:34:48+08:00 ] ::1 /TP/index.php/Admin/Index/BusinessShouYesterday
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0020s ]
+SQL: SELECT `business_id`,sum(consume_money) as b_turnover_in_the_day_money FROM `consume_list` WHERE ( `consume_time` >= 1512662400 AND `consume_time` <= 1512748799  ) GROUP BY business_id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`business_id`,`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`) VALUES ('2','1100','55','55','1512747288'),('3','1200','60','60','1512747288') [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_get_integral`,`users_integral_addtime`) VALUES ('110','3','50','1512747288'),('100','3','10','1512747288'),('18','2','14','1512747288'),('17','2','17','1512747288'),('16','2','10','1512747288'),('15','2','7','1512747288'),('14','2','5','1512747288') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T23:37:34+08:00 ] ::1 /TP/index.php/Admin/Index/BusinessShouYesterday
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT `business_id`,sum(consume_money) as b_turnover_in_the_day_money FROM `consume_list` WHERE ( `consume_time` >= 1512662400 AND `consume_time` <= 1512748799  ) GROUP BY business_id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`business_id`,`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`) VALUES ('2','1100','55','55','1512747454'),('3','1200','60','60','1512747454') [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512662400 AND `b_turnover_in_the_day_time` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`business_id`,`users_get_integral`,`users_integral_addtime`) VALUES ('110','3','50','1512747454'),('100','3','10','1512747454'),('18','2','15','1512747454'),('17','2','17.5','1512747454'),('16','2','10','1512747454'),('15','2','7.5','1512747454'),('14','2','5','1512747454') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-08T23:54:30+08:00 ] ::1 /TP/index.php/Admin/Index/UsersTotalIntegral
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( `users_integral_addtime` >= 1512662400 AND `users_integral_addtime` <= 1512748799  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T23:54:46+08:00 ] ::1 /TP/index.php/Admin/Index/UsersTotalIntegral
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( `users_integral_addtime` >= 1512662400 AND `users_integral_addtime` <= 1512748799  )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-08T23:55:55+08:00 ] ::1 /TP/index.php/Admin/Index/UsersTotalIntegral
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( `users_integral_addtime` >= 1512662400 AND `users_integral_addtime` <= 1512748799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
