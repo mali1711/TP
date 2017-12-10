@@ -83,8 +83,10 @@ class IndexController extends Controller {
                 $business_info->save($res);
             }else{
                 $data['business_id'] = $v['business_id'];
-                $data['business_info_total'] =  $v['business_info_total'];
+                $data['business_info_total'] += $v['b_turnover_in_the_day_money'];
                 $business_info->add($data);
+
+
             }
         }
 
@@ -173,6 +175,7 @@ class IndexController extends Controller {
         $time = $this->__startAndOverTime($yesTime);
         $where['users_integral_addtime'] = array(array('EGT',$time['start']),array('ELT',$time['end']));
         $users_integral_list = M('users_integral_list');
+        //获取今天的消费记录
         $list = $users_integral_list->where($where)->select();
         $users_integral = M('users_integral');
         foreach ($list as $v){
@@ -184,8 +187,8 @@ class IndexController extends Controller {
             $data['users_id'] = $v['users_id'];
             //当前用户在当前商家有消费记录，继续追加数据
             if($res = $users_integral->where($usersIntegraWhere)->find()){
-                $res['users_integral_total_amount']+=$data['users_spend_num'];
-                $res['users_integral_num']+=$data['users_integral_num'];
+                $res['users_integral_total_amount']+=$v['users_spend_num'];
+                $res['users_integral_num'] += $v['users_integral_num'];
                 $users_integral->save($res);
             }else{
                 $users_integral->add($data);
