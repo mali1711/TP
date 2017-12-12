@@ -122,6 +122,51 @@ class UsersController extends Controller {
         }
     }
 
+    /*
+     *
+     * 用户支出记录
+     * */
+        public function pay()
+    {
+
+        $where['users_id'] = $_SESSION['user']['userinfo']['users_id'];
+        $consume_list = M('consume_list');
+        $list = $consume_list->field('business_name,consume_money,consume_time')->join("business ON consume_list.business_id = business.business_id")->
+        where($where)->select();
+        $this->assign('list',$list);
+        $this->display('Index/pay');
+    }
     
-    
+    /*
+     * 用户收益详情记录
+     * 记录用户每笔收益
+     * */
+    public function income()
+    {
+        $users_integral = M('users_integral');
+        $where['users_id'] = $_SESSION['user']['userinfo']['users_id'];
+        $res = $users_integral->field('business_name,users_integral_total_amount,business.business_id')
+            ->where($where)->join("business ON users_integral.business_id = business.business_id")
+               ->select();
+        $list['count']=0;
+        foreach ($res as $k=>$v){
+            $list['count'] += $v['users_integral_total_amount'];
+
+            if($_SESSION['user']['bus']==$v['business_id']){
+                $list['person'] = $res[$k];
+                unset($res[$k]);
+            }
+        }
+        $list['list'] = $res;
+        $this->assign('list',$list);
+        $this->display('Index/income');
+    }
+
+    /*
+     * 收益具体详情
+     * */
+    public function incomeDetail()
+    {
+
+    }
 }

@@ -125,6 +125,8 @@ class IndexController extends Controller {
             $users_integral_list[$key]['users_get_integral'] = $ress*$data[$business_id]['b_turnover_in_the_day_integral_new'];
             $users_integral_list[$key]['users_integral_addtime'] = time();
         }
+        var_dump($users_integral_list);
+        die();
         return $users_integral_list;
         //循环查找所有再此商家消费的用户，并且计算积分
     }

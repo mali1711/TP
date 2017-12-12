@@ -37,9 +37,9 @@
 <div id="san01"></div>
 <div id="shouyi"><h6 style="font-size: 37px;">我的收益(元)</h6></div>
 <div id="shouyi_fen">
-	<a class="fontS34">总收益<br/><span class="data01"><?php echo ($list["users_integral_total_amount"]); ?></span></a>
+	<a href="/TP/index.php/Users/Index/income" class="fontS34">总收益<br/><span class="data01"><?php echo ($list["users_integral_total_amount"]); ?></span></a>
 	<div class="shouyi_fen_line"></div>
-	<a class="fontS34">总支出<br/><span class="data02"><?php echo ($list["users_money_total"]); ?></span></a>
+	<a href="/TP/index.php/Users/Index/pay" class="fontS34">总支出<br/><span class="data02"><?php echo ($list["users_money_total"]); ?></span></a>
 	<div class="shouyi_fen_line fontS34"></div>
 	<a>分红中<br/><span class="data03">0</span></a>
 </div>

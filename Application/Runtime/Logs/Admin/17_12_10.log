@@ -3196,3 +3196,19 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2017-12-10T23:53:45+08:00 ] ::1 /TP/Admin/index/toGo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0010s ]
+SQL: SELECT `business_id`,sum(consume_money) as b_turnover_in_the_day_money FROM `consume_list` WHERE ( `consume_time` >= 1512835200 AND `consume_time` <= 1512921599  ) GROUP BY business_id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `business_info` [ RunTime:0.0000s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1512835200 AND `b_turnover_in_the_day_time` <= 1512921599  )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `business_info` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: business_info_total D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 87 行.
+SQL: INSERT INTO `business_info` (`business_id`,`business_info_total`) VALUES ('2','500') [ RunTime:0.0010s ]
+
