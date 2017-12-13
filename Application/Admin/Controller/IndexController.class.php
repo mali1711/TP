@@ -22,16 +22,19 @@ class IndexController extends Controller {
     {
         //写入商家当天的获取收益信息
         $bonus = 0.1;//商家默认分红
+
         $list = $this->UsersYesterdayIsConsumption($bonus);
         $b_turnover_in_the_day = M('b_turnover_in_the_day');
         $b_turnover_in_the_day->addAll($list);
         //将今天所有的收入统计出来
         $this->returnBusinessTotal();
+
         //返还给当天消费的用户
         $integral_list = $this->returnIntegralToyesterdaySUsers();
         M('users_integral_list')->addAll($integral_list);
         //返还给老用户
         $order_inte = $this->returnIntegralToOrder();
+        var_dump($order_inte);
         M('users_integral_list')->addAll($order_inte);
         //将积分追加到用户账户中
         $this->UsersTotalIntegral();
@@ -126,7 +129,6 @@ class IndexController extends Controller {
             $users_integral_list[$key]['users_integral_addtime'] = time();
         }
         var_dump($users_integral_list);
-        die();
         return $users_integral_list;
         //循环查找所有再此商家消费的用户，并且计算积分
     }
@@ -187,10 +189,11 @@ class IndexController extends Controller {
             $data['users_integral_total_amount'] = $v['users_spend_num'];
             $data['business_id'] = $v['business_id'];
             $data['users_id'] = $v['users_id'];
+            dump($data);
             //当前用户在当前商家有消费记录，继续追加数据
             if($res = $users_integral->where($usersIntegraWhere)->find()){
                 $res['users_integral_total_amount']+=$v['users_spend_num'];
-                $res['users_integral_num'] += $v['users_integral_num'];
+                $res['users_integral_num'] += $data['users_integral_num'];
                 $users_integral->save($res);
             }else{
                 $users_integral->add($data);
