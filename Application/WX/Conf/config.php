@@ -1,6 +1,6 @@
 <?php
 return array(
-	//'配置项'=>'配置值'
+	//'配置项'=>'配置值'1
 	'DB_TYPE'   => 'mysql', // 数据库类型
 	'DB_HOST'   => 'localhost', // 服务器地址
 	'DB_NAME'   => 'huike', // 数据库名

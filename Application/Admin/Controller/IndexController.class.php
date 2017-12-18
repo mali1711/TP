@@ -22,7 +22,6 @@ class IndexController extends Controller {
     {
         //写入商家当天的获取收益信息
         $bonus = 0.1;//商家默认分红
-
         $list = $this->UsersYesterdayIsConsumption($bonus);
         $b_turnover_in_the_day = M('b_turnover_in_the_day');
         $b_turnover_in_the_day->addAll($list);
@@ -31,10 +30,11 @@ class IndexController extends Controller {
 
         //返还给当天消费的用户
         $integral_list = $this->returnIntegralToyesterdaySUsers();
+        $this->__Integraldeduction($integral_list);//用户返还积分扣除
         M('users_integral_list')->addAll($integral_list);
         //返还给老用户
         $order_inte = $this->returnIntegralToOrder();
-        var_dump($order_inte);
+        $this->__Integraldeduction($order_inte);//用户返还积分扣除
         M('users_integral_list')->addAll($order_inte);
         //将积分追加到用户账户中
         $this->UsersTotalIntegral();
@@ -88,6 +88,7 @@ class IndexController extends Controller {
                 $data['business_id'] = $v['business_id'];
                 $data['business_info_total'] += $v['b_turnover_in_the_day_money'];
                 $business_info->add($data);
+                $data = array();
 
 
             }
@@ -123,19 +124,53 @@ class IndexController extends Controller {
             echo $ress.'*'.$data[$business_id]['b_turnover_in_the_day_integral_new'].'-->'.$ress*$data[$business_id]['b_turnover_in_the_day_integral_new'];
             echo '<br/>';
             $users_integral_list[$key]['users_id'] = $value['users_id'];
+            $users_integral_list[$key]['consume_list_id'] = $value['consume_list_id'];
+            $users_integral_list[$key]['consume_return_money'] = $value['consume_return_money'];
             $users_integral_list[$key]['users_spend_num'] = $value['consume_money'];
             $users_integral_list[$key]['business_id'] = $value['business_id'];
             $users_integral_list[$key]['users_get_integral'] = $ress*$data[$business_id]['b_turnover_in_the_day_integral_new'];
             $users_integral_list[$key]['users_integral_addtime'] = time();
         }
-        var_dump($users_integral_list);
         return $users_integral_list;
         //循环查找所有再此商家消费的用户，并且计算积分
     }
 
+
+    public function returnIntegralToOrder()
+    {
+        //获取店铺所有的用户
+        $consume_list = M('consume_list');
+        $alluser = $consume_list->select();
+        //获取店铺总收益
+        $allBun = M('business_info')->select();
+        foreach ($allBun as $k=>$v){
+            unset($allBun[$k]);
+            $k = $v['business_id'];
+            $allBun[$k ] = $v;
+        }
+        //获取所有店铺的总收益
+        $dayData = $this->__inTheDayGeTMon();
+        $data = array();
+        foreach ($alluser as $key=>$val){
+            //商家信息
+            $bun_id = $val['business_id'];
+            //用户每单消费占总金额的比例，去除两位小数以后的小数
+            $bili = floor($val['consume_money']/$allBun[$bun_id]['business_info_total']*100)/100;
+            $data[$key]['business_id'] = $val['business_id'];
+            $data[$key]['users_get_integral'] = $bili*$dayData[$bun_id]['b_turnover_in_the_day_integral_new']; //老用户积分的比例
+            $data[$key]['users_id'] = $val['users_id'];
+            $data[$key]['consume_list_id'] = $val['consume_list_id'];
+            $data[$key]['users_integral_addtime'] = time();
+        }
+
+        return $data;
+
+    }
+
     /*
+     * ord 版本，因为需求被改变
      * 返还之前用户所有的消费积分
-     * */
+     *
     public function returnIntegralToOrder()
     {
         //获取除了今天以外所有的用户
@@ -168,6 +203,9 @@ class IndexController extends Controller {
         return $array;
 
     }
+    */
+
+
     /*
      * 将用户当天获取的积追加到用户总积分表中，以便于以后的消费
      * 在程序中，应该是最后执行的
@@ -203,6 +241,19 @@ class IndexController extends Controller {
     
 
  /********************************公用函数********************************************/
+/*
+ * 积分扣除
+ * */
+    public function __Integraldeduction($list=0)
+    {
+        $consume_list = M('consume_list');
+        foreach ($list as $k => $v){
+            $where['consume_list_id'] = $v['consume_list_id'];
+            $consume_list->where($where)->setDec('consume_return_money',$v['users_get_integral']);
+        }
+
+    }
+
     /*
      * 获取所有店铺当天的盈利
      * */
@@ -258,4 +309,5 @@ class IndexController extends Controller {
     {
         $this->BusinessShouYesterday();
     }
+
 }
