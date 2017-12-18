@@ -28,9 +28,10 @@ class UsersController extends Controller {
     {
         $consume_list = M('consume_list');
         $users_integral_list = M('users_integral_list');
+        $users_integral = M('users_integral');
         $where['users_id']= $_SESSION['user']['userinfo']['users_id'];
         $list['users_money_total'] = $consume_list->where($where)->sum("consume_money");
-        $list['users_integral_total_amount'] = $users_integral_list->where($where)->sum("users_get_integral");
+        $list['users_integral_total_amount']= $users_integral->where($where)->sum("users_integral_num");
         $list['users_name'] = $_SESSION['user']['userinfo']['users_name'];
         $list['users_phone'] = $_SESSION['user']['userinfo']['users_phone'];
         $this->userinfo = $list;

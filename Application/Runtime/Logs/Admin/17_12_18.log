@@ -1,0 +1,89 @@
+[ 2017-12-18T11:00:47+08:00 ] ::1 /TP/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index
+
+[ 2017-12-18T11:03:28+08:00 ] ::1 /TP/index.php/Admin/Index/toGo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `consume_list` [ RunTime:0.0020s ]
+SQL: SELECT `business_id`,sum(consume_money) as b_turnover_in_the_day_money FROM `consume_list` WHERE ( `consume_time` >= 1513526400 AND `consume_time` <= 1513612799  ) GROUP BY business_id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `b_turnover_in_the_day` [ RunTime:0.0010s ]
+SQL: INSERT INTO `b_turnover_in_the_day` (`business_id`,`b_turnover_in_the_day_money`,`b_turnover_in_the_day_integral_new`,`b_turnover_in_the_day_integral_ord`,`b_turnover_in_the_day_time`) VALUES ('2','300.00','15','15','1513566208') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `business_info` [ RunTime:0.0020s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1513526400 AND `b_turnover_in_the_day_time` <= 1513612799  )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business_info` WHERE `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `business_info` SET `business_id`='2',`business_info_total`='1100' WHERE `business_info_id` = 1 [ RunTime:0.0000s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1513526400 AND `b_turnover_in_the_day_time` <= 1513612799  )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `consume_list` WHERE ( `consume_time` >= 1513526400 AND `consume_time` <= 1513612799  )  [ RunTime:0.0000s ]
+SQL: UPDATE `consume_list` SET `consume_return_money`=consume_return_money-15 WHERE `consume_list_id` = 136 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0010s ]
+SQL: INSERT INTO `users_integral_list` (`users_id`,`consume_list_id`,`users_spend_num`,`business_id`,`users_get_integral`,`users_integral_addtime`) VALUES ('23','136','300','2','15','1513566208') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `consume_list`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `business_info`  [ RunTime:0.0010s ]
+SQL: SELECT `b_turnover_in_the_day_money`,`business_id`,`b_turnover_in_the_day_integral_new` FROM `b_turnover_in_the_day` WHERE ( `b_turnover_in_the_day_time` >= 1513526400 AND `b_turnover_in_the_day_time` <= 1513612799  )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 160 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp64\www\TP\Application\Admin\Controller\IndexController.class.php 第 160 行.
+SQL: UPDATE `consume_list` SET `consume_return_money`=consume_return_money-0 WHERE `consume_list_id` = 135 [ RunTime:0.0000s ]
+SQL: UPDATE `consume_list` SET `consume_return_money`=consume_return_money-0 WHERE `consume_list_id` = 134 [ RunTime:0.0000s ]
+SQL: UPDATE `consume_list` SET `consume_return_money`=consume_return_money-5.4 WHERE `consume_list_id` = 133 [ RunTime:0.0000s ]
+SQL: UPDATE `consume_list` SET `consume_return_money`=consume_return_money-4.05 WHERE `consume_list_id` = 132 [ RunTime:0.0000s ]
+SQL: UPDATE `consume_list` SET `consume_return_money`=consume_return_money-1.35 WHERE `consume_list_id` = 131 [ RunTime:0.0000s ]
+SQL: UPDATE `consume_list` SET `consume_return_money`=consume_return_money-4.05 WHERE `consume_list_id` = 136 [ RunTime:0.0000s ]
+SQL: INSERT INTO `users_integral_list` (`business_id`,`users_get_integral`,`users_id`,`consume_list_id`,`users_integral_addtime`) VALUES ('3','0','25','135','1513566208'),('3','0','24','134','1513566208'),('2','5.4','23','133','1513566208'),('2','4.05','24','132','1513566208'),('2','1.35','25','131','1513566208'),('2','4.05','23','136','1513566208') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( `users_integral_addtime` >= 1513526400 AND `users_integral_addtime` <= 1513612799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 23 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='55',`users_integral_total_amount`='700',`business_id`='2',`users_id`='23' WHERE `users_integral_id` = 3 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 25 AND `business_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='80',`users_integral_total_amount`='800',`business_id`='3',`users_id`='25' WHERE `users_integral_id` = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 24 AND `business_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='20',`users_integral_total_amount`='200',`business_id`='3',`users_id`='24' WHERE `users_integral_id` = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 23 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='60.4',`users_integral_total_amount`='700',`business_id`='2',`users_id`='23' WHERE `users_integral_id` = 3 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 24 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='33.65',`users_integral_total_amount`='300',`business_id`='2',`users_id`='24' WHERE `users_integral_id` = 4 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 25 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='10.95',`users_integral_total_amount`='100',`business_id`='2',`users_id`='25' WHERE `users_integral_id` = 5 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 23 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='64.45',`users_integral_total_amount`='700',`business_id`='2',`users_id`='23' WHERE `users_integral_id` = 3 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-18T11:05:47+08:00 ] ::1 /TP/index.php/Admin/Index/UsersTotalIntegral
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `users_integral_list` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users_integral_list` WHERE ( `users_integral_addtime` >= 1513526400 AND `users_integral_addtime` <= 1513612799  )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `users_integral` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 23 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='79.45',`users_integral_total_amount`='1000',`business_id`='2',`users_id`='23' WHERE `users_integral_id` = 3 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 25 AND `business_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='80',`users_integral_total_amount`='800',`business_id`='3',`users_id`='25' WHERE `users_integral_id` = 1 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 24 AND `business_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='20',`users_integral_total_amount`='200',`business_id`='3',`users_id`='24' WHERE `users_integral_id` = 2 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 23 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='84.85',`users_integral_total_amount`='1000',`business_id`='2',`users_id`='23' WHERE `users_integral_id` = 3 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 24 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='37.7',`users_integral_total_amount`='300',`business_id`='2',`users_id`='24' WHERE `users_integral_id` = 4 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 25 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='12.3',`users_integral_total_amount`='100',`business_id`='2',`users_id`='25' WHERE `users_integral_id` = 5 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `users_integral` WHERE `users_id` = 23 AND `business_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `users_integral` SET `users_integral_num`='88.9',`users_integral_total_amount`='1000',`business_id`='2',`users_id`='23' WHERE `users_integral_id` = 3 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

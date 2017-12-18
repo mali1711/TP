@@ -42,14 +42,14 @@ class PaymentController extends Controller{
     /*
      * 条码支付
      * */
-    public function barcode()
+    public function barcode($amount=1,$channel=2,$operator_id=0)
     {
         //参与签名
         $url = 'http://openapi.caibaopay.com/gatewayOpen.htm';
-        $where['amount'] = '1';
+        $where['amount'] = $amount;
         $where['app'] = $this->payment['app'];
-        $where['channel'] = '1';
-        $where['local_order_no'] = 'OPENAPI201712122111542860432';
+        $where['channel'] = $channel;                                  //支付方式 1 支付宝 2 微信
+        $where['local_order_no'] = $operator_id;//订单号
         $where['operator_id'] = $this->payment['operator_id'];
         $where['subject'] = 'text';
         $where['timestamp'] = '1513084314619';
@@ -64,7 +64,6 @@ class PaymentController extends Controller{
         $data = array_merge($where,$list);
         //curl 调用支付
         $info = $this->curl_post($url,$data);
-        dump($info);
         return $info;
     }
 

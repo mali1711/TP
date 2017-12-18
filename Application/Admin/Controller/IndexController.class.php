@@ -89,12 +89,8 @@ class IndexController extends Controller {
                 $data['business_info_total'] += $v['b_turnover_in_the_day_money'];
                 $business_info->add($data);
                 $data = array();
-
-
             }
         }
-
-
     }
     /*
      * return 今天用户产生的所有的积分。
@@ -227,7 +223,7 @@ class IndexController extends Controller {
             $data['users_integral_total_amount'] = $v['users_spend_num'];
             $data['business_id'] = $v['business_id'];
             $data['users_id'] = $v['users_id'];
-            dump($data);
+//            dump($data);
             //当前用户在当前商家有消费记录，继续追加数据
             if($res = $users_integral->where($usersIntegraWhere)->find()){
                 $res['users_integral_total_amount']+=$v['users_spend_num'];

@@ -6,6 +6,3 @@
  * Time: 22:37
  */
 
-function getMillisecond() {
-    echo 'Admin/Common/Common/function';
-}

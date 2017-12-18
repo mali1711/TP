@@ -100,7 +100,7 @@ class BunsinessController extends Controller {
         echo '积分抵用的金额是'.I('post.integral/d').'<br/>';
         echo '优惠券抵用的金额是'.$resCou.'<br/>';
         echo '实际支付的金额是'.$resMoney.'<br/>';
-        $HomeBun->getMoney($users_id,$business_id,$money);
+        $HomeBun->getMoney($users_id,$business_id,$money,$resCou);
        if($result=ture){
            $id = $data['get_coupons_id'];//被使用的优惠券的id
            $conCoupons->dedCoupons($business_id,$users_id,I('post.integral/d'));
