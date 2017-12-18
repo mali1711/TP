@@ -42,7 +42,7 @@ class PaymentController extends Controller{
     /*
      * 条码支付
      * */
-    public function barcode($amount=1,$channel=2,$operator_id=0)
+    public function barcode($amount=1,$channel=2,$operator_id=0,$notify_url)
     {
         //参与签名
         $url = 'http://openapi.caibaopay.com/gatewayOpen.htm';
