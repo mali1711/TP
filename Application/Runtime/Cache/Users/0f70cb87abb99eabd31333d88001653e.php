@@ -1,27 +1,33 @@
-<!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link  rel="stylesheet"   type="text/css"  href="__PUBLIC__/Style/User/App/css/style6.css"/>
+	<link  rel="stylesheet"   type="text/css"  href="/TP/Public/Style/User/App/css/style6.css"/>
 	<style>
 		.title{
 			text-align: center;
+		}
+		.green{
+			color: #00FF00;
+		}
+		.blue{
+			color: #0066cc;
+		}
+		.black{
+			color:black;
 		}
 	</style>
 </head>
 <body>
 	<div id="top">
 		<div class="top_img"></div>
-			<a href="__MODULE__/Users/index">&lt;</a><b class="title">收益统计</b>
+			<a href="/TP/index.php/Users/Users/index">&lt;</a><b class="title">详情</b>
 	</div>
 	<div id="content">
-		<div class="content_02"><p><b>{$list.person.users_integral_total_amount}</b><br/>您在本店的总收益为&nbsp;(元)</p></div>
-		<div class="foot">
-			<h5>您在其他店铺的收益分别为</h5>
-			<foreach name="list.list" item="vo">
-			<div class="foot01"><p><b>{$vo.users_integral_total_amount}</b><br/>您在{$vo.business_name}店的总收益为&nbsp;(元)</p></div>
-			</foreach>
+	<div class="foot">
+			<h5>你的具体分红详情为</h5>
+			<?php if(is_array($list)): foreach($list as $key=>$vo): ?><div class="foot01"><p><b><?php echo (date("Y-m-d",$vo["users_integral_addtime"])); ?></b><br/>您于<span class="blue"><?php echo (date("Y-m-d",$vo["consume_time"])); ?></span>日消费的<span class="black"><?php echo ($vo["consume_money"]); ?></span>(元)返还了<span class="green"><?php echo ($vo["users_get_integral"]); ?></span>积分</p></div><?php endforeach; endif; ?>
 		</div>
 	</div>
 

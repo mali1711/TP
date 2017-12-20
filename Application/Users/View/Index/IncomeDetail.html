@@ -8,19 +8,27 @@
 		.title{
 			text-align: center;
 		}
+		.green{
+			color: #00FF00;
+		}
+		.blue{
+			color: #0066cc;
+		}
+		.black{
+			color:black;
+		}
 	</style>
 </head>
 <body>
 	<div id="top">
 		<div class="top_img"></div>
-			<a href="__MODULE__/Users/index">&lt;</a><b class="title">收益统计</b>
+			<a href="__MODULE__/Users/index">&lt;</a><b class="title">详情</b>
 	</div>
 	<div id="content">
-		<div class="content_02"><p><b>{$list.person.users_integral_total_amount}</b><br/>您在本店的总收益为&nbsp;(元)</p></div>
-		<div class="foot">
-			<h5>您在其他店铺的收益分别为</h5>
-			<foreach name="list.list" item="vo">
-			<div class="foot01"><p><b>{$vo.users_integral_total_amount}</b><br/>您在{$vo.business_name}店的总收益为&nbsp;(元)</p></div>
+	<div class="foot">
+			<h5>你的具体分红详情为</h5>
+			<foreach name="list" item="vo">
+			<div class="foot01"><p><b>{$vo.users_integral_addtime|date="Y-m-d",###}</b><br/>您于<span class="blue">{$vo.consume_time|date="Y-m-d",###}</span>日消费的<span class="black">{$vo.consume_money}</span>(元)返还了<span class="green">{$vo.users_get_integral}</span>积分</p></div>
 			</foreach>
 		</div>
 	</div>

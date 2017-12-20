@@ -164,10 +164,27 @@ class UsersController extends Controller {
     }
 
     /*
-     * 收益具体详情
+     * 收益分红的具体详情
      * */
     public function incomeDetail()
     {
-
+        $users_integral_list = M('users_integral_list');
+        $where['users_integral_list.users_id'] = $_SESSION['user']['userinfo']['users_id'];
+        $list = $users_integral_list->where($where)
+                            ->field('consume_list.consume_time,consume_list.consume_money,users_integral_list.users_integral_addtime,users_integral_list.users_get_integral')
+                            ->join('consume_list ON consume_list.consume_list_id = users_integral_list.consume_list_id')
+                            ->order('users_integral_list.users_integral_addtime desc')
+                            ->select();
+        $this->assign('list',$list);
+        $this->display('Index/IncomeDetail');
+/*  直接输出了
+    foreach($list as $v){
+            $time1 = date('Y-m-d',$v['consume_time']);
+            $mon1 = $v['consume_money'];
+            $time2 = date('Y-m-d',$v['users_integral_addtime']);
+            $mon2 = $v['users_get_integral'];
+            $str = sprintf("您%s,消费的%s,于%s,返还了%s",$time1,$mon1,$time2,$mon2);
+            echo $str.'<br/>';
+        }*/
     }
 }

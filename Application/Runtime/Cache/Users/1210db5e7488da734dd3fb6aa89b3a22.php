@@ -13,10 +13,9 @@
 <body>
 	<div id="top">
 		<div class="top_img"></div>
-			<a href="#">&lt;</a><b class="title">收益统计</b>
+			<a href="/TP/index.php/Users/Users/index">&lt;</a><b class="title">收益统计</b>
 	</div>
 	<div id="content">
-		<div class="content_01"><p><b><?php echo ($list["count"]); ?></b><br/>您在汇客的总收益为&nbsp;(元)</p></div>
 		<div class="content_02"><p><b><?php echo ($list["person"]["users_integral_total_amount"]); ?></b><br/>您在本店的总收益为&nbsp;(元)</p></div>
 		<div class="foot">
 			<h5>您在其他店铺的收益分别为</h5>

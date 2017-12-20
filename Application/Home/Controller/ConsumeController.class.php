@@ -3,11 +3,14 @@ namespace Home\Controller;
 use Think\Controller;
 class ConsumeController extends Controller {
 
-    static 
+    static $user_id;
+    static $buniess_id;
+    static $resCou;
+    static $money;
 
     public function __construct()
     {
-
+        parent::__construct();
     }
 
 /*
@@ -21,21 +24,38 @@ class ConsumeController extends Controller {
         $Payment = A('WX/Payment');
         $operator_id = time();
         $amount = $money*100;
-        $res =  $Payment->barcode($amount=$amount,$channel=2,$operator_id=$operator_id,$notify_url='');
+        $notify_url = U('Admin/Consume/paymentSucess');
+        $res =  $Payment->barcode($amount=$amount,$channel=2,$operator_id=$operator_id,$notify_url);
         $res = json_decode($res);
         if($res->data->qrCode==''){
-            $this->success('支付失败');
+            self::$user_id = '';
+            self::$buniess_id = '';
+            self::$money = '';
+            self::$resCou = '';
+            $this->error('支付失败');
         }else{
-            //扣除使用的积分
-            $users_integral = M('users_integral');
-            $where['user_id'] = $user_id;
-            $where['buniess_id'] = $buniess_id;
-            $users_integral->setDec('users_integral_num',$resCou);
-            //初始化时间
-            $time = time();
-            $this->__userSpending($user_id,$buniess_id,$money,$time);
+            self::$user_id = $user_id;
+            self::$buniess_id = $buniess_id;
+            self::$resCou = $money;
+            self::$money = $resCou;
         }
+    }
 
+
+
+    /*
+     * 支付成功
+     * */
+    public function paymentSucess()
+    {
+        //扣除使用的积分
+        $users_integral = M('users_integral');
+        $where['user_id'] = self::$user_id;
+        $where['buniess_id'] = self::$buniess_id;
+        $users_integral->setDec('users_integral_num',self::$resCou);
+        //初始化时间
+        $time = time();
+        $this->__userSpending(self::$user_id,self::$buniess_id,self::$money,$time);
     }
 
     /*
@@ -50,6 +70,10 @@ class ConsumeController extends Controller {
         $data['consume_time'] = $time;
         $consume_list = M('consume_list');
         $res = $consume_list->add($data);
+        self::$user_id = '';
+        self::$buniess_id = '';
+        self::$money = '';
+        self::$resCou = '';
         return $res;
     }
 
