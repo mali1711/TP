@@ -23,7 +23,8 @@ class ConsumeController extends Controller {
         //调用支付接口
         $Payment = A('WX/Payment');
         $operator_id = time();
-        $amount = $money*100;
+        $amount = $money;/*支付的实际金额，比原来的小扫100倍*/
+//        $amount = $money*100; //todo 打开就能变成真正的支付
         $notify_url = U('Admin/Consume/paymentSucess');
         $res =  $Payment->h5ZhiFu($amount=$amount,$channel=2,$operator_id=$operator_id,$notify_url);
         $res = json_decode($res);
