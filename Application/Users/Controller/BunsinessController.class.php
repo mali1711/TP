@@ -105,7 +105,6 @@ class BunsinessController extends Controller {
            $id = $data['get_coupons_id'];//被使用的优惠券的id
            $conCoupons->dedCoupons($business_id,$users_id,I('post.integral/d'));
            $this->delCoupons($id);
-           $this->success('支付成功',u('Users/index'));
        }else{
            $this->success('出现问题',u('Users/index'));
        }

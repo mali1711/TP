@@ -97,7 +97,7 @@ class UsersController extends Controller {
                 $res = $users->data($_POST)->add();
                 if($res){
                     $data['status'] = true;
-                    $this->success('注册成功',U('Users/index'));
+                    $this->success('注册成功',U('Users/Users/index'));
                 }else{
                     $data['status'] = false;
                     $data['info'] = '注册失败';
