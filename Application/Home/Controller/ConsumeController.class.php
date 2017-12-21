@@ -38,7 +38,7 @@ class ConsumeController extends Controller {
             $_SESSION['user']['payInfo']['resCou'] = $resCou;//使用优惠券
             $_SESSION['user']['payInfo']['resCou'] = $inMon;//使用的积分
             $amount = $amount * 10000;
-            sprintf("您好，您本次应该支付%s,积分抵了%s,优惠券抵了%s,实际支付",$money,$inMon,$amount);
+            echo sprintf("您好，您本次应该支付%s,积分抵了%s,优惠券抵了%s,实际支付",$money,$inMon,$amount);
             echo "<h1><a href=\"$payUrl\"> 请点击确认支付 </a></h1>>";
             die;
         }
