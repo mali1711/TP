@@ -27,6 +27,8 @@ class ConsumeController extends Controller {
         $notify_url = U('Admin/Consume/paymentSucess');
         $res =  $Payment->barcode($amount=$amount,$channel=2,$operator_id=$operator_id,$notify_url);
         $res = json_decode($res);
+        dump($res);
+        die;
         if($res->data->qrCode==''){
             self::$user_id = '';
             self::$buniess_id = '';
@@ -38,6 +40,7 @@ class ConsumeController extends Controller {
             self::$buniess_id = $buniess_id;
             self::$resCou = $money;
             self::$money = $resCou;
+            header("");
         }
     }
 
