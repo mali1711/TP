@@ -84,7 +84,7 @@ class BunsinessController extends Controller {
         $integral = $this->getIntegral()['users_integral_num'];
         //获取可以使用的优惠券，
         $data = A('Coupons')->getCoupons(I('post.money/d'));
-        $resCou = $data['coupons_money'];
+        $resCou = $data['coupons_money'];//优惠券能扣除的金额
         //支付判断
         if(I('post.integral/d')>I('post.money/d')){
             $this->error('支付积分不能大于实际金额');
@@ -95,12 +95,8 @@ class BunsinessController extends Controller {
         }elseif(I('post.integral/d')>$integral){
             $this->error('您的积分不够');
         }else{
-        $resMoney =  I('post.money/d')-I('post.integral/d')-($resCou);
-        echo '您的支付金额是'.I('post.money/d').'<br/>';
-        echo '积分抵用的金额是'.I('post.integral/d').'<br/>';
-        echo '优惠券抵用的金额是'.$resCou.'<br/>';
-        echo '实际支付的金额是'.$resMoney.'<br/>';
-        $HomeBun->getMoney($users_id,$business_id,$money,$resCou);
+        $inMon = I('post.integral/d');//积分金额
+        $HomeBun->getMoney($users_id,$business_id,$money,$resCou,$inMon);
        if($result=ture){
            $id = $data['get_coupons_id'];//被使用的优惠券的id
            $conCoupons->dedCoupons($business_id,$users_id,I('post.integral/d'));
