@@ -39,6 +39,8 @@ class ConsumeController extends Controller {
             self::$resCou = $money;
             self::$money = $resCou;
             $payUrl = $res->data->qrCode;
+            dump($payUrl);
+            die;
             header("Location: $payUrl");
         }
     }
