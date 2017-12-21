@@ -18,7 +18,6 @@ class PaymentController extends Controller{
 //        获取配置文件支付接口需要的数据
         $this->payment = C('PAPMENT');
         $this->autograph = $this->__getAutograph();
-        dump($this->payment);
     }
 
     /*
@@ -47,8 +46,7 @@ class PaymentController extends Controller{
         //参与签名
         $url = 'http://openapi.caibaopay.com/gatewayOpen.htm';
         $where['amount'] = $amount;
-        $where['app'] = $this->payment['app'];
-        $where['channel'] = $channel;                                  //支付方式 1 支付宝 2 微信
+        $where['app'] = $this->payment['app'];        $where['channel'] = $channel;                                  //支付方式 1 支付宝 2 微信
         $where['local_order_no'] = $operator_id;//订单号
         $where['operator_id'] = $this->payment['operator_id'];
         $where['subject'] = 'text';
@@ -68,17 +66,35 @@ class PaymentController extends Controller{
     }
 
     /*
+     * h5支付
+     * */
+    public function h5ZhiFu($amount=0,$operator_id='',$notify_url)
+    {
+        $url = 'http://openapi.caibaopay.com/gatewayOpen.htm';
+        $where['amount'] = $amount;
+        $where['app'] = $this->payment['app'];
+        $where['local_order_no'] = $operator_id;//订单号
+        $where['operator_id'] = $this->payment['operator_id'];
+        $where['timestamp'] = '1513084314619';
+        $where['un_discount_amount'] = '0';
+        $where['key'] = $this->payment['key'];
+        //支付
+        $list = $this->__buildQuery($where);
+        $list['command'] = 'caibao.pay.h5';
+        $list['notify_url'] = $notify_url;
+        $list['version'] = '1.0';
+        //合并成统一的数据
+        $data = array_merge($where,$list);
+        //curl 调用支付
+        $info = $this->curl_post($url,$data);
+        return $info;
+    }
+
+
+    /*
      * 扫码支付
      * */
     public function saoMaZhiFu()
-    {
-        
-    }
-
-    /*
-     * h5支付
-     * */
-    public function h5ZhiFu()
     {
         
     }
