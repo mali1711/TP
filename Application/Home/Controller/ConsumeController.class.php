@@ -27,9 +27,7 @@ class ConsumeController extends Controller {
         $notify_url = U('Admin/Consume/paymentSucess');
         $res =  $Payment->h5ZhiFu($amount=$amount,$channel=2,$operator_id=$operator_id,$notify_url);
         $res = json_decode($res);
-        dump($res);
-        die;
-        if($res->data->qrCode==''){
+        if($res->resule->success){
             self::$user_id = '';
             self::$buniess_id = '';
             self::$money = '';
@@ -40,8 +38,9 @@ class ConsumeController extends Controller {
             self::$buniess_id = $buniess_id;
             self::$resCou = $money;
             self::$money = $resCou;
-            $payUrl = $res->data->qrCode;
+            $payUrl = $res->data->url;
             dump($payUrl);
+            echo "<a href=\"$payUrl\"> 点击确认支付 </a>";
             die;
             header("Location: $payUrl");
         }
