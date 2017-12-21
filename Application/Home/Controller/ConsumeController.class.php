@@ -25,7 +25,7 @@ class ConsumeController extends Controller {
         $operator_id = time();
         $amount = $money*100;
         $notify_url = U('Admin/Consume/paymentSucess');
-        $res =  $Payment->barcode($amount=$amount,$channel=2,$operator_id=$operator_id,$notify_url);
+        $res =  $Payment->h5ZhiFu($amount=$amount,$channel=2,$operator_id=$operator_id,$notify_url);
         $res = json_decode($res);
         if($res->data->qrCode==''){
             self::$user_id = '';
