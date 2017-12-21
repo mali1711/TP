@@ -28,6 +28,7 @@ class ConsumeController extends Controller {
         $res =  $Payment->h5ZhiFu($amount=$amount,$channel=2,$operator_id=$operator_id,$notify_url);
         $res = json_decode($res);
         dump($res);
+        die;
         if($res->data->qrCode==''){
             self::$user_id = '';
             self::$buniess_id = '';
