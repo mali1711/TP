@@ -26,7 +26,7 @@ class ConsumeController extends Controller {
         $amount = $money;/*支付的实际金额，比原来的小扫100倍*/
 //        $amount = $money*100; //todo 打开就能变成真正的支付
         $notify_url = U('Admin/Consume/paymentSucess');
-        $res =  $Payment->h5ZhiFu($amount=$amount,$channel=2,$operator_id=$operator_id,$notify_url);
+        $res =  $Payment->h5ZhiFu($amount=$amount,$operator_id=$operator_id,$notify_url);
         $res = json_decode($res);
         if($res->resule->success){
             self::$user_id = '';
