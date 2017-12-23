@@ -42,5 +42,18 @@ class CommonController extends Controller {
             return $info['savepath'].$info['savename'];
         }
     }
+
+    /*
+ * 判断是否登录
+ * */
+    protected function __isLogin()
+    {
+        if(empty($_SESSION['Admin'])){
+            $this->display('Index/Login');
+            die;
+        }else{
+
+        }
+    }
     
 }

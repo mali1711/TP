@@ -13,6 +13,12 @@ class IndexController extends Controller {
         parent::__construct();
     }
 
+    public function index()
+    {
+        $AdminInfo = A('AdminInfo');
+        $AdminInfo->index();
+    }
+    
     /*积分返还机制 start*/
     /*
      * 计算商家昨天所有的收益记录

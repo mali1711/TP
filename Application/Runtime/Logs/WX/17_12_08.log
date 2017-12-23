@@ -1,9 +1,0 @@
-[ 2017-12-08T10:34:50+08:00 ] 1.85.216.77 /TP/WX
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
-NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA /data/wwwroot/default/TP/Application/WX/Controller/IndexController.class.php 第 56 行.
-

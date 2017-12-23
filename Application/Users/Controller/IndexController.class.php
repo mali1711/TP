@@ -8,14 +8,13 @@ class IndexController extends Controller {
     public function __construct()
     {
         parent::__construct();
-        $_SESSION['user']['bus'] = 2;//初始化用户默认访问的商家
     }
 
     public function index()
     {
         $users = A('Users');
+        $_SESSION['user']['bus'] = I("get.id");
         $users->index();
-
     }
     
 
