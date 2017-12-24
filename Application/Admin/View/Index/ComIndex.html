@@ -12,9 +12,9 @@
 
 				<li>
 					<i class="icon-home home-icon"></i>
-					<a href="#">Home</a>
+					<a href="#">商家后台</a>
 				</li>
-				<li class="active">Dashboard</li>
+				<li class="active">首页</li>
 			</ul><!-- .breadcrumb -->
 
 			<div class="nav-search" id="nav-search">
@@ -30,10 +30,10 @@
 		<div class="page-content">
 			<div class="page-header">
 				<h1>
-					Dashboard
+					商家后台
 					<small>
 						<i class="icon-double-angle-right"></i>
-						overview &amp; stats
+						首页
 					</small>
 				</h1>
 			</div><!-- /.page-header -->
@@ -49,13 +49,13 @@
 
 						<i class="icon-ok green"></i>
 
-						Welcome to
+						欢迎
 						<strong class="green">
-							Ace
-							<small>(v1.2)</small>
+							您
+							<small>({$list.Admin.business_account})</small>
 						</strong>
 						,
-						the lightweight, feature-rich and easy to use admin template.
+						访问汇客后台
 					</div>
 
 					<div class="row">
@@ -68,10 +68,10 @@
 								</div>
 
 								<div class="infobox-data">
-									<span class="infobox-data-number">32</span>
-									<div class="infobox-content">comments + 2 reviews</div>
+									<span class="infobox-data-number">0</span>
+									<div class="infobox-content">信息</div>
 								</div>
-								<div class="stat stat-success">8%</div>
+								<!--<div class="stat stat-success">0%</div>-->
 							</div>
 
 							<div class="infobox infobox-blue  ">
@@ -80,14 +80,14 @@
 								</div>
 
 								<div class="infobox-data">
-									<span class="infobox-data-number">11</span>
-									<div class="infobox-content">new followers</div>
+									<span class="infobox-data-number">{$list.userNumber.allOrder.count}</span>
+									<div class="infobox-content">新的用户</div>
 								</div>
 
-								<div class="badge badge-success">
+						<!--		<div class="badge badge-success">
 									+32%
 									<i class="icon-arrow-up"></i>
-								</div>
+								</div>-->
 							</div>
 
 							<div class="infobox infobox-pink  ">
@@ -96,20 +96,20 @@
 								</div>
 
 								<div class="infobox-data">
-									<span class="infobox-data-number">8</span>
-									<div class="infobox-content">new orders</div>
+									<span class="infobox-data-number">{$list['orderInfo']['dayOrder']['count']}</span>
+									<div class="infobox-content">新的订单</div>
 								</div>
-								<div class="stat stat-important">4%</div>
+								<!--<div class="stat stat-important">4%</div>-->
 							</div>
 
-							<div class="infobox infobox-red  ">
+<!--							<div class="infobox infobox-red  ">
 								<div class="infobox-icon">
 									<i class="icon-beaker"></i>
 								</div>
 
 								<div class="infobox-data">
 									<span class="infobox-data-number">7</span>
-									<div class="infobox-content">experiments</div>
+									<div class="infobox-content">所有订单</div>
 								</div>
 							</div>
 
@@ -144,11 +144,11 @@
 										58GB remaining
 									</div>
 								</div>
-							</div>
+							</div>-->
 
 							<div class="space-6"></div>
 
-							<div class="infobox infobox-green infobox-small infobox-dark">
+	<!--						<div class="infobox infobox-green infobox-small infobox-dark">
 								<div class="infobox-progress">
 									<div class="easy-pie-chart percentage" data-percent="61" data-size="39">
 										<span class="percent">61</span>%
@@ -182,7 +182,7 @@
 									<div class="infobox-content">1,205</div>
 								</div>
 							</div>
-						</div>
+		-->				</div>
 
 						<div class="vspace-sm"></div>
 
@@ -191,12 +191,12 @@
 								<div class="widget-header widget-header-flat widget-header-small">
 									<h5>
 										<i class="icon-signal"></i>
-										Traffic Sources
+										收入信息
 									</h5>
 
 									<div class="widget-toolbar no-border">
 										<button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown">
-											This Week
+											所有消费信息
 											<i class="icon-angle-down icon-on-right bigger-110"></i>
 										</button>
 
@@ -242,25 +242,25 @@
 											<div class="grid3">
 															<span class="grey">
 																<i class="icon-facebook-sign icon-2x blue"></i>
-																&nbsp; likes
+																&nbsp; 订单总计
 															</span>
-												<h4 class="bigger pull-right">1,255</h4>
+												<h5 class="bigger pull-right">{$list.orderInfo.allOrder.count}</h5>
 											</div>
 
 											<div class="grid3">
 															<span class="grey">
 																<i class="icon-twitter-sign icon-2x purple"></i>
-																&nbsp; tweets
+																&nbsp; 用户总计
 															</span>
-												<h4 class="bigger pull-right">941</h4>
+												<h5 class="bigger pull-right">{$list.userNumber.allOrder.count}</h5>
 											</div>
 
 											<div class="grid3">
 															<span class="grey">
 																<i class="icon-pinterest-sign icon-2x red"></i>
-																&nbsp; pins
+																&nbsp; 金额
 															</span>
-												<h4 class="bigger pull-right">1,050</h4>
+												<h5 class="bigger pull-right">{$list['dayProfit']}</h5>
 											</div>
 										</div>
 									</div><!-- /widget-main -->
@@ -268,6 +268,7 @@
 							</div><!-- /widget-box -->
 						</div><!-- /span -->
 					</div><!-- /row -->
+<!--
 
 					<div class="hr hr32 hr-dotted"></div>
 
@@ -388,9 +389,9 @@
 											</tr>
 											</tbody>
 										</table>
-									</div><!-- /widget-main -->
-								</div><!-- /widget-body -->
-							</div><!-- /widget-box -->
+									</div>&lt;!&ndash; /widget-main &ndash;&gt;
+								</div>&lt;!&ndash; /widget-body &ndash;&gt;
+							</div>&lt;!&ndash; /widget-box &ndash;&gt;
 						</div>
 
 						<div class="col-sm-7">
@@ -411,9 +412,9 @@
 								<div class="widget-body">
 									<div class="widget-main padding-4">
 										<div id="sales-charts"></div>
-									</div><!-- /widget-main -->
-								</div><!-- /widget-body -->
-							</div><!-- /widget-box -->
+									</div>&lt;!&ndash; /widget-main &ndash;&gt;
+								</div>&lt;!&ndash; /widget-body &ndash;&gt;
+							</div>&lt;!&ndash; /widget-box &ndash;&gt;
 						</div>
 					</div>
 
@@ -830,7 +831,7 @@
 												</div>
 
 												<div class="hr hr-double hr8"></div>
-											</div><!-- member-tab -->
+											</div>&lt;!&ndash; member-tab &ndash;&gt;
 
 											<div id="comment-tab" class="tab-pane">
 												<div class="comments">
@@ -1008,10 +1009,10 @@
 												<div class="hr hr-double hr8"></div>
 											</div>
 										</div>
-									</div><!-- /widget-main -->
-								</div><!-- /widget-body -->
-							</div><!-- /widget-box -->
-						</div><!-- /span -->
+									</div>&lt;!&ndash; /widget-main &ndash;&gt;
+								</div>&lt;!&ndash; /widget-body &ndash;&gt;
+							</div>&lt;!&ndash; /widget-box &ndash;&gt;
+						</div>&lt;!&ndash; /span &ndash;&gt;
 
 						<div class="col-sm-6">
 							<div class="widget-box ">
@@ -1160,11 +1161,12 @@
 												</div>
 											</div>
 										</form>
-									</div><!-- /widget-main -->
-								</div><!-- /widget-body -->
-							</div><!-- /widget-box -->
-						</div><!-- /span -->
-					</div><!-- /row -->
+									</div>&lt;!&ndash; /widget-main &ndash;&gt;
+								</div>&lt;!&ndash; /widget-body &ndash;&gt;
+							</div>&lt;!&ndash; /widget-box &ndash;&gt;
+						</div>&lt;!&ndash; /span &ndash;&gt;
+					</div>&lt;!&ndash; /row &ndash;&gt;
+-->
 
 					<!-- PAGE CONTENT ENDS -->
 				</div><!-- /.col -->
