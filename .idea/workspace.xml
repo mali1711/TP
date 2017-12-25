@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d7e659c-d397-4260-a95f-717422f72ebe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/fukuanma2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/jifen1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/7_banner.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/7_banner.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/7_bg01.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/7_bg01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/7_bg02.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/7_bg02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/7_bg03.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/7_bg03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/7_bg04.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/7_bg04.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/8_banner01.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/8_banner01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/8_banner02.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/8_banner02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/8_bg.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/8_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/8_icon01.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/8_icon01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/8_icon02.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/8_icon02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/8_icon03.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/8_icon03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/8_icon04.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/8_icon04.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/8_top_bg.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/8_top_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/banner.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/banner.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/bg.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/bg_1.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/bg_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/fukuanma.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/fukuanma.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/huiyuan.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/huiyuan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/icon05.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/icon05.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/icon06.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/icon06.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/icon08.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/icon08.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/icon09.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/icon09.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/jifen.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/jifen.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/kajuan.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/kajuan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/lingdang.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/lingdang.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/logo.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/mmexport1511097319109.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/mmexport1511097319109.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/saoyisao.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/saoyisao.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/shangcheng.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/shangcheng.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/tou.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/tou.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/touxiang.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/touxiang.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/touxiang1.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/touxiang1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/wenan.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/wenan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/ye1.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/ye1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/zhuangtai.png" afterPath="$PROJECT_DIR$/Public/Style/User/App/img/zhuangtai.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/Login.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/Login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/View/Index/personal.html" afterPath="$PROJECT_DIR$/Application/Users/View/Index/personal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/View/Index/register.html" afterPath="$PROJECT_DIR$/Application/Users/View/Index/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/css/style2.css" afterPath="$PROJECT_DIR$/Public/Style/User/App/css/style2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/css/style3.css" afterPath="$PROJECT_DIR$/Public/Style/User/App/css/style3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/css/style4.css" afterPath="$PROJECT_DIR$/Public/Style/User/App/css/style4.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/css/style5.css" afterPath="$PROJECT_DIR$/Public/Style/User/App/css/style5.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/css/style6.css" afterPath="$PROJECT_DIR$/Public/Style/User/App/css/style6.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/css/style7.css" afterPath="$PROJECT_DIR$/Public/Style/User/App/css/style7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/Style/User/App/css/style8.css" afterPath="$PROJECT_DIR$/Public/Style/User/App/css/style8.css" />
     </list>
     <ignored path="TP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,49 +31,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="8_icon04.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/Style/User/App/img/8_icon04.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personal.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/personal.html">
+      <file leaf-file-name="style2.css" pinned="true" current-in-tab="false">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Public/Style/User/App/css/style2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="87" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
+            <state relative-caret-position="138">
+              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style2.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/Style/User/App/css/style2.css">
+      <file leaf-file-name="UsersController.class.php" pinned="true" current-in-tab="true">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Users/Controller/UsersController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="54" column="110" selection-start-line="54" selection-start-column="110" selection-end-line="54" selection-end-column="110" />
+            <state relative-caret-position="249">
+              <caret line="183" column="76" selection-start-line="183" selection-start-column="76" selection-end-line="183" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fukuanma2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/Style/User/App/img/fukuanma2.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fukuanma.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Public/Style/User/App/img/fukuanma.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jifen.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Public/Style/User/App/img/jifen.png">
+      <file leaf-file-name="fukuanma.png" pinned="true" current-in-tab="false">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Public/Style/User/App/img/fukuanma.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -153,7 +85,6 @@
         <option value="$PROJECT_DIR$/Application/WX/Controller/PaymentController.class.php" />
         <option value="&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Users/Controller/BunsinessController.class.php" />
         <option value="&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/WX/Controller/PaymentController.class.php" />
-        <option value="&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Users/Controller/UsersController.class.php" />
         <option value="&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Home/Controller/ConsumeController.class.php" />
         <option value="$PROJECT_DIR$/Application/Users/Controller/BunsinessController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/ConsumeController.class.php" />
@@ -170,6 +101,8 @@
         <option value="$PROJECT_DIR$/Application/Users/View/Index/register.html" />
         <option value="$PROJECT_DIR$/Application/Users/View/Index/personal.html" />
         <option value="$PROJECT_DIR$/Public/Style/User/App/css/style2.css" />
+        <option value="&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Public/Style/User/App/css/style2.css" />
+        <option value="&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Users/Controller/UsersController.class.php" />
       </list>
     </option>
   </component>
@@ -183,8 +116,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="275" />
-    <option name="y" value="18" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
@@ -214,200 +147,7 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Style" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Style" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="User" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="App" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Style" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Users" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Users" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Users" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Users" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
@@ -497,7 +237,7 @@
       <workItem from="1513952845708" duration="950000" />
       <workItem from="1513964942091" duration="3309000" />
       <workItem from="1514044418679" duration="16689000" />
-      <workItem from="1514174849649" duration="6063000" />
+      <workItem from="1514174849649" duration="7156000" />
     </task>
     <task id="LOCAL-00001" summary="提交测试 togo">
       <created>1512741371135</created>
@@ -573,7 +313,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171494000" />
+    <option name="totallyTimeSpent" value="172587000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,18 +325,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="275" y="18" width="1382" height="784" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16944024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22844176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13464448" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22844176" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17304747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17331289" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
