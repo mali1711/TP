@@ -14,6 +14,15 @@
 		.fontS32{
 			font-size: 32px;
 		}
+		.yuan{
+			border-radius:5px;
+			margin-top: 2%;
+			margin-left: 8%;;
+			position: absolute;
+			float: left;
+			width:100px; height:100px; border-radius:100%; overflow:hidden;
+		}
+
 	</style>
 </head>
 <body>
@@ -21,7 +30,15 @@
 	<div class="zhuangtailan"></div>
 	<div class="huike"><i><b style="font-size: 55px;">汇客会员</b></i></div>
 	<div class="head">
-		<div class="head_01"><p><b class="fontS34">{$list.users_name}</b><p><span class="fontS32">{$list.users_phone}</span></div>
+		<div class="yuan">
+
+			<notempty name="list['userDetail']['users_pic']">
+				<img class="user_img" src="__ROOT__/Uploads/{$list.userDetail.users_pic}">
+				<else />
+				<img class="user_img" src="__PUBLIC__/Style/User/App/img/touxiang.png">
+			</notempty>
+		</div>
+		<a href="__MODULE__/Users/userInfo"><div class="head_01"><p><b class="fontS34">{$list.userDetail.users_name}</b><p><span class="fontS32">{$list.userDetail.users_phone}</span></div></a>
 		<a href="__MODULE__/Bunsiness/extension"><div class="head_02 fontS34">推广有礼</div></a>
 	</div>
 	<div class="icon">
@@ -41,7 +58,7 @@
 	<div class="shouyi_fen_line"></div>
 	<a href="__MODULE__/Users/pay" class="fontS34">总支出<br/><span class="data02">{$list.users_money_total}</span></a>
 	<div class="shouyi_fen_line fontS34"></div>
-	<a href="__MODULE__/Users/incomeDetail">分红中<br/><span class="data03">0</span></a>
+	<a href="__MODULE__/Users/incomeDetail">分红中<br/><span class="data03">{$list.consume_return_money_total}</span></a>
 </div>
 <div id="san02"></div>
 <div id="banner"></div>

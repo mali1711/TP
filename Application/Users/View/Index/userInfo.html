@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息</title>
+    <link  rel="stylesheet"   type="text/css"  href="__PUBLIC__/Style/User/App/css/style3.css"/>
+    <!--引入vue.js-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+<form  action="__MODULE__/Users/userInfo" method="post" enctype="multipart/form-data">
+    <div id="top">
+        <div class="top_img"></div>
+        <a href="#">&lt;</a><b>用户信息</b>
+    </div>
+
+    <div id="san01"></div>
+
+
+    <div id="num"><b>新的用户头像 </b><input class="tiaojian" type="file" name="users_pic" style="width:74%;height:92px;font-size:30px;border:0px"/><span></span></div>
+    <div id="san02"></div>
+    <div id="num"><b>输入新的密码 </b><input class="tiaojian" type="password" name="users_pass" style="width:74%;height:92px;font-size:30px;border:0px"/><span></span></div>
+    <div id="foot">
+        <div class="sub"><input type="submit" name="" value="提交"  style="width:100%; height:90px;background-color:#009dff;color:#ffffff;
+                                text-align:center;border-radius:45px;font-size:40px;letter-spacing:5px;line-height:86px;border:0px;"/></div><br/>
+    </div>
+</form>
+
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 30 * (clientWidth / 320) + 'px';
+                };
+
+        // Abort if browser does not support addEventListener
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</body>
+</html>

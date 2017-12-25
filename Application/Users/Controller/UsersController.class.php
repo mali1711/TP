@@ -31,11 +31,10 @@ class UsersController extends Controller {
         $users_integral = M('users_integral');
         $where['users_id']= $_SESSION['user']['userinfo']['users_id'];
         $list['users_money_total'] = $consume_list->where($where)->sum("consume_money");
+        $list['consume_return_money_total'] = $consume_list->where($where)->sum("consume_return_money");
         $list['users_integral_total_amount']= $users_integral->where($where)->sum("users_integral_num");
-        $list['users_name'] = $_SESSION['user']['userinfo']['users_name'];
-        $list['users_phone'] = $_SESSION['user']['userinfo']['users_phone'];
+        $list['userDetail'] = M('users')->find($where['users_id']);
         $this->userinfo = $list;
-        //获取sdk
         $wxInfo = A('WX/Jssdk')->getSignPackage();
         $this->assign('wxInfo',$wxInfo);
         $this->assign('list',$list);
@@ -109,6 +108,29 @@ class UsersController extends Controller {
     }
 
     /*
+     * 查看以及修改用户信息
+     * */
+    public function userInfo()
+    {
+        //判断用户是否提交过来的数据
+        if(!empty(I('post.'))){
+            $users = M('users');
+            $where['users_id'] = $_SESSION['user']["userinfo"]['users_id'];
+            if($_FILES['users_pic']){
+                $data['users_pic'] = $this->__uploadFile('users_pic','UserInfo/',125,130);
+            }
+            if(I('post.users_pass')){
+                //执行修改密码
+                $data['users_pass'] = md5(I('post.users_pass'));
+            }
+            $users->where($where)->save($data);
+            $this->index();
+            die;
+        }
+       $this->display('Index/userInfo');
+    }
+    
+    /*
   * 统计用户一共还剩下多少积分
   * */
     public function sumIntegral()
@@ -150,18 +172,19 @@ class UsersController extends Controller {
     {
         $users_integral = M('users_integral');
         $where['users_id'] = $_SESSION['user']['userinfo']['users_id'];
-        $res = $users_integral->field('business_name,users_integral_total_amount,business.business_id')
+        $res = $users_integral->field('business_name,users_integral_num,business.business_id')
             ->where($where)->join("business ON users_integral.business_id = business.business_id")
                ->select();
         $list['count']=0;
         foreach ($res as $k=>$v){
-            $list['count'] += $v['users_integral_total_amount'];
+            $list['count'] += $v['users_integral_num'];
 
             if($_SESSION['user']['bus']==$v['business_id']){
                 $list['person'] = $res[$k];
                 unset($res[$k]);
             }
         }
+
         $list['list'] = $res;
         $this->assign('list',$list);
         $this->display('Index/income');
@@ -194,5 +217,78 @@ class UsersController extends Controller {
             $str = sprintf("您%s,消费的%s,于%s,返还了%s",$time1,$mon1,$time2,$mon2);
             echo $str.'<br/>';
         }*/
+    }
+
+    /*
+     * 将图片变成圆的
+     * */
+    function yuan_img($imgpath = '') {
+        $ext     = pathinfo($imgpath);
+        $src_img = null;
+        switch ($ext['extension']) {
+            case 'jpg':
+                $src_img = imagecreatefromjpeg($imgpath);
+                break;
+            case 'png':
+                $src_img = imagecreatefrompng($imgpath);
+                break;
+        }
+        $wh  = getimagesize($imgpath);
+        $w   = $wh[0];
+        $h   = $wh[1];
+        $w   = min($w, $h);
+        $h   = $w;
+        $img = imagecreatetruecolor($w, $h);
+        //这一句一定要有
+        imagesavealpha($img, true);
+        //拾取一个完全透明的颜色,最后一个参数127为全透明
+        $bg = imagecolorallocatealpha($img, 255, 255, 255, 127);
+        imagefill($img, 0, 0, $bg);
+        $r   = $w / 2; //圆半径
+        $y_x = $r; //圆心X坐标
+        $y_y = $r; //圆心Y坐标
+        for ($x = 0; $x < $w; $x++) {
+            for ($y = 0; $y < $h; $y++) {
+                $rgbColor = imagecolorat($src_img, $x, $y);
+                if (((($x - $r) * ($x - $r) + ($y - $r) * ($y - $r)) < ($r * $r))) {
+                    imagesetpixel($img, $x, $y, $rgbColor);
+                }
+            }
+        }
+        return $img;
+/*        header("content-type:image/png");
+//        $imgg = yuan_img();
+        imagepng($img);
+        imagedestroy($img);*/
+    }
+
+
+    /*
+ * 图片上传
+ * 定义的图片名 上传位置 宽度 高度
+ *
+ **/
+    protected function __uploadFile($picName,$src,$width,$height)
+    {
+        $config = array(
+            'maxSize'    =>    3145728,
+            'savePath'   =>    "$src",
+            'saveName'   =>    array('uniqid',''),
+            'exts'       =>    array('jpg', 'gif', 'png', 'jpeg'),
+            'autoSub'    =>    true,
+            'subName'    =>    array('date','Ymd'),
+        );
+        $upload = new \Think\Upload($config);// 实例化上传类
+        // 上传单个文件
+        $info   =   $upload->uploadOne($_FILES["$picName"]);
+        if(!$info) {// 上传错误提示错误信息
+            $this->error($upload->getError());
+        }else{
+            $image = new \Think\Image();
+            $src = "./Uploads/".$info['savepath'].$info['savename'];
+            $image->open($src);
+            $image->thumb($width,$height)->save('./Uploads/'.$info['savepath'].$info['savename']);
+            return $info['savepath'].$info['savename'];
+        }
     }
 }
