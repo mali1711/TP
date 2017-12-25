@@ -16,7 +16,7 @@ class RqCodeController extends Controller {
     public function CreateRq($matrixPointSize=10)
     {
         $bid = $_SESSION['Admin']['business_id'];
-        $url = $_SERVER['SERVER_NAME'].__ROOT__.'/Users?business_id='.$bid;
+        $url = 'http://'.$_SERVER['SERVER_NAME'].__ROOT__.'/Users?business_id='.$bid;
         $picName = md5("business_id=$bid");
         $qrcodeName='Uploads/BusinessQrCode/'."{$picName}.png";
         $errorCorrectionLevel = 'L';

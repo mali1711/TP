@@ -13,7 +13,7 @@ class IndexController extends Controller {
     public function index()
     {
         $users = A('Users');
-        $_SESSION['user']['bus'] = I("get.id");
+        $_SESSION['user']['bus'] = $_GET['business_id'];
         $users->index();
     }
     
