@@ -134,6 +134,10 @@ class UsersController extends Controller {
         $consume_list = M('consume_list');
         $list = $consume_list->field('business_name,consume_money,consume_time')->join("business ON consume_list.business_id = business.business_id")->
         where($where)->select();
+        foreach($list as $k=>$v){
+            $string = $v['consume_money'];
+            $list[$k]['consume_money'] = preg_replace('/^0*/', '', $string);
+        }
         $this->assign('list',$list);
         $this->display('Index/pay');
     }
@@ -175,6 +179,10 @@ class UsersController extends Controller {
                             ->join('consume_list ON consume_list.consume_list_id = users_integral_list.consume_list_id')
                             ->order('users_integral_list.users_integral_addtime desc')
                             ->select();
+        foreach ($list as $k=>$v){
+            $string = $v['consume_money'];
+            $list[$k]['consume_money'] = preg_replace('/^0*/', '', $string);
+        }
         $this->assign('list',$list);
         $this->display('Index/IncomeDetail');
 /*  直接输出了
