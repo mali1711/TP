@@ -16,11 +16,11 @@
 			</div>
 		</div>
 		<div id="content01">
-			<div class="content01_icon01"><p><b>今日订单</b><br/>{$list['orderInfo']['dayOrder']['count']}笔<p></div>
+			<a href="__MODULE__/OrderUserList/DayOrder"><div class="content01_icon01"><p><b>今日订单</b><br/>{$list['orderInfo']['dayOrder']['count']}笔<p></div></a>
 			<div class="content01_icon02"><p><b>会员信息</b><br/>{$list.userNumber.allOrder.count}人<p></div>
 		</div>
 		<div id="content02">
-			<div class="content02_icon01"><p><b>往期订单</b><br/>{$list['orderInfo']['allOrder']['count']-$list['orderInfo']['dayOrder']['count']}笔<p></div>
+			<a href="__MODULE__/OrderUserList/OrdOrder"><div class="content02_icon01"><p><b>往期订单</b><br/>{$list['orderInfo']['allOrder']['count']-$list['orderInfo']['dayOrder']['count']}笔<p></div></a>
 			<div class="content02_icon02"><p><b>新增会员</b><br/>{$list['userNumber']['allOrder']['count']-$list['userNumber']['dayOrder']['count']}人<p></div>
 		</div>
 		<div class="san"></div>
