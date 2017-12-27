@@ -50,38 +50,41 @@ class AdminInfoController extends CommonController {
     {
         $business_id = $_SESSION['Admin']['business_id'];
         $list['orderInfo'] = $this->__allOrder($business_id);//统计订单信息
-        $list['userNumber'] = $this->usersInfo($list['orderInfo']);//统计用户信息
         //保存订单数量，去掉多余数据
         foreach ($list['orderInfo'] as $key=>$val){
             unset($list['orderInfo'][$key]);
             $list['orderInfo'][$key]['count'] = count($val);
         }
-        //保存用户数量，去掉多余数据
-        foreach ($list['userNumber'] as $key=>$val){
-            unset($list['userNumber'][$key]);
-            $list['userNumber'][$key]['count'] = count($val);
-        }
-        $list['Admin'] = $_SESSION['Admin'];//当前商家的信息
+        $list['ordNum'] = count($this->userNum());//所有用户
+        $list['newNum'] = count($this->DayuserNum());//新增用户
         $list['dayProfit'] = $this->getProfitInfo();//统计用户当天收益
         return $list;
     }
 
     /*
-     * 查看本店铺一共有多少会员
-     * 根据实施消费的订单来统计会员信息
-     *
-     * */
-    public function usersInfo($orderInfo)
+ * 统计用总户数量
+ * */
+    public function userNum($where)
     {
-        foreach($orderInfo as $key=>$vale){
-            foreach ($orderInfo[$key] as $k=>$v){
-                $id = $v['users_id'];
-                unset($orderInfo[$key][$k]);//去掉之前的数据
-                $orderInfo[$key][$id]=$v['users_id'];
-            }
-        }
-        return $orderInfo;
+        $con_where['business_id'] = $_SESSION['Admin']['business_id'];
+        $users_integral = M('users_integral');
+        $array = $users_integral->where($con_where)->select();//所有用户
+        return $array;
     }
+
+    /*
+     * 统计用户今日数量
+     * */
+    public function DayuserNum()
+    {
+        $consume_list = M('users_integral');
+        $dayTime = strtotime(date('Y-m-d'));//获取今天凌晨时间戳
+        $con_where['business_id'] = $this->business_id;
+        $where['users_integral_addtime'] = array('GT',$dayTime);
+        $array = $consume_list->where($where)->select();//所有用户
+        return $array;
+    }
+
     
     /*
      * 获取今日成交的总金额，实时更新
@@ -218,6 +221,14 @@ class AdminInfoController extends CommonController {
 
         }
 
+    }
+
+    /*
+     * 注册
+     * */
+    public function registerAdmin()
+    {
+        dump(I('post.'));
     }
 
 }

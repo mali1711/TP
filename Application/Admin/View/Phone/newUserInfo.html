@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息</title>
+    <link  rel="stylesheet"   type="text/css"  href="__PUBLIC__/Style/User/App/css/style3.css"/>
+    <!--引入vue.js-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <style>
+        ul{
+            margin-top: 150px;
+        }
+        ul li{
+            font-size: 50px;
+            margin-left: 150px;
+            list-style: none;
+            margin-top: 55px;
+        }
+        ul li span{
+            font-size: 45px;
+        }
+        .foot{
+            font-size: 50px;
+            margin-top: 300px;
+        }
+        .navinfo{
+            margin-top: 56px;
+            margin-left: 140px;
+        }
+        .newUser{
+            font-size: 80px;
+        }
+    </style>
+</head>
+<body>
+<form style="height: 1000px;"  action="__MODULE__/OrderUserList/OrdOrder" method="post" enctype="multipart/form-data">
+    <div id="top">
+        <div class="top_img"></div>
+        <a href="__MODULE__/AdminInfo/index">&lt;返回</a><b>详情</b>
+    </div>
+
+    <div id="san01"></div>
+    <div id="san02"></div>
+    <div class="navinfo">
+            <div class="newUser"><b>新增会员：{$num}</b></div>
+            <div class="newUser"><b>日期：{$list[0]['users_integral_addtime']|date="y-m-d",###}</b></div>
+        </div>
+    <ul>
+        <foreach name="list" item="vo">
+        <li>
+            <img width="130px" style="float: left" src="__PUBLIC__/Style/User/App/img/userimg1.png"/>
+            <div>
+                <b >会员账号：</b><span>{$vo.userDetail.users_phone}</span><br/>
+                <b >开通日期：</b><span>{$vo.userDetail.users_addtime}</span>
+            </div>
+        </li>
+        </foreach>
+    </ul>
+</form>
+</body>
+</html>

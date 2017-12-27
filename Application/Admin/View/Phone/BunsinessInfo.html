@@ -11,24 +11,29 @@
 			<div class="zhuangtailan"></div>
 			<div class="huike"><b>{$list.business_name}</b></div>
 			<div id="fen">
-				<p><b>{$list['dayProfit']}</b><br/>
+				<empty name="list.dayProfit">
+					<p><b>0￥</b><br/>
+					<else />
+					<p><b>{$list['dayProfit']}￥</b><br/>
+				</empty>
 				<span>今日交易额</span><p>
 			</div>
 		</div>
 		<div id="content01">
 			<a href="__MODULE__/OrderUserList/DayOrder"><div class="content01_icon01"><p><b>今日订单</b><br/>{$list['orderInfo']['dayOrder']['count']}笔<p></div></a>
-			<div class="content01_icon02"><p><b>会员信息</b><br/>{$list.userNumber.allOrder.count}人<p></div>
+			<a href="__MODULE__/OrderUserList/UserInfoDetail"><div class="content01_icon02"><p><b>会员信息</b><br/>{$list['ordNum']}人<p></div></a>
 		</div>
 		<div id="content02">
 			<a href="__MODULE__/OrderUserList/OrdOrder"><div class="content02_icon01"><p><b>往期订单</b><br/>{$list['orderInfo']['allOrder']['count']-$list['orderInfo']['dayOrder']['count']}笔<p></div></a>
-			<div class="content02_icon02"><p><b>新增会员</b><br/>{$list['userNumber']['allOrder']['count']-$list['userNumber']['dayOrder']['count']}人<p></div>
+			<a href="__MODULE__/OrderUserList/newUserInfo"><div class="content02_icon02"><p><b>新增会员</b><br/>{$list['newNum']}人<p></div></a>
 		</div>
 		<div class="san"></div>
 		<div id="banner01"></div>
 		<div class="san"></div>
 		<div id="banner02"></div>
 		<div class="san"></div>
-
+		<div id="banner01"></div>
+		<div class="san"></div>
 
 
 

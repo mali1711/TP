@@ -8,7 +8,7 @@ class IndexController extends Controller {
         parent::__construct();
     }
     
-    public function index($value='')
+    public function index()
     {
     	$this->display('Index/Index');
     }

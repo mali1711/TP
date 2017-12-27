@@ -11,7 +11,7 @@
 <form  action="__MODULE__/OrderUserList/OrdOrder" method="post" enctype="multipart/form-data">
     <div id="top">
         <div class="top_img"></div>
-        <a href="__MODULE__/AdminInfo/index">&lt;</a><b>往期订单</b>
+        <a href="__MODULE__/AdminInfo/index">&lt;返回</a><b>往期订单</b>
     </div>
 
     <div id="san01"></div>
@@ -31,7 +31,8 @@
     <foreach  name="list" item="vo">
         <tr>
             <td><img width="40px;" src="__PUBLIC__/Style/User/App/img/userimg1.png">会员:{$vo.users_phone}</td>
-            <td>实际付款{$vo.consume_money}，<br/>使用积分{$vo.consume_list_use_integral}</td>
+            <td>实际付款{$vo.consume_money}，<br/>使用积分{$vo.consume_list_use_integral}<br/>
+                总金额{$vo[consume_money]+$vo['consume_list_use_integral']}</td>
             <td>{$vo.consume_time|date="y-m-d",###}</td>
         </tr>
     </foreach>
