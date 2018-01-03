@@ -41,4 +41,50 @@ class BusinessController extends Controller {
         dump($list);
     }
 
+    /*
+     * 激活商家
+     * */
+    public function activation_bun()
+    {
+        $where = I('get.');
+        $data['business_status'] = 2;
+        $business = M('business');
+        $res = $business->where($where)->save($data);
+        if($res){
+            $this->success('成功被激活');
+        }else{
+            $this->error('操作失误');
+        }
+    }
+
+    /*
+     * 忽略切删除激活用户
+     * */
+    public function del_bun()
+    {
+        $id = I('get.business_id');
+        $business = M('business');
+        $res = $business->delete($id);
+        if($res){
+            $this->success('已经被成功忽略');
+        }else{
+            $this->error('操作失误');
+        }
+    }
+
+    /*
+     * 商家禁用
+     * */
+    public function disable()
+    {
+        $where = I('get.');
+        $data['business_status'] = 3;
+        $business = M('business');
+        $res = $business->where($where)->save($data);
+        if($res){
+            $this->success('商家已经被禁用');
+        }else{
+            $this->error('操作失误');
+        }
+    }
 }

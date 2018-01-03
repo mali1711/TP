@@ -25,6 +25,28 @@ class AdminInfoController extends CommonController {
     }
 
     /*
+     * 添加店铺以及完善店铺详情
+     * */
+    public function BunDetail()
+    {
+        //如果没有传修改的值的话，就查看
+        $business = M('business');
+        $id = $_SESSION['Admin']['business_id'];
+        $list = $business->find($id);
+        if(empty(I('post.'))){
+            $this->assign('list',$list);
+        }else{//执行修改
+            $res = $business->where('business_id='.$id)->save(I('post.'));
+            if($res){
+                $this->success('修改完成');
+                die;
+            }
+        }
+        $this->display('Index/BunDetail');
+
+    }
+    
+    /*
      * 手机登录页面
      * */
     public function iphonePage($list='')
@@ -210,7 +232,9 @@ class AdminInfoController extends CommonController {
         }else{
             $business = M('business');
             $_POST['business_pass'] = md5(md5($_POST['business_pass']));
+            $_POST['business_status'] = 2;
             $res = $business->where($_POST)->find();
+
             if($res){
                 $_SESSION['Admin'] = $res;
                 $this->success('登陆成功',U('Index/index'));
@@ -224,11 +248,61 @@ class AdminInfoController extends CommonController {
     }
 
     /*
+     * 获取当前分红比例
+     * */
+    public function bonusInfo()
+    {
+        $id = $_SESSION['Admin']['business_id'];
+        $business = M('business');
+        if(I('post.buniess_bonus')==''){
+            $list = $business->find($id );
+            $data = $list['buniess_bonus'];
+            $this->assign('data',$data);
+            $this->display('Index/bonusInfo');
+        }else{
+            $data = I('post.');
+            $where['business_id'] =  $id;
+            $res = $business->where($where)->save($data);
+            if($res){
+                $this->success('修改成功');
+            }else{
+                $this->error('修改失败');
+            }
+        }
+
+    }
+    
+    /*
      * 注册
      * */
     public function registerAdmin()
     {
-        dump(I('post.'));
+        $_POST['business_addtime'] = time();
+        if(I('post.business_pass') != I('post.agin_business_pass')){
+            $this->error('两次提交密码不一致');
+            die;
+        }
+        $_POST['business_pass'] = md5(md5($_POST['business_pass']));
+        $_POST[''] = I('get.id');
+        dump($_GET);
+        die();
+        $business = D('business');
+        $where1['business_account'] = I('post.business_account');
+        $where2['business_account'] = I('post.business_account');
+        $res1 = $business->where($where1)->find();
+        $res2 = $business->where($where2)->find();
+        if($res1 || $res2){
+            $this->error('您提交的数据已经存在');
+            die;
+        }
+
+        if($business->create()){
+        $result = $business->add(); // 写入数据到数据库
+        if($result){
+            // 如果主键是自动增长型 成功后返回值就是最新插入的值
+            $this->success('注册成功');
+        }
+    }
     }
 
 }

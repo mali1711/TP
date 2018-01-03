@@ -80,7 +80,6 @@ class BunsinessController extends Controller {
         $business_id = $_SESSION['user']['bus'];
         $money = I('post.money');
         //获取在本商家拥有的积分
-
         $integral = $this->getIntegral()['users_integral_num'];
         //获取可以使用的优惠券，
         $data = A('Coupons')->getCoupons(I('post.money/d'));

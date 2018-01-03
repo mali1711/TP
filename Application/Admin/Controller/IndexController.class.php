@@ -27,7 +27,10 @@ class IndexController extends Controller {
     public function BusinessShouYesterday()
     {
         //写入商家当天的获取收益信息
-        $bonus = 0.1;//商家默认分红
+        $business = M('business');
+        $id = $_SESSION['Admin']['business_id'];
+        $b = $business->find($id)['buniess_bonus'];
+        $bonus = $b/100;//商家默认分红
         $list = $this->UsersYesterdayIsConsumption($bonus);
         $b_turnover_in_the_day = M('b_turnover_in_the_day');
         $b_turnover_in_the_day->addAll($list);

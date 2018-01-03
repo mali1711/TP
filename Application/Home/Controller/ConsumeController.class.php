@@ -19,8 +19,9 @@ class ConsumeController extends Controller {
         //调用支付接口
         $Payment = A('WX/Payment');
         $operator_id = time();//本地的订单号
-        $amount = ($money/100)-$resCou-$inMon;/*支付的实际金额，比原来的小扫10000倍 并且去掉支付的积分和优惠券*/
-//        $amount = $money*100; //todo 打开就能变成真正的支付
+//        $amount = ($money-$resCou-$inMon)/100;/*支付的实际金额，比原来的小扫10000倍 并且去掉支付的积分和优惠券*/
+
+        $amount = ($money-$resCou-$inMon)*100; //todo 打开就能变成真正的支付
         $notify_url = '';//成功之后执行的回调
         $redirect_url = "http://www.sir6.cn/TP/index.php/Home/Consume/paymentSucess";//成功支付后跳转的地址
         $res =  $Payment->h5ZhiFu($amount=$amount,$operator_id=$operator_id,$notify_url,$redirect_url);
@@ -36,11 +37,14 @@ class ConsumeController extends Controller {
             $_SESSION['user']['payInfo']['consume_return_money'] = $money;//改返还的金额
             $_SESSION['user']['payInfo']['consume_time'] = time();//支付时间
             $_SESSION['user']['payInfo']['resCou'] = $resCou;//使用优惠券
-            $_SESSION['user']['payInfo']['resCou'] = $inMon;//使用的积分
-            $amount = 0;
-            echo sprintf("您好，您本次应该支付%s,积分抵用%s,实际支付",$money,$inMon,);
-            echo "<h1><a href=\"$payUrl\"> 请点击确认支付 </a></h1>>";
+            $_SESSION['user']['payInfo']['consume_list_use_integral'] = $inMon;//使用的积分
+            $list['money'] =$money;
+            $list['inMon'] =$inMon;
+            $list['url'] = $payUrl;
+            $this->assign('list',$list);
+            $this->display('Index/subMoney');
             die;
+
         }
     }
 

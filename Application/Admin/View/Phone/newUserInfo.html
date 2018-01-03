@@ -30,13 +30,59 @@
         .newUser{
             font-size: 80px;
         }
+        .head{
+            background-size:981px 514px;
+            background-image: url("__PUBLIC__/Style/User/App/img/nuwUserback.png");
+            background-repeat: no-repeat;
+            height: 514px;
+            color: white;
+        }
+        .head{
+            font-size: 30px;
+        }
+        ul{
+            margin-top: 80px;
+        }
+        ul li{
+            margin-top: 30px;
+            margin-left: 330px;
+        }
+        ul li span{
+            font-size: 30px;
+        }
+        a{
+            text-decoration:none;
+            color:white;
+        }
     </style>
 </head>
 <body>
+<div class="head">
+    <div style="font-size: 50px;line-height: 200px"><a href="__MODULE__/AdminInfo/index">&lt;</a></div>
+    <ul>
+        <li>新增会员：<div style="font-size: 70px; margin-right: 320px; float: right">{$num}</div></li>
+        <li>日期：{$list[0]['users_integral_addtime']|date="y-m-d",###}</li>
+    </ul>
+</div>
+<div class="userList">
+    <ul style="margin-left: -10%;">
+        <foreach name="list" item="vo">
+        <li>
+            <img src="__PUBLIC__/Style/User/App/img/newuser2.png" width="100px;">
+            <div style="margin-left: 140px; margin-top: -160px;font-size: 65px;">
+                <span style="margin-top:10px;">会员：{$vo.userDetail.users_phone}</span><br/>
+                <span style="color: #d3d3d3">日期：{$vo.userDetail.users_addtime}</span>
+            </div>
+
+        </li>
+        </foreach>
+    </ul>
+</div>
+<!--
 <form style="height: 1000px;"  action="__MODULE__/OrderUserList/OrdOrder" method="post" enctype="multipart/form-data">
     <div id="top">
         <div class="top_img"></div>
-        <a href="__MODULE__/AdminInfo/index">&lt;返回</a><b>详情</b>
+        <a href="__MODULE__/AdminInfo/index">&lt;返回</a><b style="margin-left: 30%">详情</b>
     </div>
 
     <div id="san01"></div>
@@ -57,5 +103,9 @@
         </foreach>
     </ul>
 </form>
+
+-->
+
+
 </body>
 </html>

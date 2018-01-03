@@ -35,7 +35,13 @@ class UsersController extends Controller {
         $list['users_integral_total_amount']= $users_integral->where($where)->sum("users_integral_num");
         $list['userDetail'] = M('users')->find($where['users_id']);
         $this->userinfo = $list;
+        //调用微信的Jssdk
         $wxInfo = A('WX/Jssdk')->getSignPackage();
+        //获取广告内容
+        $where['agent_id'] = $_SESSION['user']['agent'];
+        $where['adve_status'] = 4;
+        $adve = M('adve')->where($where)->find();
+        $this->assign('adve',$adve);
         $this->assign('wxInfo',$wxInfo);
         $this->assign('list',$list);
         $this->display('Index/personal');

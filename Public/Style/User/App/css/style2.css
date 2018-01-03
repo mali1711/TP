@@ -40,7 +40,7 @@
 			background:url(../img/saoyisao.png)  no-repeat center top;
 	}
 	.icon02 {
-			background:url(../img/fukuanma2.jpg)  no-repeat center top;
+			background:url(../img/shouYinTai.png)  no-repeat center top;
 	}
 	.icon03 {
 			background:url(../img/kajuan.png)  no-repeat center top;
@@ -52,7 +52,7 @@
 			width:100%; height:104px; margin:26px 0px 24px 0px;
 	}
 	.jifen01 {
-		float:left;width:49.8%; height:104px; border-right:2px solid  #f2f2f2;background:url(../img/jifen1.jpg) no-repeat 100px center;
+		float:left;width:49.8%; height:104px; border-right:2px solid  #f2f2f2;background:url(../img/waiMai.png) no-repeat 100px center;
 	}
 	.jifen02{
 		float:left; width:49.8%; height:104px;border-right:1px solid  #f2f2f2; background:url(../img/shangcheng.png) no-repeat 100px center;

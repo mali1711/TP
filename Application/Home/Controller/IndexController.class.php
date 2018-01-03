@@ -10,7 +10,13 @@ class IndexController extends Controller {
     
     public function index()
     {
-    	$this->display('Index/Index');
+        $business = M('business');
+        $where['business_status'] = 1;
+        $where2['business_status'] = 2;
+    	$list['data1'] =  $business->where($where)->select();
+        $list['data2'] =  $business->where($where2)->select();
+        $this->assign('list',$list);
+        $this->display('Index/Index');
     }
 
     /*

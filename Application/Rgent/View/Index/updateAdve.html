@@ -1,0 +1,139 @@
+<extend name="Layout:Index" />
+<block name='content'>
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="#">Home</a>
+                </li>
+
+                <li>
+                    <a href="#">Forms</a>
+                </li>
+                <li class="active">代理商操作</li>
+            </ul><!-- .breadcrumb -->
+
+            <div class="nav-search" id="nav-search">
+                <form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<i class="icon-search nav-search-icon"></i>
+								</span>
+                </form>
+            </div><!-- #nav-search -->
+        </div>
+
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    代理商广告
+                    <small>
+                        <i class="icon-double-angle-right"></i>
+                        修改代理商广告位置
+                    </small>
+                </h1>
+            </div><!-- /.page-header -->
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+
+                    <form action="__MODULE__/Index/updateAdve" method="post" enctype="multipart/form-data" class="form-horizontal" role="form">
+    <!--                    <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 广告图片 </label>
+
+                            <div class="col-sm-9">
+                                <input type="file" id="form-field-1" name="photo[]"class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+                        <div class="space-4"></div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right"  for="form-field-6">广告名</label>
+
+                            <div class="col-sm-9">
+                                <input data-rel="tooltip" type="text" name="adve_name" id="form-field-6" placeholder="广告名" value=""  data-placement="bottom" />
+                                <span class="help-button" data-rel="popover" data-trigger="hover" data-placement="left" data-content="More details." title="Popover on hover">?</span>
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right"  for="form-field-5">跳转地址</label>
+
+                            <div class="col-sm-9">
+                                <input data-rel="tooltip" type="text" name="adve_url" id="form-field-5" placeholder="跳转地址" value="" data-placement="bottom" />
+                                <span class="help-button" data-rel="popover" data-trigger="hover" data-placement="left" data-content="More details." title="Popover on hover">?</span>
+                            </div>
+                        </div>-->
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right"  for="form-field-5">广告位置</label>
+                            <input type="hidden" name="adve_id" value="{$list.adve_id}" />
+                            <div class="col-sm-9">
+                                <select name="adve_status">
+                                    <option value="0">选择广告的位置,默认为普通广告</option>
+                                    <option  <?php if($list['adve_status']==4) {echo 'selected=selecteds';}?> value="4">工位广告</option>
+                               </select>
+                          </div>
+                        </div>
+                        <div class="space-4"></div>
+
+
+                        <div class="space-4"></div>
+                        <div class="clearfix form-actions">
+                            <div class="col-md-offset-3 col-md-9">
+                                <button class="btn btn-info" type="submit">
+                                    <i class="icon-ok bigger-110"></i>
+                                    提交
+                                </button>
+
+                                &nbsp; &nbsp; &nbsp;
+                                <button class="btn" type="reset">
+                                    <i class="icon-undo bigger-110"></i>
+                                    重置
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="hr hr-24"></div>
+
+
+
+
+
+                    </form>
+
+
+                    <div id="modal-form" class="modal" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="blue bigger">Please fill the following form fields</h4>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button class="btn btn-sm" data-dismiss="modal">
+                                        <i class="icon-remove"></i>
+                                        Cancel
+                                    </button>
+
+                                    <button class="btn btn-sm btn-primary">
+                                        <i class="icon-ok"></i>
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- PAGE CONTENT ENDS -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
+</block>
+</extend>

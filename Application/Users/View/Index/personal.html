@@ -17,10 +17,19 @@
 		.yuan{
 			border-radius:5px;
 			margin-top: 2%;
-			margin-left: 8%;;
+			margin-left: 8%;
 			position: absolute;
 			float: left;
 			width:100px; height:100px; border-radius:100%; overflow:hidden;
+		}
+		.sett{
+			margin-left: 50px;
+			position: absolute;
+			margin-top: -60px;
+		}
+		.waimai{
+			margin-left: 87px;
+			margin-bottom: 30px;
 		}
 
 	</style>
@@ -30,6 +39,10 @@
 	<div class="zhuangtailan"></div>
 	<div class="huike"><i><b style="font-size: 55px;">汇客会员</b></i></div>
 	<div class="head">
+		<div class="sett">
+			<img style="margin-left: -30px;margin-top: 40px;" width="90px;" src="__PUBLIC__/Style/User/App/img/sheZhi.png">
+		</div>
+
 		<div class="yuan">
 
 			<notempty name="list['userDetail']['users_pic']">
@@ -43,12 +56,13 @@
 	</div>
 	<div class="icon">
 		<div id="scanQRCode1" class="icon01"><h6 class="fontS34">扫一扫</h6></div>
-		<!--		<div class="icon01"><h6><input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput" class="sign_file"/></h6></div>-->	<a href="__MODULE__/Index/payment"><div class="icon02"><h6 class="fontS34">收银台</h6></div></a>
+		<!--		<div class="icon01"><h6><input type="file" capture="camera" accept="image/*" id="cameraInput" name="cameraInput" class="sign_file"/></h6></div>-->	<a href="__MODULE__/Index/payment"><div  style="margin-top: -20px;" class="icon02"><h6 class="fontS34" style="margin-top: 105px;">收银台</h6></div></a>
 		<a href="__MODULE__/Coupons/index"><div class="icon03"><h6 class="fontS34">卡劵</h6></div></a>
 	</div>
 </div>
-<div  id="jifen">
-	<a href="__MODULE__/Index/BunsinessList"><div class="jifen01"><p class="fontS34">积分<p>今日签到5分</span></div></a>
+<div  id="jifen"
+	<a href="__MODULE__/Index/BunsinessList"><div class="jifen01"><div class="waimai" style="margin-top: 1px;margin-left: 65px;"><p class="fontS34">外卖</p>
+		<span style="margin-top: 11px;position: absolute" class="fontS32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今日签到5积分</span></div></div></a>
 	<a href="__MODULE__/Bunsiness/goodslist"><div class="jifen02"><p class="fontS34">积分商城<p><span class="fontS32">好货等你来抢</span></div></a>
 </div>
 <div id="san01"></div>
@@ -61,7 +75,7 @@
 	<a href="__MODULE__/Users/incomeDetail">分红中<br/><span class="data03">{$list.consume_return_money_total}</span></a>
 </div>
 <div id="san02"></div>
-<div id="banner"></div>
+<a href="{$adve.adve_url}"><img width="100%" src="__ROOT__/Uploads/{$adve.adve_pic}"></a>
 <div id="foot">技术支持汇客会员</div>
 <script>
 

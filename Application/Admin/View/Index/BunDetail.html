@@ -1,0 +1,120 @@
+<extend name="Layout:Index" />
+<block name='content'>
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="#">汇客</a>
+                </li>
+
+                <li>
+                    <a href="#">商家后台</a>
+                </li>
+                <li class="active">完善商家详情</li>
+            </ul><!-- .breadcrumb -->
+
+            <div class="nav-search" id="nav-search">
+                <form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<i class="icon-search nav-search-icon"></i>
+								</span>
+                </form>
+            </div><!-- #nav-search -->
+        </div>
+
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    商家详情
+                    <small>
+                        <i class="icon-double-angle-right"></i>
+                        查看修改商家详情信息
+                    </small>
+                </h1>
+            </div><!-- /.page-header -->
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+
+                    <form action="__MODULE__/AdminInfo/BunDetail" class="form-horizontal" method="post" role="form">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 商家名称 </label>
+
+                            <div class="col-sm-9">
+                                <input type="text" name="business_name" value="{$list.business_name}" id="form-field-1" placeholder="商家名称" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-2"> 商家标题 </label>
+
+                            <div class="col-sm-9">
+                                <input type="text" id="form-field-2" name="business_title" value="{$list.business_title}" placeholder="商家标题" class="col-xs-10 col-sm-5" />
+                            </div>
+                        </div>
+
+                        <div class="space-4"></div>
+
+                        <div class="space-4"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-4">手机</label>
+
+                            <div class="col-sm-9">
+                                <input class="input-sm" name="business_email" value="{$list.business_phone}" type="text" id="form-field-4" placeholder="手机" />
+                                <div class="space-2"></div>
+
+                                <div class="help-block" id="input-size-slider"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-4">邮箱</label>
+
+                            <div class="col-sm-9">
+                                <input class="input-sm" name="business_email" value="{$list.business_email}" type="text" id="form-field-4" placeholder="邮箱" />
+                                <div class="space-2"></div>
+
+                                <div class="help-block" id="input-size-slider"></div>
+                            </div>
+                        </div>
+                        <div class="space-4"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-tags">商家地址</label>
+
+                            <div class="col-sm-9">
+                                <textarea name="business_address" id="form-field-tags"> {$list.business_address} </textarea>
+                            </div>
+                        </div>
+
+                        <div class="clearfix form-actions">
+                            <div class="col-md-offset-3 col-md-9">
+                                <button class="btn btn-info" type="Submit">
+                                    <i class="icon-ok bigger-110"></i>
+                                    确认修改
+                                </button>
+
+                                &nbsp; &nbsp; &nbsp;
+                                <button class="btn" type="reset">
+                                    <i class="icon-undo bigger-110"></i>
+                                    撤销
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+               </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
+</block>
+</extend>

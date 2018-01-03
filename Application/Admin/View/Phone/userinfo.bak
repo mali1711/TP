@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>用户信息</title>
+    <link  rel="stylesheet"   type="text/css"  href="__PUBLIC__/Style/User/App/css/style3.css"/>
+    <!--引入vue.js-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <style>
+        ul{
+            margin-top: 150px;
+        }
+        ul li{
+            font-size: 50px;
+            margin-left: 150px;
+            margin-top: 50px;
+            list-style: none;
+        }
+        ul li span{
+            font-size: 45px;
+        }
+        .foot{
+            font-size: 50px;
+            margin-top: 300px;
+        }
+    </style>
+</head>
+<body>
+<form style="height: 1000px;"  action="__MODULE__/OrderUserList/UserInfoDetail" method="post" enctype="multipart/form-data">
+    <div id="top">
+        <div class="top_img"></div>
+        <a href="__MODULE__/AdminInfo/index">&lt;返回</a><b>详情</b>
+    </div>
+
+    <div id="san01"></div>
+    <div id="san02"></div>
+    <div><b style="font-size: 50px">会员号：</b><input class="tiaojian" value="" type="text" name="users_phone" style="width:60%;height:92px;font-size:50px;border-color: #0000cc"/>
+        <input type="submit" value="搜索"  style="width:15%;height:92px;color: white;font-size:50px;background-color: #0000cc"></div>
+    <ul>
+        <li><b >会员账号：</b><span>{$list.users_phone}</span></li>
+        <li><b >开通日期：</b><span>{$list.users_addtime}</span></li>
+        <li><b >近期消费日期：</b><span>{$list.detailCon.consume_time|date="y-m-d",### }</span></li>
+        <li><b >消费总金额：</b><span>{$list.con.users_integral_total_amount}</span></li>
+        <li><b >总抵用分红：</b><span>0</span></li>
+        <li><b >总分红金额：</b><span>{$list.con.users_integral_num}</span></li>
+    </ul>
+    <center>
+        <div class="foot">
+            <span><img width="60px" src="__PUBLIC__/Style/User/App/img/userimg1.png"/><b>今日新增会员:</b><small>{$list.newNum}</small></span>
+            <span><img width="60px"src="__PUBLIC__/Style/User/App/img/userimgs.png"/><b>会员总数:</b><small>{$list.ordNum}</small></span></div>
+    </center>
+</form>
+</body>
+</html>

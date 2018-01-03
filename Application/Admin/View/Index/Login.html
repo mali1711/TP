@@ -188,31 +188,56 @@
 											<p> 请输入你的详情信息 </p>
 
 											<form action="__MODULE__/AdminInfo/registerAdmin" method="post">
+												<input name="agent_id" type="hidden" value="<?php echo $_GET['id'];?>" />
 												<fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="email" name="admin_email" class="form-control" placeholder="邮箱" />
+															<input type="email" name="business_email" class="business_email" placeholder="邮箱" />
 															<i class="icon-envelope"></i>
 														</span>
 													</label>
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="text" name="admin_name" class="form-control" placeholder="账号" />
+															<input type="text" name="business_account" class="form-control" placeholder="账号" />
 															<i class="icon-user"></i>
 														</span>
 													</label>
-
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="password" name="admin_password" class="form-control" placeholder="密码" />
+															<input type="text" name="business_name" class="form-control" placeholder="商户名称" />
+														</span>
+													</label>
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" name="business_addtime" class="form-control" placeholder="地址" />
+														</span>
+													</label>
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" name="business_industry" class="form-control" placeholder="所属行业" />
+														</span>
+													</label>
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" name="business_true_name" class="form-control" placeholder="运营者姓名" />
+														</span>
+													</label>
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="text" name="business_phone" class="form-control" placeholder="联系方式" />
+														</span>
+													</label>
+													<label class="block clearfix">
+														<span class="block input-icon input-icon-right">
+															<input type="password" name="business_pass" class="form-control" placeholder="密码" />
 															<i class="icon-lock"></i>
 														</span>
 													</label>
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="password" name="agin_admin_password" class="form-control" placeholder="再次输入密码" />
+															<input type="password" name="agin_business_pass" class="form-control" placeholder="再次输入密码" />
 															<i class="icon-retweet"></i>
 														</span>
 													</label>
