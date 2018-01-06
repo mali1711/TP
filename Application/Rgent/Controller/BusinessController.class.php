@@ -44,7 +44,7 @@ class BusinessController extends Controller {
     {
         $business = M('business');
         $list = $business->find($_GET['id']);
-        $this->display('Index/');
+        $this->display('Index/businessDetailInfo');
     }
 
     /*
