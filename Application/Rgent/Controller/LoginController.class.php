@@ -14,6 +14,7 @@ class LoginController extends Controller
 
         if(empty(I('post.'))){
             $this->display('Index/Login');
+            die;
         }else{
             $agent = M('agent');
             $where['agent_email'] = I('post.agent_email');

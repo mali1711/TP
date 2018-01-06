@@ -41,6 +41,7 @@ class ConsumeController extends Controller {
             $list['money'] =$money;
             $list['inMon'] =$inMon;
             $list['url'] = $payUrl;
+            $list['adve'] = $this->adveList();
             $this->assign('list',$list);
             $this->display('Index/subMoney');
             die;
@@ -87,4 +88,14 @@ class ConsumeController extends Controller {
     }
 
 
+    /*
+     * 推送广告
+     * */
+    public function adveList()
+    {
+        $business_id = $_SESSION['user']['bus'];
+        $list = M('adve')->where("adve_status=1 or adve_status=2 or adve_status=3 and business_id=$business_id")->select();
+        return $list;
+    }
+    
 }

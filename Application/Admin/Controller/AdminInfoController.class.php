@@ -280,12 +280,11 @@ class AdminInfoController extends CommonController {
         $_POST['business_addtime'] = time();
         if(I('post.business_pass') != I('post.agin_business_pass')){
             $this->error('两次提交密码不一致');
-            die;
+
         }
         $_POST['business_pass'] = md5(md5($_POST['business_pass']));
         $_POST[''] = I('get.id');
-        dump($_GET);
-        die();
+
         $business = D('business');
         $where1['business_account'] = I('post.business_account');
         $where2['business_account'] = I('post.business_account');

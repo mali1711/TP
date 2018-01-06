@@ -14,6 +14,10 @@ class BusinessController extends Controller {
     public function getBusinessList()
     {
         $business = M('business'); // 实例化User对象$User = M('User'); // 实例化User对象
+        if(!empty(I('post.business_account'))){
+
+        }
+
         $where['agent_id'] = $_SESSION['Rgent']['agent_id'];
         $count      = $business->where($where)->count();// 查询满足要求的总记录数
         $Page       = new \Think\Page($count,15);// 实例化分页类 传入总记录数和每页显示的记录数(25)
@@ -40,7 +44,7 @@ class BusinessController extends Controller {
     {
         $business = M('business');
         $list = $business->find($_GET['id']);
-        dump($list);
+        $this->display('Index/');
     }
 
     /*

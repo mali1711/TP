@@ -40,6 +40,10 @@
         </center>
     </div>
     <input class="sub" style=" background-color: #009DFF; color: white; width: 200px;height: 100px; font-size: 40px;margin-left: 38%" type="submit" value="确认支付" >
+    <div id="san02"></div>
+    <foreach name="list.adve" item="vo">
+        <a href="{$vo['adve_url']}"><img width="100%" src="__ROOT__/Uploads{$vo['adve_pic']}"></a>
+    </foreach>
 </form>
 
 <script type="text/javascript">

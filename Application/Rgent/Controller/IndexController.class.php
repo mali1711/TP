@@ -17,7 +17,7 @@ class IndexController extends Controller
      * */
     public function index()
     {
-
+        $this->adveList();
     }
 
     /*
@@ -86,16 +86,9 @@ class IndexController extends Controller
     {
         $id = $_GET['id'];
         $pic =  M('adve')->find($id)['adve_pic'];
-        $imgurl = __ROOT__.'/Uploads'.$pic;
-        $aa = unlink($imgurl);
-        echo $imgurl;
-        echo 11;
-        dump($aa);
-        die;
         $res = M('adve')->delete($id);
         if($res){
-        $aa = unlink('/Uploads/'.$pic);
-        dump($aa);
+         @unlink('./Uploads/'.$pic);
          $this->success('删除成功');
 
         }else{
