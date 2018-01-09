@@ -145,7 +145,8 @@ class IndexController extends Controller {
     {
         //获取店铺所有的用户
         $consume_list = M('consume_list');
-        $alluser = $consume_list->select();
+        $where['consume_return_money'] = array('GT',0);//所有返还积分大于0单子
+        $alluser = $consume_list->where($where)->select();
         //获取店铺总收益
         $allBun = M('business_info')->select();
         foreach ($allBun as $k=>$v){
