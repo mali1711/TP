@@ -14,16 +14,15 @@ class BusinessController extends Controller {
     public function getBusinessList()
     {
         $business = M('business'); // 实例化User对象$User = M('User'); // 实例化User对象
-        if(!empty(I('post.business_account'))){
-
-        }
-
         $where['agent_id'] = $_SESSION['Rgent']['agent_id'];
+        if(I('post.business_account')!='' || empty(I('post.business_account'))){
+            $where['business_account']  = array('like',I('post.business_account') );
+        }
         $count      = $business->where($where)->count();// 查询满足要求的总记录数
         $Page       = new \Think\Page($count,15);// 实例化分页类 传入总记录数和每页显示的记录数(25)
         $show       = $Page->show();// 分页显示输出
         $list['url'] = $_SERVER['SERVER_NAME'].__ROOT__.'/Admin/AdminInfo/login/'.'id/'.$_SESSION['Rgent']['agent_id'];
-        $list['data1'] = $business->where($where)->limit($Page->firstRow.','.$Page->listRows)->select();
+        $list['data1'] = $business->where($where)->limit($Page->firstRow.','. $Page->listRows)->select();
         $this->assign('list',$list);// 赋值数据集
         $this->assign('page',$show);// 赋值分页输出
         $this->display('Index/businessList');
@@ -43,7 +42,10 @@ class BusinessController extends Controller {
     public function getBusinessDetailInfo()
     {
         $business = M('business');
-        $list = $business->find($_GET['id']);
+        $list = $business->find(I('get.id'));
+        $where['business_id'] = I('get.id');
+        $list['userCount'] = M('users_integral')->where($where)->count();//统计用户数量
+        $this->assign('list',$list);
         $this->display('Index/businessDetailInfo');
     }
 

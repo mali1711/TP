@@ -28,8 +28,11 @@ class UsersController extends Controller {
      * */
     public function getUserInfo()
     {
-        $id = $_GET['id'];
-        $list = M('users')->find($id);
-        dump($list);
+        $where['users_id'] = I('get.id');
+        $list['users_integral_num'] = M('users_integral')->where($where)->sum('users_integral_num');//总积分
+        $list['users_integral_total_amount'] = M('users_integral')->where($where)->sum('users_integral_total_amount');//总消费金额
+        $list['consume_list_use_integral'] = M('consume_list')->where($where)->sum('consume_list_use_integral');//已使用积分
+        $this->assign('list',$list);
+        $this->display('Index/UserDetaulInfo');
     }
 }

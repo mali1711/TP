@@ -20,13 +20,13 @@
         <div class="page-content">
             <div class="page-header">
                 <h1>
-                    商家详情
+                    用户详情信息
                 </h1>
             </div><!-- /.page-header -->
 
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="row">
+<!--                    <div class="row">
                         <div class="col-xs-12">
                             <div class="widget-box">
                                 <div class="widget-header widget-header-flat">
@@ -40,7 +40,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                     <!-- PAGE CONTENT BEGINS -->
                     <div class="row">
                         <div class="col-xs-12">
@@ -52,19 +52,12 @@
                                 <div class="widget-body">
                                     <div class="widget-main">
                                         <dl id="dt-list-1" class="dl-horizontal">
-                                            <dt>商家登录账号</dt>
-                                            <dd>{$list.business_account}</dd>
-                                            <dt>类型</dt>
-                                            <dd>{$list.business_industry}</dd>
-                                            <dt>商家地址</dt>
-                                            <dd>{$list.business_address}</dd>
-                                            <dt>联系方式</dt>
-                                            <dd>{$list.business_phone}</dd>
-                                            <dt>开通日期</dt>
-                                            <dd>{$list.business_addtime|date="y-m-d",###}</dd>
-                                            <dt>商家会员总数量</dt>
-                                            <dd>{$list.userCount}</dd>
-
+                                            <dt>用户消费总金额</dt>
+                                            <dd>{$list.users_integral_total_amount}</dd>
+                                            <dt>用户拥有积分</dt>
+                                            <dd>{$list.users_integral_num}</dd>
+                                            <dt>用户已使用积分</dt>
+                                            <dd>{$list.consume_list_use_integral}</dd>
                                         </dl>
                                     </div>
                                 </div>

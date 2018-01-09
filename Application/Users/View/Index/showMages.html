@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+    <link  rel="stylesheet"   type="text/css"  href="__PUBLIC__/Style/User/App/css/style7.css"/>
+    <!--引入vue.js-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+<div id="bod">
+    <div id="top">
+        <div class="zhuangtailan"></div>
+        <div class="huike" onclick="javascript:history.back(-1);"><b>最新消息</b></div>
+    </div>
+    <div id="content">
+        <div class="content01"><b>消息列表</b></div>
+
+        <foreach name="list" item="vo">
+            <div class="content02">
+                <div class="content02_02">
+                    <div class="content_text"><p><b>{$vo.mail_title}</b><br/></p><span>{$vo.mail_content}</span></div>
+                    <span style="font-size: 30px;margin-left: 0px;margin-bottom: 10px;">时间：{$vo.mail_addtime|date="Y-m-d H:i:s",###}</span>
+                    <!--<div class="content_push" style="margin-top: 45px;"><a style="text-decoration: none;color: #ffffff" href="__MODULE__/Bunsiness/BuyGoods/id/{$vo.bun_goods_id}">查看详情</a></div>-->
+                </div>
+            </div>
+        </foreach>
+    </div>
+</body>
+
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 30 * (clientWidth / 320) + 'px';
+                };
+
+        // Abort if browser does not support addEventListener
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+</html>

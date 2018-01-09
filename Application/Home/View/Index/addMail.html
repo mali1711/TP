@@ -1,0 +1,80 @@
+<extend name="Layout:Index" />
+<block name='content'>
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+
+        </div>
+
+        <div class="page-content">
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+
+                    <form action="__MODULE__/Mail/addMail" method="post" class="form-horizontal" role="form">
+
+
+                        <div class="hr hr-24"></div>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12">
+                                <div class="widget-box">
+                                    <div class="widget-header">
+                                        <h4>添加公告信息</h4>
+
+                                        <div class="widget-toolbar">
+                                            <a href="#" data-action="collapse">
+                                                <i class="icon-chevron-up"></i>
+                                            </a>
+
+                                            <a href="#" data-action="close">
+                                                <i class="icon-remove"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="widget-body">
+                                        <div class="widget-main">
+                                            <div>
+                                                <label for="form-field-10">标题</label>
+
+                                                <input type="text"  name="mail_title" id="form-field-10" class="autosize-transition form-control" />
+                                            </div>
+
+
+                                            <hr />
+                                            <div>
+                                                <label for="form-field-11">公告内容</label>
+
+                                                <textarea name="mail_content" id="form-field-11" class="autosize-transition form-control"></textarea>
+                                            </div>
+                                            <div class="clearfix form-actions">
+                                                <div class="col-md-offset-3 col-md-9">
+                                                    <button class="btn btn-info" type="submit">
+                                                        <i class="icon-ok bigger-110"></i>
+                                                        确认
+                                                    </button>
+
+                                                    &nbsp; &nbsp; &nbsp;
+                                                    <button class="btn" type="reset">
+                                                        <i class="icon-undo bigger-110"></i>
+                                                        取消
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- /span -->
+
+                    </form>
+              </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
+</block>
+</extend>

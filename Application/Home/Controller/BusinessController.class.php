@@ -6,6 +6,10 @@ class BusinessController extends Controller {
     public function __construct()
     {
         parent::__construct();
+        if(empty($_SESSION['Admin'])){
+            A('Login')->login();
+            die;
+        }
     }
 
     /*
@@ -37,8 +41,11 @@ class BusinessController extends Controller {
     public function getBusinessDetailInfo()
     {
         $business = M('business');
-        $list = $business->find($_GET['id']);
-        dump($list);
+        $list = $business->find(I('get.id'));
+        $where['business_id'] = I('get.id');
+        $list['userCount'] = M('users_integral')->where($where)->count();//统计用户数量
+        $this->assign('list',$list);
+        $this->display('Index/businessDetailInfo');
     }
 
     /*

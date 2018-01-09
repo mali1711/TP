@@ -6,6 +6,10 @@ class IndexController extends Controller {
     public function __construct()
     {
         parent::__construct();
+        if(empty($_SESSION['Home'])){
+            A('Login')->login('Index/Index');
+            die;
+        }
     }
     
     public function index()
@@ -16,26 +20,8 @@ class IndexController extends Controller {
         $this->display('Index/Index');
     }
 
-    /*
-     * 跳转到登陆页
-     * */
-    public function login($value='')
-    {
-        if(empty($_POST)){
-            $this->display('Index/Login');
-        }else{
-            $admin = M('admin');
-            $_POST['admin_password'] = md5(md5($_POST['admin_password']));
-            $res = $admin->where($_POST)->find();
-            if($res){
-                $_SESSION['admin'] = $res;
-                $this->index();
-            }else{
-                $this->error('您输入有误',U('Index/Login'));
-            }
-        }
 
-    }
+
 /*
  *积分生成
  *用户id，商家id，具体消费金额

@@ -38,7 +38,20 @@
                     </small>
                 </h1>
             </div><!-- /.page-header -->
+            <form action="__MODULE__/Business/getBusinessList" method="post">
+                <!-- <legend>Form</legend> -->
 
+                <fieldset>
+                    <label>商家登录账号</label>
+
+                    <input type="text"  name="business_account" placeholder="填写商家登录账号">
+                    <button type="submit" class="btn btn-sm btn-success">
+                        确认查找
+                        <i class="icon-arrow-right icon-on-right bigger-110"></i>
+                    </button>
+                </fieldset>
+
+            </form>
             <div class="row">
                 <div class="col-xs-12">
                     <!-- PAGE CONTENT BEGINS -->
