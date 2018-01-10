@@ -1,0 +1,107 @@
+<extend name="Layout:Index" />
+<block name='content'>
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+
+            <div class="nav-search" id="nav-search">
+                <form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<i class="icon-search nav-search-icon"></i>
+								</span>
+                </form>
+            </div><!-- #nav-search -->
+        </div>
+
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    代理商支付凭证
+                </h1>
+            </div><!-- /.page-header -->
+
+            <div class="row">
+                <div class="col-xs-12">
+                   <!-- <div class="row">
+                        <div class="col-xs-12">
+                            <div class="widget-box">
+                                <div class="widget-header widget-header-flat">
+                                    <h4 class="smaller">商家上传证件</h4>
+                                </div>
+
+                                <div class="widget-body">
+                                    <div class="widget-main">
+                                        <h3 class="header-color-orange">商家暂时没有上传证件</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!-- PAGE CONTENT BEGINS -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                           <!-- <div class="widget-box">
+                                <div class="widget-header widget-header-flat">
+                                    <h4 class="smaller">基本详情</h4>
+                                </div>
+
+                                <div class="widget-body">
+                                    <div class="widget-main">
+                                        <dl id="dt-list-1" class="dl-horizontal">
+                                            <dt>商家登录账号</dt>
+                                            <dd>{$list.business_account}</dd>
+                                            <dt>类型</dt>
+                                            <dd>{$list.business_industry}</dd>
+                                            <dt>商家地址</dt>
+                                            <dd>{$list.business_address}</dd>
+                                            <dt>联系方式</dt>
+                                            <dd>{$list.business_phone}</dd>
+                                            <dt>开通日期</dt>
+                                            <dd>{$list.business_addtime|date="y-m-d",###}</dd>
+                                            <dt>商家会员总数量</dt>
+                                            <dd>{$list.userCount}</dd>
+
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>-->
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="widget-box">
+                                        <div class="widget-header widget-header-flat">
+                                            <h4 class="smaller">添加商家收银员id：<b>operator_id</b></b></h4>
+                                        </div>
+
+                                        <div class="widget-body">
+                                            <div class="widget-main">
+                                                <form action="__MODULE__/Agent/addKeyApp" method="post">
+                                                    <!-- <legend>Form</legend> -->
+                                                    <input type="hidden" name="agent_id" value="<?php echo $_GET['agent_id'];?>">
+                                                    <fieldset>
+                                                        &nbsp;&nbsp;&nbsp;app<input type="text" class="col-xs-3"  name="app" placeholder="{$list.app}"><br/><br/><br/>
+                                                        &nbsp;&nbsp;&nbsp;key<input type="text" class="col-xs-5"  name="key" placeholder="{$list.key}"><br/><br/><br/>
+                                                        <button style="margin-left: 30px;margin-top: -2px;" type="submit" class="btn btn-sm btn-success">
+                                                            确认添加
+                                                            <i class="icon-arrow-right icon-on-right bigger-110"></i>
+                                                        </button>
+                                                    </fieldset>
+
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PAGE CONTENT ENDS -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
+</block>
+</extend>

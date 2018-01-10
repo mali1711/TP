@@ -69,6 +69,26 @@ class AgentController extends Controller {
             $this->success('操作成功');
         }
     }
+    
+    /*
+     * 添加key 和 app
+     * */
+    public function addKeyApp()
+    {
+        if(empty(I('post.'))){
+            $list =  M('agent')->field('app,key')->find(I('get.agent_id'));
+            $this->assign('list',$list);
+            $this->display('Index/addKeyApp');
+        }else{
+            $where['agent_id'] = I('post.agent_id');
+            $data['app']= I('post.app');
+            $data['key']= I('post.key');
+            $res = M('agent')->where($where)->save($data);
+            if($res){
+                $this->success('添加成功');
+            }
+        }
+    }
 
     private function __uploadFile()
     {
