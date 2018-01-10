@@ -1,7 +1,7 @@
 <?php
 return array(
-	//'配置项'=>'配置值'
-    
+    //'配置项'=>'配置值'
+
     // 支付配置文件
     'PAPMENT'   =>	array(
         'operator_id'=>'ccaaad2ba1f2a6baccb986d0a748dbb9',//收银员id

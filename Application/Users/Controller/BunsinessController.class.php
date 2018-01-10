@@ -35,8 +35,8 @@ class BunsinessController extends Controller {
         $red = $b_turnover_in_the_day->where("b_turnover_in_the_day_time < $timeEnd and b_turnover_in_the_day_time > $timeStart")->select();
         echo $b_turnover_in_the_day->getLastSql();
         echo '<hr/>';
-        dump($red);
-        die;
+//        dump($red);
+//        die;
         $this->assign('list',$list);
         $this->display('Index/BunsinessInfo');
     }
