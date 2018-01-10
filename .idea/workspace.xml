@@ -5,7 +5,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/΢��ͼƬ_20171225195337.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php" afterPath="$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/View/Index/showShareDetail.html" afterPath="$PROJECT_DIR$/Application/Users/View/Index/showShareDetail.html" />
     </list>
     <ignored path="TP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ShareController.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShareController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="486">
+              <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -56,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showShareDetail.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="showShareDetail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/showShareDetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <state relative-caret-position="114">
+              <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -126,8 +125,8 @@
         <option value="&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Admin/Controller/IndexController.class.php" />
         <option value="&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Users/Controller/BunsinessController.class.php" />
         <option value="&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Common/Conf/config.php" />
-        <option value="$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php" />
         <option value="$PROJECT_DIR$/Application/Users/View/Index/showShareDetail.html" />
+        <option value="$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php" />
       </list>
     </option>
   </component>
@@ -388,7 +387,7 @@
       <workItem from="1515155422787" duration="24477000" />
       <workItem from="1515392792269" duration="10031000" />
       <workItem from="1515500772252" duration="1232000" />
-      <workItem from="1515548561966" duration="5819000" />
+      <workItem from="1515548561966" duration="10266000" />
     </task>
     <task id="LOCAL-00001" summary="提交测试 togo">
       <created>1512741371135</created>
@@ -464,7 +463,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354344000" />
+    <option name="totallyTimeSpent" value="358791000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -486,7 +485,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25613496" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25460124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -822,14 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Users/View/Layout/Index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -842,8 +833,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/showShareDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="56" column="22" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        <state relative-caret-position="114">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
           <folding />
         </state>
       </provider>
