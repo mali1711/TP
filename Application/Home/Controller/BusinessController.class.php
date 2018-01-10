@@ -94,4 +94,20 @@ class BusinessController extends Controller {
             $this->error('操作失误');
         }
     }
+
+    /*
+     * 添加商家Operator_id
+     * */
+    public function getOperator_id()
+    {
+        if(I('post.operator_id')==''){
+            $this->error('您没有填写operator_id');
+        }
+        $data['operator_id'] = I('post.operator_id');
+        $where['business_id'] = I('post.business_id');
+        $res = M('business')->where($where)->save($data);
+        if($res){
+            $this->success('operator_id添加成功');
+        }
+    }
 }

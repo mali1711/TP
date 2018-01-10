@@ -38,7 +38,20 @@
                     </small>
                 </h1>
             </div><!-- /.page-header -->
+            <form action="__MODULE__/Business/getBusinessList" method="post">
+                <!-- <legend>Form</legend> -->
 
+   <!--             <fieldset>
+                    <label>商家登录账号</label>
+
+                    <input type="text"  name="business_account" placeholder="填写商家登录账号">
+                    <button type="submit" class="btn btn-sm btn-success">
+                        确认查找
+                        <i class="icon-arrow-right icon-on-right bigger-110"></i>
+                    </button>
+                </fieldset>-->
+
+            </form>
             <div class="row">
                 <div class="col-xs-12">
                     <!-- PAGE CONTENT BEGINS -->
@@ -61,7 +74,7 @@
 
                                         <th>
                                             <i class="icon-time bigger-110 hidden-480"></i>
-                                            分红比例
+                                            分红详情
                                         </th>
                                         <th class="hidden-480">登录账号</th>
 
@@ -70,72 +83,80 @@
                                     </thead>
 
                                     <tbody>
-                                    <foreach name="list.data2" item="vo">
-                                         <tr>
-                                        <td class="center">
-                                            <label>
-                                                <input type="checkbox" class="ace" />
-                                                <span class="lbl"></span>
-                                            </label>
-                                        </td>
+                                    <foreach name="list.data1" item="vo">
+                                        <tr>
+                                            <td class="center">
+                                                <label>
+                                                    <input type="checkbox" class="ace" />
+                                                    <span class="lbl"></span>
+                                                </label>
+                                            </td>
 
-                                        <td>
-                                            <a href="#">{$vo.business_name}</a>
-                                        </td>
-                                        <td>{$vo.business_title}</td>
-                                        <td class="hidden-480">{$vo.business_phone}</td>
-                                        <td>{$vo.buniess_bonus}%</td>
+                                            <td>
+                                                <a href="#">{$vo.business_name}</a>
+                                            </td>
+                                            <td>{$vo.business_title}</td>
+                                            <td class="hidden-480">{$vo.business_phone}</td>
+                                            <td>{$vo.buniess_bonus}</td>
 
-                                        <td class="hidden-480">
-                                            {$vo.business_account}
-                                        </td>
+                                            <td class="hidden-480">
+                                                {$vo.business_account}
+                                            </td>
 
-                                        <td>
-                                            <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
+                                            <td>
+                                                <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
 
-                                                <button class="btn btn-xs btn-info">
-                                                    <a title="详情信息" style="color: white" href="__MODULE__/Business/getBusinessDetailInfo/id/{$vo.business_id}"><i class="icon-edit bigger-120"></i></a>
-                                                </button>
-                                                <button class="btn btn-xs btn-warning">
-                                                    <a title="禁用" style="color: white" href="__MODULE__/Business/disable/business_id/{$vo.business_id}"><i class="icon-flag bigger-120"></i></a>
-                                                </button>
-                                            </div>
-
-                                            <div class="visible-xs visible-sm hidden-md hidden-lg">
-                                                <div class="inline position-relative">
-                                                    <button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown">
-                                                        <i class="icon-cog icon-only bigger-110"></i>
+                                                    <button class="btn btn-xs btn-info">
+                                                        <a title="详情信息" style="color: white" href="__MODULE__/Business/getBusinessDetailInfo/id/{$vo.business_id}"><i class="icon-edit bigger-120"></i></a>
                                                     </button>
+                                                    <if condition="$vo.business_status eq 2">
+                                                        <button class="btn btn-xs btn-warning">
+                                                            <a title="禁用" style="color: white" href="__MODULE__/Business/disable/business_id/{$vo.business_id}"><i class="icon-flag bigger-120"></i></a>
+                                                        </button>
+                                                        <else />
+                                                        <button class="btn btn-xs btn-warning">
+                                                            <a title="恢复" style="color: green" href="__MODULE__/Business/activation_bun/business_id/{$vo.business_id}"><i class="icon-flag bigger-120"></i></a>
+                                                        </button>
+                                                    </if>
 
-                                                    <ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-                                                        <li>
-                                                            <a href="#" class="tooltip-info" data-rel="tooltip" title="View">
+
+                                                </div>
+
+                                                <div class="visible-xs visible-sm hidden-md hidden-lg">
+                                                    <div class="inline position-relative">
+                                                        <button class="btn btn-minier btn-primary dropdown-toggle" data-toggle="dropdown">
+                                                            <i class="icon-cog icon-only bigger-110"></i>
+                                                        </button>
+
+                                                        <ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
+                                                            <li>
+                                                                <a href="#" class="tooltip-info" data-rel="tooltip" title="View">
 																				<span class="blue">
 																					<i class="icon-zoom-in bigger-120"></i>
 																				</span>
-                                                            </a>
-                                                        </li>
+                                                                </a>
+                                                            </li>
 
-                                                        <li>
-                                                            <a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
+                                                            <li>
+                                                                <a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
 																				<span class="green">
 																					<i class="icon-edit bigger-120"></i>
 																				</span>
-                                                            </a>
-                                                        </li>
+                                                                </a>
+                                                            </li>
 
-                                                        <li>
-                                                            <a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
+                                                            <li>
+                                                                <a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
 																				<span class="red">
 																					<i class="icon-trash bigger-120"></i>
 																				</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                            </td>
+                                        </tr>
                                     </tbody>
                                     </foreach>
                                 </table>
@@ -146,95 +167,6 @@
                     <div class="hr hr-18 dotted hr-double"></div>
                     <div class="hr hr-18 dotted hr-double"></div>
 
-                    <!--<div class="row">
-                        <div class="col-xs-12">
-                            <h3 class="header smaller lighter blue">等待激活的商家</h3>
-                            <div class="table-header">
-                               等待您审批的商家
-                            </div>
-
-                            <div class="table-responsive">
-                                <table id="sample-table-2" class="table table-striped table-bordered table-hover">
-                                    <thead>
-                                    <tr>
-                                        <th class="center">
-                                            <label>
-                                                <input type="checkbox" class="ace" />
-                                                <span class="lbl"></span>
-                                            </label>
-                                        </th>
-                                        <th>商家名</th>
-                                        <th>邮箱</th>
-                                        <th>操作</th>
-                                    </tr>
-                                    </thead>
-
-                                    <tbody>
-                                    <foreach name="list.data1" item="vo">
-                                        <tr>
-                                        <td class="center">
-                                            <label>
-                                                <input type="checkbox" class="ace" />
-                                                <span class="lbl"></span>
-                                            </label>
-                                        </td>
-
-                                        <td>
-                                            <a href="#">{$vo.business_account}</a>
-                                        </td>
-                                        <td>{$vo.business_email}</td>
-                                        <td>
-                                            <div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
-                                                <a class="green" href="__MODULE__/Business/activation_bun/business_id/{$vo.business_id}" title="确认通过">
-                                                    <i class="icon-pencil bigger-130"></i>
-                                                </a>
-
-                                                <a class="red" href="__MODULE__/Business/del_bun/business_id/{$vo.business_id}" title="忽略删除">
-                                                    <i class="icon-trash bigger-130"></i>
-                                                </a>
-                                            </div>
-
-                                            <div class="visible-xs visible-sm hidden-md hidden-lg">
-                                                <div class="inline position-relative">
-                                                    <button class="btn btn-minier btn-yellow dropdown-toggle" data-toggle="dropdown">
-                                                        <i class="icon-caret-down icon-only bigger-120"></i>
-                                                    </button>
-
-                                                    <ul class="dropdown-menu dropdown-only-icon dropdown-yellow pull-right dropdown-caret dropdown-close">
-                                                        <li>
-                                                            <a href="#" class="tooltip-info" data-rel="tooltip" title="View">
-																				<span class="blue">
-																					<i class="icon-zoom-in bigger-120"></i>
-																				</span>
-                                                            </a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="#" class="tooltip-success" data-rel="tooltip" title="Edit">
-																				<span class="green">
-																					<i class="icon-edit bigger-120"></i>
-																				</span>
-                                                            </a>
-                                                        </li>
-
-                                                        <li>
-                                                            <a href="#" class="tooltip-error" data-rel="tooltip" title="Delete">
-																				<span class="red">
-																					<i class="icon-trash bigger-120" title="忽略删除"></i>
-																				</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    </foreach>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>-->
 
                     <div id="modal-table" class="modal fade" tabindex="-1">
                         <div class="modal-dialog">

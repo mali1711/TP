@@ -53,7 +53,6 @@ class CommonController extends Controller {
             die;
         }else{
 
-        }
+        } 
     }
-
 }

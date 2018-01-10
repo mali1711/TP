@@ -5,8 +5,9 @@ class LoginController extends Controller {
     /*
  * 跳转到登陆页
  * */
-    public function login($url)
+    public function login($url='')
     {
+
         if(empty($_POST)){
             $this->display('Index/Login');
         }else{
@@ -15,7 +16,7 @@ class LoginController extends Controller {
             $res = $admin->where($_POST)->find();
             if($res){
                 $_SESSION['Home'] = $res;
-                $this->display($url);
+                $this->success('登录成功',U('Index/index'));
             }else{
                 $this->error('您输入有误',U('Index/Login'));
             }

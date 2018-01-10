@@ -14,9 +14,14 @@ class IndexController extends Controller {
     
     public function index()
     {
-        $business = M('business');
-    	$list['data2'] =  $business->select();
-        $this->assign('list',$list);
+        $business = M('business'); // 实例化User对象$User = M('User'); // 实例化User对象
+        $count      = $business->count();// 查询满足要求的总记录数
+        $Page       = new \Think\Page($count,15);// 实例化分页类 传入总记录数和每页显示的记录数(25)
+        $show       = $Page->show();// 分页显示输出
+        $list['url'] = $_SERVER['SERVER_NAME'].__ROOT__.'/Admin/AdminInfo/login/'.'id/'.$_SESSION['Rgent']['agent_id'];
+        $list['data1'] = $business->limit($Page->firstRow.','. $Page->listRows)->select();
+        $this->assign('list',$list);// 赋值数据集
+        $this->assign('page',$show);// 赋值分页输出
         $this->display('Index/Index');
     }
 
