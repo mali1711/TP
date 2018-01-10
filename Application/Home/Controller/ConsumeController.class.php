@@ -27,7 +27,7 @@ class ConsumeController extends Controller {
         $res =  $Payment->h5ZhiFu($amount=$amount,$operator_id=$operator_id,$notify_url,$redirect_url);
         $res = json_decode($res);
         if($res->resule->success){
-            $this->error('支付失败');
+            $this->error($res['result']['errorMsg']);
         }else{
             $payUrl = $res->data->url;
             $_SESSION['user']['payInfo'] = NULL;

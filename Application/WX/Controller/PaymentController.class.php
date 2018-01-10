@@ -68,7 +68,7 @@ class PaymentController extends Controller{
     /*
      * h5支付
      * */
-    public function h5ZhiFu($amount=0,$operator_id='',$notify_url,$redirect_url)
+    public function h5ZhiFu($amount=0,$operator_id='',$notify_url='',$redirect_url='')
     {
         $url = 'http://openapi.caibaopay.com/gatewayOpen.htm';
         $where['amount'] = $amount;
