@@ -16,7 +16,7 @@ class PaymentController extends Controller{
     {
         parent::__construct();
 //        获取配置文件支付接口需要的数据
-        $this->payment = C('PAPMENT');
+        $this->payment = $this->getPayInfo();
         $this->autograph = $this->__getAutograph();
     }
 
@@ -128,6 +128,19 @@ class PaymentController extends Controller{
         $list['sign'] = md5($resStr);
         $list['signString'] = $resStr;
         return  $list;
+    }
+
+    /*
+     * 获取支付需要的app key operator_id
+     * */
+    public function getPayInfo()
+    {
+        $business_id = $_SESSION['user']['bus'];//被支付的商家
+        $list1 = M('business')->field('agent_id,operator_id')->find($business_id);
+        $array['operator_id'] = $list1['operator_id'];
+        $list2 = M('agent')->field('app,key')->find($list1['agent_id']);
+        $array = array_merge($array,$list2);
+        return $array;
     }
 
     /*
