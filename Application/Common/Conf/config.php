@@ -4,8 +4,8 @@ return array(
 
     // 支付配置文件
     'PAPMENT'   =>	array(
-        'operator_id'=>'ccaaad2ba1f2a6baccb986d0a748dbb9',//收银员id
-        'app'	=>	'A00305710000067',					//测试用的app
-        'key'	=>	'3d54fa25f393f2690817a1fab9314b92',	//测试app对应的加密key
+        'operator_id'=>'6dbf7c7a5c1c7286dd774226caf7be7b',//收银员id
+        'app'	=>	'M178',					//测试用的app
+        'key'	=>	'3acdf926bfbcea5ad55c8682f0d2fd1d',	//测试app对应的加密key
     ),
 );
