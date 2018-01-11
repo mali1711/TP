@@ -156,8 +156,6 @@ class ShareController extends CommonController{
             $data['reward_addtime'] = date('Y-m-d H:i:s');
             $res = $reward->add($data);
             if($res){
-                echo $reward->getLastSql($reward);
-                die;
                 $this->success('添加成功',U('Share/shareList'));
             }else{
                 $this->error('添加失败');
