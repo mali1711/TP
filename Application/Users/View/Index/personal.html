@@ -70,11 +70,31 @@
 <div id="san01"></div>
 <div id="shouyi"><h6 style="font-size: 37px;">我的收益(元)</h6></div>
 <div id="shouyi_fen">
-	<a href="__MODULE__/Users/income" class="fontS34">总收益<br/><span class="data01">{$list.users_integral_total_amount}</span></a>
+	<a href="__MODULE__/Users/income" class="fontS34">总收益<br/>
+		<empty name="list.users_integral_total_amount">
+			<span class="data01">0</span>
+			<else />
+			<span class="data01">{$list.users_integral_total_amount}</span>
+		</empty>
+	</a>
 	<div class="shouyi_fen_line"></div>
-	<a href="__MODULE__/Users/pay" class="fontS34">总支出<br/><span class="data02">{$list.users_money_total}</span></a>
+	<a href="__MODULE__/Users/pay" class="fontS34">总支出<br/>
+		<empty name="list.users_money_total">
+			<span class="data02">0</span>
+			<else />
+			<span class="data02">{$list.users_money_total}</span>
+		</empty>
+
+	</a>
 	<div class="shouyi_fen_line fontS34"></div>
-	<a href="__MODULE__/Users/incomeDetail">分红中<br/><span class="data03">{$list.consume_return_money_total}</span></a>
+	<a href="__MODULE__/Users/incomeDetail">分红中<br/>
+
+		<empty name="consume_return_money_total">
+			<span class="data03">0</span>
+			<else />
+			<span class="data03">{$list.consume_return_money_total}</span>
+		</empty>
+	</a>
 </div>
 <div id="san02"></div>
 <a href="{$adve.adve_url}"><img width="100%" src="__ROOT__/Uploads/{$adve.adve_pic}"></a>
