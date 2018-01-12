@@ -51,7 +51,7 @@
 								<h1>
 									<i class="icon-leaf green"></i>
 									<span class="red">Ace</span>
-									<span class="white">汇客管理系统</span>
+									<span class="white">汇客总管理系统</span>
 								</h1>
 								<h4 class="blue">&copy; Company Name</h4>
 							</div>
@@ -73,14 +73,14 @@
 												<fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="text" name="admin_name" class="form-control" placeholder="Username" />
+															<input type="text" name="admin_name" class="form-control" placeholder="登录账号" />
 															<i class="icon-user"></i>
 														</span>
 													</label>
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
-															<input type="password" name="admin_password" class="form-control" placeholder="Password" />
+															<input type="password" name="admin_password" class="form-control" placeholder="密码" />
 															<i class="icon-lock"></i>
 														</span>
 													</label>
@@ -88,38 +88,16 @@
 													<div class="space"></div>
 
 													<div class="clearfix">
-														<label class="inline">
-															<input type="checkbox" class="ace" />
-															<span class="lbl"> Remember Me</span>
-														</label>
 
 														<button type="submit" class="width-35 pull-right btn btn-sm btn-primary">
 															<i class="icon-key"></i>
-															Login
+															登录
 														</button>
 													</div>
 
 													<div class="space-4"></div>
 												</fieldset>
 											</form>
-
-											<div class="social-or-login center">
-												<span class="bigger-110">Or Login Using</span>
-											</div>
-
-											<div class="social-login center">
-												<a class="btn btn-primary">
-													<i class="icon-facebook"></i>
-												</a>
-
-												<a class="btn btn-info">
-													<i class="icon-twitter"></i>
-												</a>
-
-												<a class="btn btn-danger">
-													<i class="icon-google-plus"></i>
-												</a>
-											</div>
 										</div><!-- /widget-main -->
 
 										<div class="toolbar clearfix">
@@ -132,7 +110,7 @@
 
 											<div>
 												<a href="#" onclick="show_box('signup-box'); return false;" class="user-signup-link">
-													I want to register
+													点击注册
 													<i class="icon-arrow-right"></i>
 												</a>
 											</div>
@@ -192,7 +170,7 @@
 											<div class="space-6"></div>
 											<p> 请输入你的详情信息 </p>
 
-											<form action="__MODULE__/Index/registerAdmin" method="post">
+											<form action="__MODULE__/Login/registerAdmin" method="post">
 												<fieldset>
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
@@ -219,14 +197,6 @@
 														<span class="block input-icon input-icon-right">
 															<input type="password" name="agin_admin_password" class="form-control" placeholder="再次输入密码" />
 															<i class="icon-retweet"></i>
-														</span>
-													</label>
-
-													<label class="block">
-														<input type="checkbox" class="ace" />
-														<span class="lbl">
-															I accept the
-															<a href="#">User Agreement</a>
 														</span>
 													</label>
 

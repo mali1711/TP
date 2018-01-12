@@ -38,6 +38,7 @@ class IndexController extends Controller {
     }
 /*
  * 管理员注册
+ * 
  * */
     public function registerAdmin()
     {

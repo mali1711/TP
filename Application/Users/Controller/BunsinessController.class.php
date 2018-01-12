@@ -87,8 +87,8 @@ class BunsinessController extends Controller {
         //支付判断
         if(I('post.integral/d')>I('post.money/d')){
             $this->error('支付积分不能大于实际金额');
-        }elseif(I('post.integral/f')<0){
-            $this->error('支付积分不能小于0');
+        }elseif(I('post.integral/d')<1 && I('post.integral/d')!=''){
+            $this->error('支付积分不能是小数');
         }elseif (I('post.money/f')<=0){
             $this->error('支付金额必须大于0');
         }elseif(I('post.integral/f')>$integral){

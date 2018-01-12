@@ -6,7 +6,7 @@ class BusinessController extends Controller {
     public function __construct()
     {
         parent::__construct();
-        if(empty($_SESSION['Admin'])){
+        if(empty($_SESSION['Home'])){
             A('Login')->login();
             die;
         }

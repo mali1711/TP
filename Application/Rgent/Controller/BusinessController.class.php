@@ -17,6 +17,9 @@ class BusinessController extends Controller {
         $where['agent_id'] = $_SESSION['Rgent']['agent_id'];
         if(I('post.business_account')!='' || empty(I('post.business_account'))){
             $where['business_account']  = array('like',I('post.business_account') );
+            if($where['business_account']['1']==0){
+                unset($where['business_account']);
+            }
         }
         $count      = $business->where($where)->count();// 查询满足要求的总记录数
         $Page       = new \Think\Page($count,15);// 实例化分页类 传入总记录数和每页显示的记录数(25)

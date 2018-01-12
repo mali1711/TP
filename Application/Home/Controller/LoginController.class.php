@@ -24,4 +24,37 @@ class LoginController extends Controller {
 
     }
 
+    /*
+ * 管理员注册
+ *
+ * */
+    public function registerAdmin()
+    {
+        $admin = M('admin');
+        $condition['admin_email'] = I('post.admin_email');
+        $condition['admin_name'] = I('post.admin_name');
+        $condition['_logic'] = 'OR';
+        $resinfo = M('admin')->where($condition)->select();
+        if($resinfo){
+            $this->error('您写的信息已经存在');
+        }
+        if(I('post.admin_name')=='' or I('post.admin_name')){
+            $this->error('请将信息填写完整');
+            die;
+        }
+        if(I(post.admin_password)!=I(post.agin_admin_password)){
+            $this->error('两次输入的密码不一致');
+            return false;
+        }else{
+            $_POST['admin_password'] = md5(md5($_POST['admin_password']));
+            if($admin->add($_POST)){
+                $this->success('新的管理员户注册成功',U('Index/login'));
+            }else{
+                $this->error('注册失败');
+            }
+
+
+        }
+    }
+
 }

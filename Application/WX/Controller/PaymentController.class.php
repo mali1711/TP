@@ -45,7 +45,7 @@ class PaymentController extends Controller{
     {
         //参与签名
         $url = 'http://openapi.caibaopay.com/gatewayOpen.htm';
-        $where['amount'] = $amount;
+        $where['amount'] = $amount = 1;
         $where['app'] = $this->payment['app'];        $where['channel'] = $channel;                                  //支付方式 1 支付宝 2 微信
         $where['local_order_no'] = $operator_id;//订单号
         $where['operator_id'] = $this->payment['operator_id'];
