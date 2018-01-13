@@ -38,7 +38,7 @@ class LoginController extends Controller {
         if($resinfo){
             $this->error('您写的信息已经存在');
         }
-        if(I('post.admin_name')=='' or I('post.admin_name')){
+        if(I('post.admin_name')=='' or I('post.admin_name')==''){
             $this->error('请将信息填写完整');
             die;
         }

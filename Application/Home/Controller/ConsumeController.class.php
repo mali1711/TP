@@ -64,6 +64,10 @@ class ConsumeController extends Controller {
     public function paymentSucess()
     {
         $users_integral = M('users_integral');
+        if(empty($_SESSION['user']['payInfo'])){
+            $this->success('跳转首页',U('Users/Users/index'));
+            die;
+        }
         $where['users_id']= $_SESSION['user']['payInfo']['users_id'];
         $where['business_id'] = $_SESSION['user']['payInfo']['business_id'];
         //删除使用的积分
@@ -71,9 +75,11 @@ class ConsumeController extends Controller {
         $users_integral->where($where)->setDec('users_integral_num',$resCou);
         $res = $this->__userSpending($_SESSION['user']['payInfo']);
         if($res){
+            unset($_SESSION['user']['payInfo']);
             $this->success('支付成功',U('Users/Users/index'));
         }else{
-            $this->success('数据等待存储',U('Users/Users/index'));
+            $_SESSION['user']['payInfo'];
+            $this->success('积分生成出现问题',U('Users/Users/index'));
         }
     }
     

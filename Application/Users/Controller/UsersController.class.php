@@ -122,13 +122,13 @@ class UsersController extends Controller {
         if(!empty(I('post.'))){
             $users = M('users');
             $where['users_id'] = $_SESSION['user']["userinfo"]['users_id'];
-            $where['users_pass'] = md5(I('post.aginUsers_pass'));
             if($_FILES['users_pic']['name']!=''){
                 $data['users_pic'] = $this->__uploadFile('users_pic','UserInfo/',125,130);
             }
-            if(I('post.users_pass')){
+            if(I('post.users_pass')!=''){
                 //执行修改密码
                 $data['users_pass'] = md5(I('post.users_pass'));
+                $where['users_pass'] = md5(I('post.aginUsers_pass'));
             }
             $da = $users->where($where)->find();
             if($da){
