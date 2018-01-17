@@ -26,10 +26,10 @@
         <div class="page-content">
             <div class="page-header">
                 <h1>
-                    添加新的代理商
+                    代理商
                     <small>
                         <i class="icon-double-angle-right"></i>
-                        添加代理商
+                        修改
                     </small>
                 </h1>
             </div><!-- /.page-header -->
@@ -38,12 +38,12 @@
                 <div class="col-xs-12">
                     <!-- PAGE CONTENT BEGINS -->
 
-                    <form action="__MODULE__/Agent/addAgent" method="post" enctype="multipart/form-data" class="form-horizontal" role="form">
+                    <form action="__MODULE__/Agent/updateAgent/agent_id/<?php echo $_GET['agent_id'];?>" method="post" enctype="multipart/form-data" class="form-horizontal" role="form">
                         <div class="form-group">
                             <label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 营业执照副本 </label>
 
                             <div class="col-sm-9">
-                                <input type="file" id="form-field-1" name="photo[]" placeholder="Username" class="col-xs-10 col-sm-5" />
+                                <input type="file" id="form-field-1" name="photo[]" placeholder="Username"  class="col-xs-10 col-sm-5" />
                             </div>
                         </div>
                         <div class="form-group">
@@ -65,7 +65,7 @@
                             <label class="col-sm-3 control-label no-padding-right"  for="form-field-6">邮箱</label>
 
                             <div class="col-sm-9">
-                                <input data-rel="tooltip" type="text" name="agent_email" id="form-field-6" placeholder="邮箱" value="" title="Hello Tooltip!" data-placement="bottom" />
+                                <input data-rel="tooltip" type="text" name="agent_email" id="form-field-6" placeholder="{$list.agent_email}" value="" title="Hello Tooltip!" data-placement="bottom" />
                                 <span class="help-button" data-rel="popover" data-trigger="hover" data-placement="left" data-content="More details." title="Popover on hover">?</span>
                             </div>
                         </div>
@@ -90,7 +90,7 @@
                             <label class="col-sm-3 control-label no-padding-right" for="form-field-4">法人联系方式</label>
 
                             <div class="col-sm-9">
-                                <input class="input-sm" type="text" name="agent_iphone" id="form-field-4" placeholder="手机号" />
+                                <input class="input-sm" type="text" name="agent_iphone" id="form-field-4" placeholder="{$list.agent_iphone}" />
                                 <div class="space-2"></div>
 
                                 <div class="help-block" id="input-size-slider"></div>

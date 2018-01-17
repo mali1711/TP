@@ -162,13 +162,13 @@ class IndexController extends Controller {
             $bun_id = $val['business_id'];
             //用户每单消费占总金额的比例，去除两位小数以后的小数
             $bili = floor($val['consume_money']/$allBun[$bun_id]['business_info_total']*100)/100;
+            dump($bili);
             $data[$key]['business_id'] = $val['business_id'];
             $data[$key]['users_get_integral'] = $bili*$dayData[$bun_id]['b_turnover_in_the_day_integral_new']; //老用户积分的比例
             $data[$key]['users_id'] = $val['users_id'];
             $data[$key]['consume_list_id'] = $val['consume_list_id'];
             $data[$key]['users_integral_addtime'] = time();
         }
-
         return $data;
 
     }

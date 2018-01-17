@@ -19,12 +19,25 @@
 
         <foreach name="list" item="vo">
             <div class="content02">
-                <div class="content02_02">
-                    <div class="content_text"><p><b>{$vo.mail_title}</b><br/></p><span>{$vo.mail_content}</span></div>
-                    <span style="font-size: 30px;margin-left: 0px;margin-bottom: 10px;">时间：{$vo.mail_addtime|date="Y-m-d H:i:s",###}</span>
-                    <!--<div class="content_push" style="margin-top: 45px;"><a style="text-decoration: none;color: #ffffff" href="__MODULE__/Bunsiness/BuyGoods/id/{$vo.bun_goods_id}">查看详情</a></div>-->
-                </div>
+                <div class="title" style="font-size: 40px"><b>{$vo.mail_title}</b></div>
+                <div class="body" style="font-size: 35px;margin-top: 40px; color: #009CFE;">{$vo.mail_content}</div>
+                <div class="foot" style="font-size: 30px;margin-top: 30px;float: right;">时间：{$vo.mail_addtime|date="Y-m-d",###}日 &nbsp;</div>
             </div>
+            <br/>
+            <hr/>
+
+  <!--        <div class="content02">
+                <div class="content02_02">
+                    <div class="content_text">
+                        <p>
+                            <b>{$vo.mail_title}</b><br/>
+                        </p><
+                        <span style="display: block;width: 100%;">{$vo.mail_content}</span>
+                    </div>
+                    <span style="font-size: 30px;margin-left: 0px;margin-bottom: 10px;">时间：{$vo.mail_addtime|date="Y-m-d H:i:s",###}</span>
+                    &lt;!&ndash;<div class="content_push" style="margin-top: 45px;"><a style="text-decoration: none;color: #ffffff" href="__MODULE__/Bunsiness/BuyGoods/id/{$vo.bun_goods_id}">查看详情</a></div>&ndash;&gt;
+                </div>
+            </div>-->
         </foreach>
     </div>
 </body>

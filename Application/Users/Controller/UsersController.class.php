@@ -87,26 +87,33 @@ class UsersController extends Controller {
     {
         $users = M('users');
         $data = array();
+        if(I('post.agen_users_pass') != I('post.users_pass')){
+            $this->error('两次密码不一致');
+            die;
+        }
         if(empty($_POST['users_name']) or empty($_POST['users_sex']) or empty($_POST['users_phone'])){
             $data['status'] = false;
-            $data['info'] = '请写完整你的信息';
+            $this->error('请完善你的信息');
+            die;
         }else{
             //判断用户是否已经注册过
             $data['users_phone'] = $_POST['users_phone'];
             $list = $users->where($data)->find();
             if($list){
                 $data['status'] = false;
-                $data['info'] = '手机号已经被注册';
+                $this->error('手机号已经被注册');
+                die;
             }else{
                 $_POST['users_pass'] = md5($_POST['users_pass']);
                 $res = $users->data($_POST)->add();
                 if($res){
                     $data['status'] = true;
-                    $this->success('注册成功',U('Users/Users/index'));
+                    unset($_SESSION['users']);
+                    $this->success('注册成功,请再次扫码登录',U('Users/Users/index'));
                 }else{
                     $data['status'] = false;
                     $data['info'] = '注册失败';
-                    $this->success('注册注册失败');
+                    $this->error('注册注册失败');
                 }
             }
         }

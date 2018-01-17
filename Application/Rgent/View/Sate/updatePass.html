@@ -1,0 +1,66 @@
+<extend name="Layout:Index" />
+<block name='content'>
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+
+            <div class="nav-search" id="nav-search">
+                <form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off" />
+									<i class="icon-search nav-search-icon"></i>
+								</span>
+                </form>
+            </div><!-- #nav-search -->
+        </div>
+
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    商家详情
+                </h1>
+            </div><!-- /.page-header -->
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="widget-box">
+                                        <div class="widget-header widget-header-flat">
+                                            <h4 class="smaller">修改密码:</b></h4>
+                                        </div>
+
+                                        <div class="widget-body">
+                                            <div class="widget-main">
+                                                <form action="__MODULE__/Sate/updatePass" method="post">
+                                                    <!-- <legend>Form</legend> -->
+                                                    <fieldset>
+                                                        <input type="text" class="col-xs-5" type="password" name="ord_pass" placeholder="旧密码">
+                                                        <input type="text" class="col-xs-5" type="password" name="new_pass" placeholder="新密码">
+                                                        <button style="margin-left: 30px;margin-top: -2px;" type="submit" class="btn btn-sm btn-success">
+                                                            确认修改
+                                                            <i class="icon-arrow-right icon-on-right bigger-110"></i>
+                                                        </button>
+                                                    </fieldset>
+
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PAGE CONTENT ENDS -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
+</block>
+</extend>

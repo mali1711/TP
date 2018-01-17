@@ -32,7 +32,6 @@ class AgentController extends Controller {
             $data['agent_id_con'] = $picinfo[2]['savepath'].$picinfo[2]['savename'];
             $data['agent_iphone'] = I('post.agent_iphone');
             $data['agent_email'] = I('post.agent_email');
-            $data['agent_email'] = I('post.agent_email');
             $data['agent_pass'] = md5(md5(I('post.agent_pass')));
 
             $res = M('agent')->add($data);
@@ -107,5 +106,77 @@ class AgentController extends Controller {
         }else{// 上传成功 获取上传文件信息
             return $info;
         }
+    }
+
+    public function updateAgent()
+    {
+        $where = I('get.');
+        $list = M('agent')->where($where)->find();
+        if(empty(I('post.'))){
+            $list = M('agent')->where($where)->find();
+            $this->assign('list',$list);
+            $this->display('Index/updateAgent');
+        }else{
+            //post 有值，执行修改
+            $data = array_filter(I('post.'));
+            $agent = M('agent');
+            $where1['agent_email'] = I('post.agent_email');
+            $where2['agent_iphone'] = I('post.agent_iphone');
+            if($agent->where($where1)->select() or $agent->where($where2)->select()){
+                $this->error('邮箱或者手机号已存在');
+                die;
+            }
+            if(!empty($data['agent_pass'])){
+                $data['agent_pass'] = md5(md5($data['agent_pass']));
+            }
+            $arr = $_FILES['photo']['error'];
+            if(in_array(0,$arr)){
+                $picinfo = $this->__uploadFile();
+            }
+  /*          dump($_FILES);
+            if(array_key_exists('name',$_FILES['photo'])){
+                echo 1234;
+                dump($_FILES);
+
+            }*/
+            $pic['agent_license'] = $picinfo[0]['savepath'].$picinfo[0]['savename'];
+            $pic['agent_id_face'] = $picinfo[1]['savepath'].$picinfo[1]['savename'];
+            $pic['agent_id_con'] = $picinfo[2]['savepath'].$picinfo[2]['savename'];
+            $data = array_filter(array_merge($pic,$data));
+            $res = M('agent')->where($where)->save($data);
+            if($res){
+            foreach($pic as $k=>$v){
+                if($v!=''){
+                    @unlink('./Uploads/'.$list[$k]);
+                }
+            }
+                $this->success('修改成功',U('Agent/agentList'));
+            }else{
+                $this->error('修改失败');
+            }
+
+
+        }
+    }
+
+    private function __array_remove_empty($arr){
+        $narr = array();
+        while(list($key, $val) = each($arr)){
+            if (is_array($val)){
+                $val = $this->__array_remove_empty($val);
+                // does the result array contain anything?
+                if (count($val)!=0){
+                    // yes :-)
+                    $narr[$key] = $val;
+                }
+            }
+            else {
+                if (trim($val) != ""){
+                    $narr[$key] = $val;
+                }
+            }
+        }
+        unset($arr);
+        return $narr;
     }
 }
