@@ -30,4 +30,28 @@ class MailController extends Controller {
             }
         }
     }
+
+    public function MailList()
+    {
+        $mail =  M('mail');
+        $count      = $mail->count();
+        $Page       = new \Think\Page($count,20);
+        $show       = $Page->show();
+        $list = $mail->where('mail_status=1')->order('mail_addtime')->limit($Page->firstRow.','.$Page->listRows)->select();
+        $this->assign('list',$list);
+        $this->assign('page',$show);
+        $this->display('Index/MailList');
+    }
+
+    public function delMail()
+    {
+        $id = I('get.id');
+        $mail = M('mail');
+        $res = $mail->delete($id);
+        if($res){
+            $this->success('删除成功');
+        }else{
+            $this->error('删除失败');
+        }
+    }
 }

@@ -95,15 +95,26 @@ class AdminInfoController extends CommonController {
     }
 
     /*
-     * 统计用户今日数量
+     * 统计用户今日新增数量
      * */
     public function DayuserNum()
     {
-        $consume_list = M('users_integral');
+        $consume_list = M('consume_list');
         $dayTime = strtotime(date('Y-m-d'));//获取今天凌晨时间戳
         $con_where['business_id'] = $this->business_id;
-        $where['users_integral_addtime'] = array('GT',$dayTime);
-        $array = $consume_list->where($where)->select();//所有用户
+        $whereAll['consume_time'] = array('gt',$dayTime);
+        $whereOrd['consume_time'] = array('lt',$dayTime);
+        $allUsers = $consume_list->field('users_id')->select();//所有的订单
+        $orderUsers = $consume_list->field('users_id')->where($whereOrd)->select();//以前的所有的订单
+        foreach ($allUsers as $k=>$v){
+            $allUsers[$k] = $v['users_id'];
+        }
+        foreach ($orderUsers as $k=>$v){
+            $orderUsers[$k] = $v['users_id'];
+        }
+
+        $array = array_diff($allUsers,$orderUsers);
+        $array = array_unique($array);
         return $array;
     }
 
