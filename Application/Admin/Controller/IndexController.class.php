@@ -27,11 +27,7 @@ class IndexController extends Controller {
     public function BusinessShouYesterday()
     {
         //写入商家当天的获取收益信息
-        $business = M('business');
-        $id = $_SESSION['Admin']['business_id'];
-        $b = $business->find($id)['buniess_bonus'];
-        $bonus = $b/100;//商家默认分红
-        $list = $this->UsersYesterdayIsConsumption($bonus);
+        $list = $this->UsersYesterdayIsConsumption();
         $b_turnover_in_the_day = M('b_turnover_in_the_day');
         $b_turnover_in_the_day->addAll($list);
         //将今天所有的收入统计出来
@@ -66,6 +62,10 @@ class IndexController extends Controller {
 //        $list = $consume_list->where($where)->group('business_id')->sum('consume_money');
 //        echo $consume_list->getLastSql();
         foreach($list as $k=>$v){
+            $business = M('business');
+            $id = $v['business_id'];
+            $b = $business->find($id)['buniess_bonus'];
+            $bonus = $b/100;//商家默认分红
             $list[$k]['b_turnover_in_the_day_integral_new'] = $v['b_turnover_in_the_day_money']*$bonus/2;
             $list[$k]['b_turnover_in_the_day_integral_ord'] = $v['b_turnover_in_the_day_money']*$bonus/2;
             $list[$k]['b_turnover_in_the_day_time'] = $yesTime;
