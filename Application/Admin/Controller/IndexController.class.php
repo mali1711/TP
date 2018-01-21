@@ -125,7 +125,7 @@ class IndexController extends Controller {
         $users_integral_list  = array();
         foreach ($list as $key=>$value){
             $business_id = $value['business_id'];//商家所在id
-            $ress = floor($value['consume_money']/$data[$business_id]['b_turnover_in_the_day_money']*100)/100;
+            $ress = floor($value['consume_money']/$data[$business_id]['b_turnover_in_the_day_money']*10000)/10000;
             echo $ress.'*'.$data[$business_id]['b_turnover_in_the_day_integral_new'].'-->'.$ress*$data[$business_id]['b_turnover_in_the_day_integral_new'];
             echo '<br/>';
             $users_integral_list[$key]['users_id'] = $value['users_id'];
@@ -160,8 +160,8 @@ class IndexController extends Controller {
         foreach ($alluser as $key=>$val){
             //商家信息
             $bun_id = $val['business_id'];
-            //用户每单消费占总金额的比例，去除两位小数以后的小数
-            $bili = floor($val['consume_money']/$allBun[$bun_id]['business_info_total']*100)/100;
+            //用户每单消费占总金额的比例，去除4位小数以后的小数
+            $bili = floor($val['consume_money']/$allBun[$bun_id]['business_info_total']*10000)/10000;
             dump($bili);
             $data[$key]['business_id'] = $val['business_id'];
             $data[$key]['users_get_integral'] = $bili*$dayData[$bun_id]['b_turnover_in_the_day_integral_new']; //老用户积分的比例

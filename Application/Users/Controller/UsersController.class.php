@@ -41,6 +41,7 @@ class UsersController extends Controller {
         $where['agent_id'] = $_SESSION['user']['agent'];
         $where['adve_status'] = 4;
         $adve = M('adve')->where($where)->find();
+        $list['users_integral_total_amount'] = round($list['users_integral_total_amount'],2);
         $this->assign('adve',$adve);
         $this->assign('wxInfo',$wxInfo);
         $this->assign('list',$list);
@@ -85,6 +86,7 @@ class UsersController extends Controller {
      * */
     public function doRegister()
     {
+        $this->__fieldValidation(I('post.'));
         $users = M('users');
         $data = array();
         if(I('post.agen_users_pass') != I('post.users_pass')){
@@ -119,6 +121,7 @@ class UsersController extends Controller {
         }
         
     }
+
 
     /*
      * 查看以及修改用户信息
@@ -210,7 +213,7 @@ class UsersController extends Controller {
                 unset($res[$k]);
             }
         }
-
+        $list['count'] = round($list['count'],2);
         $list['list'] = $res;
         $this->assign('list',$list);
         $this->display('Index/income');
@@ -320,6 +323,19 @@ class UsersController extends Controller {
             $image->open($src);
             $image->thumb($width,$height)->save('./Uploads/'.$info['savepath'].$info['savename']);
             return $info['savepath'].$info['savename'];
+        }
+    }
+
+    /*
+     * 验证用户输入的字段
+     * */
+    private function __fieldValidation($data){
+        if(!preg_match('/^1([0-9]{9})/',$data['users_phone'])){
+            $this->error('手机号不符合规则');
+            die;
+        }elseif (!preg_grep("/^[a-zA-Z\d_]{6,}$/",$data['users_pass'])){
+            $this->error('密码至少6位，不能太过于简单');
+            die;
         }
     }
 }
