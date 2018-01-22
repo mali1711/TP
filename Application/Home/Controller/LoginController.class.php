@@ -57,4 +57,13 @@ class LoginController extends Controller {
         }
     }
 
+    /*
+     * 退出登录
+     * */
+    public function logout()
+    {
+        unset($_SESSION['Home']);
+        $this->success('当前用户已经退出登录',U('Login/login'));
+    }
+
 }
