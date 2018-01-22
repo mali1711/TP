@@ -34,6 +34,7 @@ class UsersController extends Controller {
         $list['consume_return_money_total'] = $consume_list->where($where)->sum("consume_return_money");
         $list['users_integral_total_amount']= $users_integral->where($where)->sum("users_integral_num");
         $list['userDetail'] = M('users')->find($where['users_id']);
+        $list['business_name'] = $this->__business_name();
         $this->userinfo = $list;
         //调用微信的Jssdk
         $wxInfo = A('WX/Jssdk')->getSignPackage();
@@ -46,6 +47,20 @@ class UsersController extends Controller {
         $this->assign('wxInfo',$wxInfo);
         $this->assign('list',$list);
         $this->display('Index/personal');
+    }
+
+    /*
+     * 获取用户此刻访问的商家账号
+     * */
+    private function __business_name(){
+        $id = $_SESSION['user']['bus'];
+        if($id){
+            $business_name = M('business')->field('business_account')->find($id);
+            return $business_name['business_account'];
+        }else{
+            return NULL;
+        }
+
     }
 
     /*
@@ -332,9 +347,6 @@ class UsersController extends Controller {
     private function __fieldValidation($data){
         if(!preg_match('/^1([0-9]{9})/',$data['users_phone'])){
             $this->error('手机号不符合规则');
-            die;
-        }elseif (!preg_grep("/^[a-zA-Z\d_]{6,}$/",$data['users_pass'])){
-            $this->error('密码至少6位，不能太过于简单');
             die;
         }
     }
