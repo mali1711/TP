@@ -26,15 +26,8 @@ class UsersController extends Controller {
      * */
     private function __userinfo()
     {
-        $consume_list = M('consume_list');
-        $users_integral_list = M('users_integral_list');
-        $users_integral = M('users_integral');
-        $where['users_id']= $_SESSION['user']['userinfo']['users_id'];
-        $list['users_money_total'] = $consume_list->where($where)->sum("consume_money");
-        $list['consume_return_money_total'] = $consume_list->where($where)->sum("consume_return_money");
-        $list['users_integral_total_amount']= $users_integral->where($where)->sum("users_integral_num");
-        $list['userDetail'] = M('users')->find($where['users_id']);
-        $list['business_name'] = $this->__business_name();
+
+        $list = $this->__getPayList();
         $this->userinfo = $list;
         //调用微信的Jssdk
         $wxInfo = A('WX/Jssdk')->getSignPackage();
@@ -50,6 +43,24 @@ class UsersController extends Controller {
     }
 
     /*
+     * 收支记录
+     * */
+    public function __getPayList()
+    {
+        $consume_list = M('consume_list');
+        $users_integral_list = M('users_integral_list');
+        $users_integral = M('users_integral');
+        $where['users_id']= $_SESSION['user']['userinfo']['users_id'];
+        $list['users_money_total'] = $consume_list->where($where)->sum("consume_money");
+        $list['consume_return_money_total'] = floor($consume_list->where($where)->sum("consume_return_money")*100)/100;
+        $list['users_integral_total_amount']= floor($users_integral->where($where)->sum("users_integral_num")*100)/100;
+        $list['userDetail'] = M('users')->find($where['users_id']);
+        $list['business_name'] = $this->__business_name();
+        dump($list);
+        return $list;
+    }
+
+    /*
      * 获取用户此刻访问的商家账号
      * */
     private function __business_name(){
@@ -62,6 +73,7 @@ class UsersController extends Controller {
         }
 
     }
+
 
     /*
      * 注册
