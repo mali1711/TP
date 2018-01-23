@@ -56,7 +56,6 @@ class UsersController extends Controller {
         $list['users_integral_total_amount']= floor($users_integral->where($where)->sum("users_integral_num")*100)/100;
         $list['userDetail'] = M('users')->find($where['users_id']);
         $list['business_name'] = $this->__business_name();
-        dump($list);
         return $list;
     }
 
