@@ -55,8 +55,8 @@ class UsersController extends Controller {
     private function __business_name(){
         $id = $_SESSION['user']['bus'];
         if($id){
-            $business_name = M('business')->field('business_account')->find($id);
-            return $business_name['business_account'];
+            $business_name = M('business')->field('business_title')->find($id);
+            return $business_name['business_title'];
         }else{
             return NULL;
         }
