@@ -76,7 +76,8 @@ class ConsumeController extends Controller {
         $res = $this->__userSpending($_SESSION['user']['payInfo']);
         if($res){
             unset($_SESSION['user']['payInfo']);
-            $this->success('支付成功',U('Users/Users/index'));
+//            $this->success('支付成功',U('Users/Users/index'));//支付成功直接跳转到首页
+            $this->success('支付成功',U('Users/Users/showAdve'));//支付成功直接跳转到广告推送页
         }else{
             $_SESSION['user']['payInfo'];
             $this->success('积分生成出现问题',U('Users/Users/index'));

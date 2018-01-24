@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>广告</title>
+    <link  rel="stylesheet"   type="text/css"  href="__PUBLIC__/Style/User/App/css/style3.css"/>
+    <!--引入vue.js-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <style>
+        .info {
+            color: #0000cc;
+            font-size: 80px;
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        .info ul li{
+            list-style: none;
+            font-size: 50px;
+            color: #0d3349;
+            display:inline-block;
+            border:1px solid #aaa;
+            box-shadow: 2px 4px 6px #00FFeF;
+            margin-top: 15px;
+            background:#009CFF;
+            width:75%;
+            height:100px;
+            line-height:100px;
+        }
+        span{
+            width:250px;
+            padding:4px;
+            display: block;
+        }
+
+        .payInfo{
+            margin-left: 20px;
+            float: left;
+        }
+        .payInfo p{
+            list-style:none;
+            float:right;
+            margin-top:1px;
+        }
+    </style>
+</head>
+<body>
+<form  action="{$list.url}" method="post">
+    <div id="top">
+        <div class="top_img"></div>
+        <a href="__MODULE__/Users/index">&lt;返回首页</a>
+    </div>
+    <div id="san02"></div>
+    <foreach name="list.adve" item="vo">
+        <a href="{$vo['adve_url']}"><img width="100%" src="__ROOT__/Uploads{$vo['adve_pic']}"></a>
+    </foreach>
+</form>
+
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 30 * (clientWidth / 320) + 'px';
+                };
+
+        // Abort if browser does not support addEventListener
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+<script type="text/javascript" language="javascript" >
+    // 定时跳转页面
+    var time = 5; //时间,秒
+    function Redirect(){
+        window.location = "__MODULE__/Users/index";
+    }
+    var i = 0;
+    function dis(){
+        document.all.s.innerHTML = "还剩" + (time - i) + "秒";
+        i++;
+    }
+    timer=setInterval('dis()', 1000);//显示时间
+    timer=setTimeout('Redirect()',time * 1000); //跳转
+    //-->
+</script>
+</body>
+</html>

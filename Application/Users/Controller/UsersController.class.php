@@ -279,6 +279,18 @@ class UsersController extends Controller {
         }*/
     }
 
+
+    /*
+     * 用户支付成功。跳转次页面
+     * 商家互推广告页面
+     * */
+    public function showAdve()
+    {
+        $list['adve'] = $this->adveList();
+        $this->assign('list',$list);
+        $this->display('Index/showAdve');
+    }
+
     /*
      * 将图片变成圆的
      * */
@@ -323,6 +335,7 @@ class UsersController extends Controller {
     }
 
 
+
     /*
  * 图片上传
  * 定义的图片名 上传位置 宽度 高度
@@ -360,5 +373,15 @@ class UsersController extends Controller {
             $this->error('手机号不符合规则');
             die;
         }
+    }
+
+    /*
+ * 推送广告
+ * */
+    private function adveList()
+    {
+        $business_id = $_SESSION['user']['bus'];
+        $list = M('adve')->where("adve_status=1 or adve_status=2 or adve_status=3 and business_id=$business_id")->select();
+        return $list;
     }
 }
