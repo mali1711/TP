@@ -35,4 +35,17 @@ class UsersController extends Controller {
         $this->assign('list',$list);
         $this->display('Index/UserDetaulInfo');
     }
+
+    /*
+     * 初始化用户的密码为123456
+     * */
+    public function upUsersPass()
+    {
+        $where['users_id'] = I('get.id');
+        $data['users_pass'] = md5(MD5('123456'));
+        $res = M('users')->where($where)->save($data);
+        if($res){
+            $this->success('改用户此刻密码初始化成了123456');
+        }
+    }
 }
