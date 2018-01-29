@@ -33,10 +33,10 @@ class UsersController extends Controller {
         $wxInfo = A('WX/Jssdk')->getSignPackage();
         //获取广告内容
         $where['agent_id'] = $_SESSION['user']['agent'];
-        $where['adve_status'] = $map['id']  = array(array('gt',3),array('lt',7),'and'); ;
+        $where['adve_status'] = $map['id']  = array(array('gt',3),array('lt',12),'and'); ;
         $adve['one'] = M('adve')->where($where)->select();
         $where['agent_id'] = $_SESSION['user']['agent'];
-        $where['adve_status'] = $map['id']  = array(array('gt',7),array('lt',12),'and'); ;
+        $where['adve_status'] = $map['id']  = array(array('gt',12),array('lt',20),'and'); ;
         $adve['tow'] = M('adve')->where($where)->select();
         $list['users_integral_total_amount'] = round($list['users_integral_total_amount'],2);
         $this->assign('adve',$adve);
