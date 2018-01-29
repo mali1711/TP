@@ -4,6 +4,10 @@
 	<meta charset="UTF-8">
 	<title>用户中心</title>
 	<link rel="stylesheet"  type="text/css"  href="__PUBLIC__/Style/User/App/css/style2.css"/>
+	<!--轮播图css-->
+	<link rel="stylesheet"  type="text/css"  href="__PUBLIC__/Style/Swiper/css/swiper.min.css"/>
+	<!--轮播图js-->
+	<script src="__PUBLIC__/Style/Swiper/js/swiper.min.js"></script>
 	<style>
 		.fontS36{
 			font-size: 36px;
@@ -119,12 +123,51 @@
 	</a>
 </div>
 <div id="san02"></div>
-<a href="{$adve.adve_url}"><img width="100%" src="__ROOT__/Uploads/{$adve.adve_pic}"></a>
-<a href="{$adve.adve_url}"><img width="100%" src="__ROOT__/Uploads/{$adve.adve_pic}"></a>
-<div id="foot">技术支持汇客会员</div>
-<script>
+<!--<a href="{$adve.adve_url}"><img width="100%" src="__ROOT__/Uploads/{$adve.adve_pic}"></a>-->
 
+<!--轮播图-->
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<foreach name="adve.one" item="vo">
+			<div class="swiper-slide">
+				<a href="{$vo.adve_url}"><img width="100%" src="__ROOT__/Uploads/{$vo.adve_pic}"></a>
+			</div>
+		</foreach>
+	</div>
+	<!-- Add Pagination -->
+	<div class="swiper-pagination"></div>
+	<!-- Add Arrows -->
+	<div class="swiper-button-next"></div>
+	<div class="swiper-button-prev"></div>
+</div>
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<foreach name="adve.tow" item="vo">
+			<div class="swiper-slide">
+				<a href="{$vo.adve_url}"><img width="100%" src="__ROOT__/Uploads/{$vo.adve_pic}"></a>
+			</div>
+		</foreach>
+	</div>
+	<!-- Add Pagination -->
+	<div class="swiper-pagination"></div>
+	<!-- Add Arrows -->
+	<div class="swiper-button-next"></div>
+	<div class="swiper-button-prev"></div>
+</div>
+<script>
+	//设置第一个轮播图
+	var swiper = new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+		nextButton: '.swiper-button-next',
+		prevButton: '.swiper-button-prev',
+		paginationClickable: true,
+		spaceBetween: 30,
+		centeredSlides: true,
+		autoplay: 2500,
+		autoplayDisableOnInteraction: false
+	});
 </script>
+<div id="foot">技术支持汇客会员</div>
 
 <script type="text/javascript">
 	(function (doc, win) {

@@ -50,7 +50,7 @@ class IndexController extends Controller
             $this->updateStatus($where,0);
             $res = M('adve')->add($data);
            if($res){
-               $this->success('添加成功',U('Index/adveList'));
+               $this->adveList();
            }else{
                $this->error('添加失败');
            }
@@ -72,7 +72,7 @@ class IndexController extends Controller
             $this->updateStatus($where,0);
             $res = M('adve')->save(I('post.'));
             if($res){
-                $this->success('修改成功',U('Index/adveList'));
+                $this->adveList();
             }else{
                 $this->error('修改失败');
             }
