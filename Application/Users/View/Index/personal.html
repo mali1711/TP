@@ -88,7 +88,7 @@
 	</div>
 </div>
 <div  id="jifen"
-	<a href="__MODULE__/Index/BunsinessList"><div class="jifen01"><div class="waimai" style="margin-top: 1px;margin-left: 65px;"><p class="fontS34">外卖</p>
+	<a href="__MODULE__/Index/BunsinessList"><div onclick="waimaiClick(this)" class="jifen01"><div class="waimai" style="margin-top: 1px;margin-left: 65px;"><p class="fontS34">外卖</p>
 		<span style="margin-top: 11px;position: absolute" class="fontS32">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今日签到5积分</span></div></div></a>
 	<a href="__MODULE__/Bunsiness/goodslist"><div class="jifen02"><p class="fontS34">积分商城<p><span class="fontS32">好货等你来抢</span></div></a>
 </div>
@@ -154,6 +154,9 @@
 	<div class="swiper-button-prev"></div>
 </div>
 <script>
+	function waimaiClick() {
+		alert("亲，外卖功能正在完善");
+	}
 	//设置第一个轮播图
 	var swiper = new Swiper('.swiper-container', {
 		pagination: '.swiper-pagination',
