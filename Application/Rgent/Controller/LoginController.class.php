@@ -22,7 +22,7 @@ class LoginController extends Controller
             $res = $agent->where($where)->find();
             if($res){
                 $_SESSION['Rgent'] = $res;
-                $this->error('登录成功',U('Index/index'));
+                A('Index')->index();
             }else{
                 $this->error('密码错误，请重新登录');
             }

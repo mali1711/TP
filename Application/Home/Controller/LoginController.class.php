@@ -16,9 +16,9 @@ class LoginController extends Controller {
             $res = $admin->where($_POST)->find();
             if($res){
                 $_SESSION['Home'] = $res;
-                $this->success('登录成功',U('Index/index'));
+                A('Index')->index();
             }else{
-                $this->error('您输入有误',U('Index/Login'));
+                $this->error('您输入有误');
             }
         }
 

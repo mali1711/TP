@@ -248,7 +248,7 @@ class AdminInfoController extends CommonController {
 
             if($res){
                 $_SESSION['Admin'] = $res;
-                $this->success('登陆成功',U('Index/index'));
+                A('Index')->index();
             }else{
                 $this->error('登陆失败');
             }
