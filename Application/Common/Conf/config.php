@@ -9,5 +9,5 @@ return array(
             'key'	=>	'3acdf926bfbcea5ad55c8682f0d2fd1d',	//测试app对应的加密key
         ),*/
     'DEFAULT_MODULE' => 'Users',
-    'MODULE_ALLOW_LIST'=>array('Home','Admin','Users'),
+    'MODULE_ALLOW_LIST'=>array('Home','Admin','Rgent','Users'),
 );
