@@ -25,8 +25,7 @@ class ConsumeController extends Controller {
 //        $amount = ($money-$resCou-$inMon)/100;/*支付的实际金额，比原来的小扫10000倍 并且去掉支付的积分和优惠券*/
 
         $money = floatval($money);
-        $amount = ($money-$resCou-$inMon)*100; //todo 打开就能变成真正的支付
-        $amount = ceil($amount);
+        $amount = ($money-$inMon)*100; //todo 打开就能变成真正的支付
         $notify_url = '';//成功之后执行的回调
         $redirect_url = "http://www.hkxitong.com/TP/index.php/Home/Consume/paymentSucess";//成功支付后跳转的地址
         $res =  $Payment->h5ZhiFu($amount=$amount,$operator_id=$operator_id,$notify_url,$redirect_url);

@@ -96,7 +96,7 @@ class BunsinessController extends Controller {
         }else{
         $inMon = I('post.integral/f');//积分金额
         $HomeBun->getMoney($users_id,$business_id,$money,$resCou,$inMon);
-            die;
+        die;
        if($result=ture){
            $id = $data['get_coupons_id'];//被使用的优惠券的id
            $conCoupons->dedCoupons($business_id,$users_id,I('post.integral/d'));
