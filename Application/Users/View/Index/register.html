@@ -1,63 +1,41 @@
-<!doctype html>
-<html lang="en">
+﻿<!DOCTYPE HTML>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>汇客注册</title>
-	<link  rel="stylesheet"   type="text/css"  href="__PUBLIC__/Style/User/App/css/style3.css"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汇客</title>
+<link href="__PUBLIC__/Style/User/fwj.sir6.cn/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Style/User/fwj.sir6.cn/font/iconfont.css" rel="stylesheet">
 </head>
 <body>
 <form action="__MODULE__/Users/doRegister" method="post">
-	<div id="top">
-		<div class="top_img"></div>
-		<a href="#">&lt;</a><b>注册</b>
-	</div>
-	<div id="san01"></div>
-	<div id="touxiang" >
-		<div class="touxiang_img"></div>
-		<div class="touxiang_trans"><input type="submit" name="" value="点击上传" style="width:164px;height:42px;
-						border:2px solid #009dff;border-radius:21px;color:#009dff;font-size:28px;background-color:#ffffff;"/></div>
-	</div>
-	<div id="san02"></div>
-	<div id="name"><b>姓名</b><input class="tiaojian" type="text" name="users_name" style="width:74%;height:92px;font-size:30px;border:0px"/></span></div>
-	<div id="sex"><b>性别</b><input class="tiaojian" type="text" name="users_sex" style="width:74%;height:92px;font-size:30px;border:0px"/></span></div>
-	<div id="num"><b>电话</b><input class="tiaojian" type="text" name="users_phone" style="width:74%;height:92px;font-size:30px;border:0px"/></span></div>
-	<div id="num"><b>密码</b><input class="tiaojian" type="password" name="users_pass" style="width:74%;height:92px;font-size:30px;border:0px"/></span></div>
-	<div id="num"><b>密码确认</b><input class="tiaojian" type="password" name="agen_users_pass" style="width:74%;height:92px;font-size:30px;border:0px"/></span></div>
-	<div id="foot">
-		<div class="sub"><input type="submit" name="" value="提交"  style="width:100%; height:90px;background-color:#009dff;color:#ffffff;				
-							text-align:center;border-radius:45px;font-size:40px;letter-spacing:5px;line-height:86px;border:0px;"/></div>
-	</div>
+<div class="wrap">
+
+    <div class="reg-top">
+        <div class="reg-man"><img src="__PUBLIC__/Style/User/fwj.sir6.cn/images/logo.png" alt="汇客" title="汇客"></div>
+        <p>上传头像</p>
+    </div>
+    <div class="reg-nr">
+        <input name="users_name" value="等待完善" type="hidden" maxlength="40" required="true" placeholder="请输入密码" aria-required="true">
+        <input name="users_sex" value="0" type="hidden" maxlength="40" required="true" placeholder="请输入密码" aria-required="true">
+        <div class="form-list">
+        	<span><i class="iconfont icon-shouji"></i></span><input name="users_phone" type="text" maxlength="50" required="true" placeholder="请输入手机号" aria-required="true">
+    </div>
+        <div class="form-list">
+        	<span><i class="iconfont icon-anquan"></i></span><input name="users_pass" type="password" maxlength="40" required="true" placeholder="请输入密码" aria-required="true">
+        </div>
+        <div class="form-list">
+        	<span><i class="iconfont icon-suo"></i></span><input name="agen_users_pass" type="password" maxlength="50" required="true" placeholder="请确认密码" aria-required="true">
+        </div>
+        <div class="form-list1">
+        <button type="submit">立即注册</button>
+        </div>
+    </div>
+
+</div>
 </form>
-<script>
-	//input的class属性是tiaojian
-	$(".tiaojian").focus(function(){
-		$(this).next().html('');
-		//alert($(this).next);
-	});
-
-	$(".tiaojian").blur(function(){
-		$val = $(this).val();
-		if($val==''){
-			$(this).next().html('未填写&nbsp;>');
-		}
-		//alert($(this).next);
-	});
-</script>
-	<script type="text/javascript">
-		(function (doc, win) {
-  var docEl = doc.documentElement,
-    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-    recalc = function () {
-      var clientWidth = docEl.clientWidth;
-      if (!clientWidth) return;
-      docEl.style.fontSize = 30 * (clientWidth / 320) + 'px';
-    };
-
-  // Abort if browser does not support addEventListener
-	if (!doc.addEventListener) return;
-		win.addEventListener(resizeEvt, recalc, false);
-		doc.addEventListener('DOMContentLoaded', recalc, false);
-	})(document, window);
-	</script>
 </body>
 </html>

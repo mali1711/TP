@@ -1,0 +1,231 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汇客</title>
+<link href="__PUBLIC__/Style/User/fwj.sir6.cn/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Style/User/fwj.sir6.cn/font/iconfont.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrap">
+
+    <div class="huiyuan">
+        <div class="huiyuan-lingdang"><a href="" title=""><img src="__PUBLIC__/Style/User/fwj.sir6.cn/images/lingdang.png" alt=""></a><span>●</span></div>
+        <div class="huiyuan-mid">
+            <div class="huiyuan-mid-l">
+                <notempty name="list['userDetail']['users_pic']">
+                    <img class="user_img" src="__ROOT__/Uploads/{$list.userDetail.users_pic}">
+                    <else />
+                    <img class="user_img" src="__PUBLIC__/Style/User/App/img/touxiang.png">
+                </notempty>
+                <p><a style="color: white;" href="__MODULE__/Users/userInfo">{$list.userDetail.users_name}</a><span>{$list.userDetail.users_phone}</span></p>
+            </div>
+            <div class="huiyuan-mid-r">
+            <a href="__MODULE__/Bunsiness/extension" title="">推广有礼</a>
+            </div>
+        </div>
+        <div class="huiyuan-down">
+        	<ul>
+                <li>
+                    <a href="">
+                    <i id="scanQRCode1" class="iconfont icon-scan"></i>
+                    <p>扫一扫</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="__MODULE__/Index/payment">
+                    <i  class="iconfont icon-fukuan"></i>
+                    <p>付款</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="__MODULE__/Coupons/index">
+                    <i class="iconfont icon-qiaquan"></i>
+                    <p>卡劵</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="huiyuan01">
+        <div class="huiyuan01-l">
+            <h3 onclick="waimaiClick(this)"><a href=""><i class="iconfont icon-waimaishj-icon-food"></i></a></h3>
+            <p>外卖<span>今日签到5红包</span></p>
+        </div>
+        <div class="huiyuan01-r">
+        	<h3><a href="__MODULE__/Bunsiness/goodslist"><i class="iconfont icon-shangcheng"></i></a></h3>
+            <p>红包商城<span>好货等你来抢</span></p>
+        </div>
+    </div>
+
+    <div class="huiyuan02">
+        <div class="huiyuan02-tit">
+        <p><a href="">我的红包</a></p>
+        </div>
+        <div class="huiyuan02-txt">
+            <ul>
+                <li class="txt01">
+                    <a href="__MODULE__/Users/income">
+                        <h3>已收红包</h3>
+
+                        <empty name="list.users_integral_total_amount">
+                            <span>0</span>
+                            <else />
+                            <span>{$list.users_integral_total_amount}</span>
+                        </empty>
+                    </a>
+                </li>
+                <li class="txt02">
+                    <a href="__MODULE__/Users/pay">
+                        <h3>消费总额</h3>
+                        <empty name="list.users_money_total">
+                            <span>0</span>
+                            <else />
+                            <span>{$list.users_money_total}</span>
+                        </empty>
+                    </a>
+                </li>
+                <li class="txt03">
+                    <a href="__MODULE__/Users/incomeDetail">
+                        <h3>预期分红</h3>
+                        <empty name="consume_return_money_total">
+                            <span class="data03">{$list.consume_return_money_total}</span>
+                            <else />
+                            <span class="data03">0</span>
+                        </empty>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="huiyuan03">
+        <ul>
+            <foreach name="adve.one" item="vo">
+                <li><a href="{$vo.adve_url}"><img src="__ROOT__/Uploads/{$vo.adve_pic}" alt=""></a></li>
+            </foreach>
+        </ul>
+    </div>
+
+</div>
+<div class="social_nav">
+    <ul>
+	 <li class="curr"><a href="#" title=""><i class="iconfont icon-wo"></i>我的</a></li>
+     <li><a href="#" title=""><i class="iconfont icon-shouyi"></i>收益</a></li>
+     <li><a href="#" title=""><i class="iconfont icon-huodong"></i>活动</a></li>
+     <li><a href="#" title=""><i class="iconfont icon-scan"></i>商城</a></li>
+    </ul>
+</div>
+<script>
+    function waimaiClick() {
+        alert("亲，外卖功能正在完善");
+    }
+    //设置第一个轮播图
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+</script>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 30 * (clientWidth / 320) + 'px';
+                };
+
+        // Abort if browser does not support addEventListener
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    /*
+     * 注意：
+     * 1. 所有的JS接口只能在公众号绑定的域名下调用，公众号开发者需要先登录微信公众平台进入“公众号设置”的“功能设置”里填写“JS接口安全域名”。
+     * 2. 如果发现在 Android 不能分享自定义内容，请到官网下载最新的包覆盖安装，Android 自定义分享接口需升级至 6.0.2.58 版本及以上。
+     * 3. 常见问题及完整 JS-SDK 文档地址：http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
+     *
+     * 开发中遇到问题详见文档“附录5-常见错误及解决办法”解决，如仍未能解决可通过以下渠道反馈：
+     * 邮箱地址：weixin-open@qq.com
+     * 邮件主题：【微信JS-SDK反馈】具体问题
+     * 邮件内容说明：用简明的语言描述问题所在，并交代清楚遇到该问题的场景，可附上截屏图片，微信团队会尽快处理你的反馈。
+     */
+    wx.config({
+                debug: false,
+                appId: '{$wxInfo.appId}',
+                timestamp:{$wxInfo.timestamp},
+            nonceStr:'{$wxInfo.nonceStr}',
+            signature: '{$wxInfo.signature}',
+            jsApiList: [
+        // 所有要调用的 API 都要加到这个列表中
+        'checkJsApi',
+        'onMenuShareTimeline',
+        'onMenuShareAppMessage',
+        'onMenuShareQQ',
+        'onMenuShareWeibo',
+        'onMenuShareQZone',
+        'hideMenuItems',
+        'showMenuItems',
+        'hideAllNonBaseMenuItem',
+        'showAllNonBaseMenuItem',
+        'translateVoice',
+        'startRecord',
+        'stopRecord',
+        'onVoiceRecordEnd',
+        'playVoice',
+        'onVoicePlayEnd',
+        'pauseVoice',
+        'stopVoice',
+        'uploadVoice',
+        'downloadVoice',
+        'chooseImage',
+        'previewImage',
+        'uploadImage',
+        'downloadImage',
+        'getNetworkType',
+        'openLocation',
+        'getLocation',
+        'hideOptionMenu',
+        'showOptionMenu',
+        'closeWindow',
+        'scanQRCode',
+        'chooseWXPay',
+        'openProductSpecificView',
+        'addCard',
+        'chooseCard',
+        'openCard'
+    ]
+    });
+    wx.ready(function () {
+
+
+        document.querySelector('#scanQRCode1').onclick = function () {
+            wx.scanQRCode({
+                needResult: 0,
+                desc: 'scanQRCode desc',
+                success: function (res) {
+
+                }
+            });
+        }
+    });
+</script>
+</body>
+</body>
+</html>

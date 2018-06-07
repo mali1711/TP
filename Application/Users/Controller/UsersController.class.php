@@ -42,7 +42,7 @@ class UsersController extends Controller {
         $this->assign('adve',$adve);
         $this->assign('wxInfo',$wxInfo);
         $this->assign('list',$list);
-        $this->display('Index/personal');
+        $this->display('fwj.sir6.cn/huiyuan');
     }
 
     /*
@@ -122,7 +122,8 @@ class UsersController extends Controller {
             $this->error('两次密码不一致');
             die;
         }
-        if(empty($_POST['users_name']) or empty($_POST['users_sex']) or empty($_POST['users_phone'])){
+
+        if(empty($_POST['users_name']) and empty($_POST['users_sex']) and empty($_POST['users_phone'])){
             $data['status'] = false;
             $this->error('请完善你的信息');
             die;

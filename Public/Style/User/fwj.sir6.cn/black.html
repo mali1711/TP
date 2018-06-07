@@ -1,0 +1,118 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>汇客</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="font/iconfont.css" rel="stylesheet">
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="wrap">
+
+    <div class="quan">
+        <h3><a href=""><i class="iconfont icon-jiantou1"></i></a>优惠券</h3>
+    </div>
+    
+    <div class="quan01">
+        <div class="shouyi02-tit">
+        <p><a href="">优惠券列表</a></p>
+        </div>
+        <div class="quan01-txt">
+            <div class="quan-bt">
+                <ul>
+                    <li><a href="#" title="未使用 ">未使用<span>(0)</span></a></li>
+                    <li><a href="#" title="使用记录">使用记录<span>(0)</span></a></li>
+                    <li><a href="#" title="已过期">已过期<span>(0)</span></a></li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="quan-nr1">
+                <div class="quan-tp1">
+                    <div class="quan-tp1-u">
+                    <i class="iconfont icon-qiaquan"></i>
+                    <p>您没有可用的票券</p>
+                    </div>
+                    <div class="quan-tp1-d">
+                    	<ul>
+                        	<li>
+                                <h3><a href=""><i class="iconfont icon-waimaishj-icon-food"></i></a></h3>
+                                <p>活动领取票券</p>
+            				</li>
+                            <li class="quan-tp1-d02">
+                                <h3><a href=""><i class="iconfont icon-shangcheng"></i></a></h3>
+                                <p>商城领取票券</p>
+            				</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="quan-tp1" style="display:none">
+                    <div class="quan-tp1-u">
+                    <i class="iconfont icon-qiaquan"></i>
+                    <p>您没有可用的票券</p>
+                    </div>
+                    <div class="quan-tp1-d">
+                    	<ul>
+                        	<li>
+                                <h3><a href=""><i class="iconfont icon-waimaishj-icon-food"></i></a></h3>
+                                <p>活动领取票券</p>
+            				</li>
+                            <li class="quan-tp1-d02">
+                                <h3><a href=""><i class="iconfont icon-shangcheng"></i></a></h3>
+                                <p>商城领取票券</p>
+            				</li>
+                        </ul>
+                    </div>
+                	
+                </div>
+                <div class="quan-tp1" style="display:none">
+                    <div class="quan-tp1-u">
+                    <i class="iconfont icon-qiaquan"></i>
+                    <p>您没有可用的票券</p>
+                    </div>
+                    <div class="quan-tp1-d">
+                    	<ul>
+                        	<li>
+                                <h3><a href=""><i class="iconfont icon-waimaishj-icon-food"></i></a></h3>
+                                <p>活动领取票券</p>
+            				</li>
+                            <li class="quan-tp1-d02">
+                                <h3><a href=""><i class="iconfont icon-shangcheng"></i></a></h3>
+                                <p>商城领取票券</p>
+            				</li>
+                        </ul>
+                    </div>
+                	
+                </div>
+            </div>
+            <script>
+            $(".quan-bt li:first").addClass("casehover");
+            $(".quan-nr1 .quan-tp1").eq(0).show();
+            $(".quan-bt li").hover(function () {
+                $(this).addClass("casehover").siblings().removeClass("casehover");
+                $(".quan-nr .quan-tp1").hide().eq($(this).index()).show();
+            }, function () {
+            });
+            </script> 
+
+        </div>
+    </div>
+
+</div>
+<div class="social_nav">
+    <ul>
+	 <li class="curr"><a href="" title=""><i class="iconfont icon-wo"></i>我的</a></li>
+     <li><a href="" title=""><i class="iconfont icon-shouyi"></i>收益</a></li>
+     <li><a href="" title=""><i class="iconfont icon-huodong"></i>活动</a></li>
+     <li><a href="" title=""><i class="iconfont icon-scan"></i>商城</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
