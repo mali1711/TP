@@ -7,36 +7,36 @@
 <meta name="format-detection" content="telephone=no" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>汇客</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href="font/iconfont.css" rel="stylesheet">
-<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<link href="__PUBLIC__/Style/User/fwj.sir6.cn/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Style/User/fwj.sir6.cn/font/iconfont.css" rel="stylesheet">
+<script src="__PUBLIC__/Style/User/fwj.sir6.cn/js/jquery-1.8.2.min.js" type="text/javascript"></script>
 </head>
 <body>
 
 <div class="wrap">
-
+<form action="{$list.url}">
     <div class="pay">
         <h3><a href=""><i class="iconfont icon-jiantou1"></i></a>支付</h3>
     </div>
     
     <div class="pay-nr">
     	<ul>
-        	<li><p>本次消费（元）<span>65.49</span></p></li>
-            <li><p>抵用红包（元）<span>4.19</span></p></li>
-            <li><p>实际消费（元）<span>61.30</span></p></li>
+        	<li><p>本次消费（元）<span>{$list.money}</span></p></li>
+            <li><p>抵用红包（元）<span>{$list.inMon}</span></p></li>
+            <li><p>实际消费（元）<span>{$list.amount}</span></p></li>
         </ul>
         <div class="form-list03">
-        <button>确认支付</button>
+        <button type="submit">确认支付</button>
         </div>
     </div>
      <div class="pay-tp">
      	<ul>
-        	<li><a href="" title=""><img src="images/pic04.jpg"></a></li>
-            <li><a href="" title=""><img src="images/pic05.jpg"></a></li>
-            <li><a href="" title=""><img src="images/pic06.jpg"></a></li>
+            <foreach name="list.adve" item="vo">
+                <li><a href="{$vo['adve_url']}" title=""><img src="__ROOT__/Uploads{$vo['adve_pic']}"></a></li>
+            </foreach>
         </ul>
      </div>
-    
+</form>
 </div>
 <div class="social_nav">
     <ul>

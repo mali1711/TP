@@ -7,8 +7,8 @@
 <meta name="format-detection" content="telephone=no" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>汇客</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href="font/iconfont.css" rel="stylesheet">
+<link href="__PUBLIC__/Style/User/fwj.sir6.cn/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Style/User/fwj.sir6.cn/font/iconfont.css" rel="stylesheet">
 </head>
 <body>
 
@@ -24,54 +24,16 @@
         </div>
         <div class="fenhong01-txt">
             <ul>
-                <li>
-                    <div class="fenhong01-txt-l">
-                    	<img src="images/logo1.png" alt="">
-                        <p>您在A商家店铺的分红(元)<span>05.26 10:14</span></p>
-                    </div>
-                    <div class="fenhong01-txt-r">+14.36
-                    </div>
-                </li>
-                <li>
-                    <div class="fenhong01-txt-l">
-                    	<img src="images/logo2.png" alt="">
-                        <p>您在A商家店铺的分红(元)<span>05.26 10:14</span></p>
-                    </div>
-                    <div class="fenhong01-txt-r">+41.15
-                    </div>
-                </li>
-                <li>
-                    <div class="fenhong01-txt-l">
-                    	<img src="images/logo3.png" alt="">
-                        <p>您在A商家店铺的分红(元)<span>05.26 10:14</span></p>
-                    </div>
-                    <div class="fenhong01-txt-r">+11.16
-                    </div>
-                </li>
-                <li>
-                    <div class="fenhong01-txt-l">
-                    	<img src="images/logo4.png" alt="">
-                        <p>您在A商家店铺的分红(元)<span>05.26 10:14</span></p>
-                    </div>
-                    <div class="fenhong01-txt-r">+84.22
-                    </div>
-                </li>
-                <li>
-                    <div class="fenhong01-txt-l">
-                    	<img src="images/logo2.png" alt="">
-                        <p>您在A商家店铺的分红(元)<span>05.26 10:14</span></p>
-                    </div>
-                    <div class="fenhong01-txt-r">+41.15
-                    </div>
-                </li>
-                <li>
-                    <div class="fenhong01-txt-l">
-                    	<img src="images/logo3.png" alt="">
-                        <p>您在A商家店铺的分红(元)<span>05.26 10:14</span></p>
-                    </div>
-                    <div class="fenhong01-txt-r">+11.16
-                    </div>
-                </li>
+                <foreach name="list" item="vo">
+                    <li>
+                        <div class="fenhong01-txt-l">
+                            <img src="__PUBLIC__/Style/User/fwj.sir6.cn/images/logo1.png" alt="">
+                            <p>您在{$vo.business_name}<span>00.00 00:00</span></p>
+                        </div>
+                        <div class="fenhong01-txt-r">+{$vo.consume_money}
+                        </div>
+                    </li>
+                </foreach>
             </ul>
         </div>
     </div>

@@ -7,8 +7,8 @@
 <meta name="format-detection" content="telephone=no" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>汇客</title>
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href="font/iconfont.css" rel="stylesheet">
+<link href="__PUBLIC__/Style/User/fwj.sir6.cn/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/Style/User/fwj.sir6.cn/font/iconfont.css" rel="stylesheet">
 </head>
 <body>
 
@@ -20,19 +20,19 @@
         </div>
         <div class="shouyi-d">
             <h3><span class="span-l"></span>总资产（元）<span class="span-r"></span></h3>
-            <h5>2256.49</h5>
-            <p>累计收益（元）2200.00</p>
+            <h5>{$list.count}</h5>
+            <p>累计收益（元）...</p>
         </div>
     </div>
     
     <div class="shouyi01">
         <div class="shouyi01-l">
             <h3>汇客收益（元）</h3>
-            <p>127.23</p>
+            <p>...</p>
         </div>
         <div class="shouyi01-r">
         	<h3>本店收益（元）</h3>
-            <p>21.11</p>
+            <p>{$list.count}</p>
         </div>
     </div>
     
@@ -42,11 +42,9 @@
         </div>
         <div class="shouyi02-txt">
             <ul>
-                <li><p>您在A店的总收益为（元）<span>12.15</span></p></li>
-                <li><p>您在B店的总收益为（元）<span>132.22</span></p></li>
-                <li><p>您在CHEN店的总收益为（元）<span>98.31</span></p></li>
-                <li><p>您在LED店的总收益为（元）<span>122.15</span></p></li>
-                <li><p>您在LUE店的总收益为（元）<span>245.15</span></p></li>
+                <foreach name="list.list" item="vo">
+                    <li><p>您在{$vo.business_name}店的总收益为（元）<span>{$vo.users_integral_total_amount}</span></p></li>
+                </foreach>
             </ul>
         </div>
     </div>

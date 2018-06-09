@@ -76,6 +76,8 @@ class IndexController extends Controller {
         $list = $mod->select();
         $list['integral'] = $conCoupons->getIntegral()['users_integral_num'];
         $this->assign('list',$list);
-        $this->display('Index/payment');
+
+//        $this->display('Index/payment');
+        $this->display('fwj.sir6.cn/fukuan');
     }
 }

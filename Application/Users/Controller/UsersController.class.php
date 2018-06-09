@@ -220,7 +220,8 @@ class UsersController extends Controller {
         }
         $this->assign('page',$show);
         $this->assign('list',$list);
-        $this->display('Index/pay');
+//        $this->display('Index/pay');
+        $this->display('fwj.sir6.cn/fenhong');
     }
     
     /*
@@ -246,7 +247,8 @@ class UsersController extends Controller {
         $list['count'] = round($list['count'],2);
         $list['list'] = $res;
         $this->assign('list',$list);
-        $this->display('Index/income');
+//        $this->display('Index/income');
+        $this->display('fwj.sir6.cn/shouyi');
     }
 
     /*
