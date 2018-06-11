@@ -107,7 +107,7 @@ class ConsumeController extends Controller {
     public function adveList()
     {
         $business_id = $_SESSION['user']['bus'];
-        $list = M('adve')->where("adve_status=1 or adve_status=2 or adve_status=3 and business_id=$business_id")->select();
+        $list = M('adve')->where("business_id=$business_id and  adve_status !=0")->order('adve_status')->select();
         return $list;
     }
     
