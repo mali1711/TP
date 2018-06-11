@@ -29,4 +29,10 @@ class LoginController extends Controller
 
         }
     }
+
+    public function logout()
+    {
+        unset($_SESSION['Rgent']);
+        $this->display('Index/Login');
+    }
 }
