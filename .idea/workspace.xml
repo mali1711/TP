@@ -4,6 +4,7 @@
     <list default="true" id="9d7e659c-d397-4260-a95f-717422f72ebe" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/΢��ͼƬ_20171225195337.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/pay.html" afterPath="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/pay.html" />
     </list>
     <ignored path="TP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +36,7 @@
       <file leaf-file-name="BunsinessController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Users/Controller/BunsinessController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-226">
+            <state relative-caret-position="-175">
               <caret line="98" column="12" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="12" />
               <folding />
             </state>
@@ -45,8 +46,8 @@
       <file leaf-file-name="pay.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/pay.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="270">
+              <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -55,8 +56,18 @@
       <file leaf-file-name="ConsumeController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ConsumeController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+            <state relative-caret-position="120">
+              <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subMoney.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/subMoney.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -120,9 +131,7 @@
         <option value="$PROJECT_DIR$/Application/Users/View/Index/payment.html" />
         <option value="$PROJECT_DIR$/Application/Users/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/fukuan.html" />
-        <option value="$PROJECT_DIR$/Application/Home/Controller/ConsumeController.class.php" />
         <option value="$PROJECT_DIR$/Application/Users/View/Index/subMoney.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/pay.html" />
         <option value="$PROJECT_DIR$/Application/Users/Controller/CouponsController.class.php" />
         <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/quan.html" />
         <option value="$PROJECT_DIR$/Application/Users/View/Index/Extension.html" />
@@ -131,6 +140,8 @@
         <option value="$PROJECT_DIR$/Application/Home/View/Layout/Index.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/addKeyApp.html" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Index/Login.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/ConsumeController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/pay.html" />
       </list>
     </option>
   </component>
@@ -291,6 +302,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Users" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Index" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,7 +523,7 @@
       <workItem from="1528331236431" duration="6290000" />
       <workItem from="1528549259509" duration="5837000" />
       <workItem from="1528635146916" duration="2145000" />
-      <workItem from="1528705567604" duration="3798000" />
+      <workItem from="1528705567604" duration="4217000" />
     </task>
     <task id="LOCAL-00001" summary="提交测试 togo">
       <created>1512741371135</created>
@@ -562,7 +599,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="402225000" />
+    <option name="totallyTimeSpent" value="402644000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -969,14 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/subMoney.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Users/Controller/CouponsController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-957">
@@ -987,7 +1016,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Users/Controller/BunsinessController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
+        <state relative-caret-position="-175">
           <caret line="98" column="12" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="12" />
           <folding />
         </state>
@@ -995,16 +1024,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ConsumeController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+        <state relative-caret-position="120">
+          <caret line="52" column="45" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/subMoney.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/pay.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="270">
+          <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
           <folding />
         </state>
       </provider>

@@ -49,8 +49,8 @@ class ConsumeController extends Controller {
             $list['url'] = $payUrl;
             $list['adve'] = $this->adveList();
             $this->assign('list',$list);
-//            $this->display('fwj.sir6.cn/pay');
-            $this->display('Index/subMoney');
+//            $this->display('Index/subMoney');
+            $this->display('fwj.sir6.cn/pay');
             die;
 
         }
