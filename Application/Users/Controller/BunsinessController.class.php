@@ -179,6 +179,7 @@ class BunsinessController extends Controller {
         $share = M('share');
         $list = $share->select();
         $this->assign('list',$list);
-        $this->display('Index/Extension');
+//        $this->display('Index/Extension');
+        $this->display('fwj.sir6.cn/share');
     }
 }

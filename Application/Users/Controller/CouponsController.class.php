@@ -16,7 +16,8 @@ class CouponsController extends Controller {
             $couponslist[$k] = $coupons->find($v['coupons_id']);
         }
         $this->assign('couponslist',$couponslist);
-        $this->display('Index/CouponsList');
+//        $this->display('Index/CouponsList');
+        $this->display('fwj.sir6.cn/quan');
     }
     
     /*
