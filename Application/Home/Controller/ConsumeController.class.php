@@ -108,6 +108,7 @@ class ConsumeController extends Controller {
     {
         $business_id = $_SESSION['user']['bus'];
         $list = M('adve')->where("business_id=$business_id and  adve_status !=0")->order('adve_status')->select();
+//        echo M('adve')->getLastSql();
         return $list;
     }
     

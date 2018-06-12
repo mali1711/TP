@@ -259,6 +259,15 @@ class AdminInfoController extends CommonController {
     }
 
     /*
+     * 退出登录
+     * */
+    public function logout()
+    {
+        unset($_SESSION['Admin']);
+        $this->display('Index/Login');
+    }
+    
+    /*
      * 获取当前分红比例
      * */
     public function bonusInfo()
