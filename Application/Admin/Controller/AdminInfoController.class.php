@@ -303,25 +303,21 @@ class AdminInfoController extends CommonController {
 
         }
         $_POST['business_pass'] = md5(md5($_POST['business_pass']));
-        $_POST[''] = I('get.id');
+        $business = M('business');
+        $_POST = array(
+            ["agent_id"] =>  "2",
+            ["business_email"] =>   "fengyinghao8518@dingtalk.com",
+            ["business_account"] =>  "M17805360000022",
+            ["business_name"] => "爱婴堡",
+            ["business_addtime"] => 1528807720,
+            ["business_industry"] => "母婴",
+            ["business_true_name"] =>"刘静",
+            ["business_phone"] =>  "13589189219",
+            ["business_pass"] =>  "53555633366c0e3c122f7f7ddf3201ad",
+            ["agin_business_pass"] =>  "lj482651",
+        );
 
-        $business = D('business');
-        $where1['business_account'] = I('post.business_account');
-        $where2['business_account'] = I('post.business_account');
-        $res1 = $business->where($where1)->find();
-        $res2 = $business->where($where2)->find();
-        if($res1 || $res2){
-            $this->error('您提交的数据已经存在');
-            die;
-        }
-
-        if($business->create()){
-        $result = $business->add(); // 写入数据到数据库
-        if($result){
-            // 如果主键是自动增长型 成功后返回值就是最新插入的值
-            $this->success('注册成功');
-        }
-    }
+        dump($business->add($_POST));
     }
 
 }
