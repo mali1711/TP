@@ -38,7 +38,6 @@ class UsersController extends Controller {
         $where['agent_id'] = $_SESSION['user']['agent'];
         $where['adve_status'] = $map['id']  = array(array('gt',12),array('lt',20),'and'); ;
         $adve['tow'] = M('adve')->where($where)->select();
-        $list['users_integral_total_amount'] = round($list['users_integral_total_amount'],2);
         $this->assign('adve',$adve);
         $this->assign('wxInfo',$wxInfo);
         $this->assign('list',$list);
@@ -57,8 +56,8 @@ class UsersController extends Controller {
         $wheremon['users_id']= $_SESSION['user']['userinfo']['users_id'];
         $wheremon['business_id']= $_SESSION['user']['bus'];
         $list['users_money_total'] = $consume_list->where($wheremon)->sum("consume_money");
-        $list['consume_return_money_total'] = floor($consume_list->where($wheremon)->sum("consume_return_money")*100)/100;
-        $list['users_integral_total_amount']= floor($users_integral->where($wheremon)->sum("users_integral_num")*100)/100;
+        $list['consume_return_money_total'] = floor($consume_list->where($wheremon)->sum("consume_return_money")*1000)/1000;
+        $list['users_integral_total_amount']= floor($users_integral->where($wheremon)->sum("users_integral_num")*1000)/1000;
         $list['userDetail'] = M('users')->find($where['users_id']);
         $list['business_name'] = $this->__business_name();
         return $list;
@@ -234,9 +233,10 @@ class UsersController extends Controller {
     {
         $users_integral = M('users_integral');
         $where['users_id'] = $_SESSION['user']['userinfo']['users_id'];
+        //其他店铺收益详情
         $res = $users_integral->field('business_name,users_integral_num,business.business_id')
             ->where($where)->join("business ON users_integral.business_id = business.business_id")
-               ->select();//其他店铺收益详情
+               ->select();
         $where['users_id'] = $_SESSION['user']['userinfo']['users_id'];
         $where['buniess_id'] =  $_SESSION['user']['bus'];
         $list['useIntegral'] = M('users_integral')->field('users_integral_num')->where($where)->find()['users_integral_num'];//店铺可用积分
@@ -250,7 +250,6 @@ class UsersController extends Controller {
         $list['hkcount'] = floor($list['hkcount'] * 1000) / 1000;
         $list['list'] = $res;
         $this->assign('list',$list);
-        dump($list);
 //        $this->display('Index/income');
         $this->display('fwj.sir6.cn/shouyi');
     }
