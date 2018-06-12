@@ -20,7 +20,7 @@ class IndexController extends Controller {
         $_SESSION['user']['agent'] = M('business')->find($id)['agent_id'];
         $users->index();
     }
-        
+
 
     /*
      * 进入商家列表页

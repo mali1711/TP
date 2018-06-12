@@ -8,7 +8,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>汇客</title>
 <link href="__PUBLIC__/Style/User/fwj.sir6.cn/css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Style/User/fwj.sir6.cn/css/owl.carousel.css"/>
 <link href="__PUBLIC__/Style/User/fwj.sir6.cn/font/iconfont.css" rel="stylesheet">
+<script type="text/javascript" src="__PUBLIC__/Style/User/fwj.sir6.cn/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Style/User/fwj.sir6.cn/js/owl.carousel.js" charset="utf-8"></script>
 </head>
 <body>
 
@@ -106,12 +109,49 @@
 
     <div class="huiyuan03">
         <ul>
-            <foreach name="adve.one" item="vo">
-                <li><a href="{$vo.adve_url}"><img src="__ROOT__/Uploads/{$vo.adve_pic}" alt=""></a></li>
-            </foreach>
+
+                <li></li>
+
         </ul>
     </div>
+    <div class="banner">
+        <div id="owl-demo" class="owl-carousel">
 
+            <foreach name="adve.one" item="vo">
+                <div class="item">
+                    <a href="{$vo.adve_url}"><img src="__ROOT__/Uploads/{$vo.adve_pic}" alt=""></a>
+                </div>
+            </foreach>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            $('#owl-demo').owlCarousel({
+                items: 1,
+                autoPlay: true,
+                addClassActive:true
+            });
+        });
+    </script>
+
+    <div class="banner1">
+        <div id="owl-demo1" class="owl-carousel">
+            <foreach name="adve.tow" item="vo">
+            <div class="item">
+                <a href="{$vo.adve_url}"><img src="__ROOT__/Uploads/{$vo.adve_pic}" alt=""></a>
+            </div>
+            </foreach>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            $('#owl-demo1').owlCarousel({
+                items: 1,
+                autoPlay: true,
+                addClassActive:true
+            });
+        });
+    </script>
 </div>
 <div class="social_nav">
     <ul>
