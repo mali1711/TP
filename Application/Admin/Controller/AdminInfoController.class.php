@@ -328,8 +328,6 @@ class AdminInfoController extends CommonController {
             $this->error('商户名重复');die;
         }elseif (M('business')->where($business_phone)->find()){
             $this->error('手机号重复');die;
-        }elseif (M('business')->where($business_email)->find()){
-            $this->error('邮箱重复');die;
         }else{
             return true;
         }
