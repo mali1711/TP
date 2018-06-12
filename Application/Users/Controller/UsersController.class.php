@@ -236,19 +236,21 @@ class UsersController extends Controller {
         $where['users_id'] = $_SESSION['user']['userinfo']['users_id'];
         $res = $users_integral->field('business_name,users_integral_num,business.business_id')
             ->where($where)->join("business ON users_integral.business_id = business.business_id")
-               ->select();
-        $list['count']=0;
-        foreach ($res as $k=>$v){
-            $list['count'] += $v['users_integral_num'];
-
-            if($_SESSION['user']['bus']==$v['business_id']){
-                $list['person'] = $res[$k];
-                unset($res[$k]);
-            }
-        }
-        $list['count'] = round($list['count'],2);
+               ->select();//其他店铺收益详情
+        $where['users_id'] = $_SESSION['user']['userinfo']['users_id'];
+        $where['buniess_id'] =  $_SESSION['user']['bus'];
+        $list['useIntegral'] = M('users_integral')->field('users_integral_num')->where($where)->find()['users_integral_num'];//店铺可用积分
+        $list['useIntegral'] = floor($list['useIntegral'] * 1000) / 1000;
+        //本店铺所有收益
+        $list['conut'] = M('users_integral_list')->where($where)->Sum('users_get_integral');
+        $list['conut'] = floor($list['conut'] * 1000) / 1000;
+        //汇客所有收益
+        unset($where['buniess_id']);
+        $list['hkcount'] = M('users_integral_list')->where($where)->Sum('users_get_integral');
+        $list['hkcount'] = floor($list['hkcount'] * 1000) / 1000;
         $list['list'] = $res;
         $this->assign('list',$list);
+        dump($list);
 //        $this->display('Index/income');
         $this->display('fwj.sir6.cn/shouyi');
     }
