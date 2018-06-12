@@ -264,16 +264,21 @@ class UsersController extends Controller {
         $count      = $users_integral_list->where($where)->count();
         $Page       = new \Think\Page($count,10);
         $show       = $Page->show();
-        $list = $users_integral_list->where($where)
+        $list = $users_integral_list->where($where)->where()
                             ->field('consume_list.consume_time,consume_list.consume_money,users_integral_list.users_integral_addtime,users_integral_list.users_get_integral')
                             ->join('consume_list ON consume_list.consume_list_id = users_integral_list.consume_list_id')
                             ->order('users_integral_list.users_integral_addtime desc')
                             ->limit($Page->firstRow.','.$Page->listRows)
                             ->select();
+
         foreach ($list as $k=>$v){
             $string = $v['consume_money'];
             $list[$k]['consume_money'] = preg_replace('/^0*/', '', $string);
+            if($v['users_get_integral']==0){
+
+            }
         }
+
         $this->assign('page',$show);
         $this->assign('list',$list);
         $this->display('Index/IncomeDetail');
