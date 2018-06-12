@@ -304,20 +304,36 @@ class AdminInfoController extends CommonController {
         }
         $_POST['business_pass'] = md5(md5($_POST['business_pass']));
         $business = M('business');
-        $_POST = array(
-            ["agent_id"] =>  "2",
-            ["business_email"] =>   "fengyinghao8518@dingtalk.com",
-            ["business_account"] =>  "M17805360000022",
-            ["business_name"] => "爱婴堡",
-            ["business_addtime"] => 1528807720,
-            ["business_industry"] => "母婴",
-            ["business_true_name"] =>"刘静",
-            ["business_phone"] =>  "13589189219",
-            ["business_pass"] =>  "53555633366c0e3c122f7f7ddf3201ad",
-            ["agin_business_pass"] =>  "lj482651",
-        );
+        $data = $_POST;
+        $data['business_addtime'] = time();
+        $this->yanz($data);//验证部分字段是否重复
+        $res = $business->add($data);
+        if($res){
+            $this->success('注册成功');
+        }else{
+            $this->error('注册失败');
+        }
+    }
 
-        dump($business->add($_POST));
+    /*
+     * 验证注册信息
+     * $Model->where("id=%d and username='%s' and xx='%f'",$id,$username,$xx)->select();
+     * */
+    public function yanz($data)
+    {
+        $business_name['business_name'] = $data['business_name'];
+        $business_phone['business_phone'] = $data['business_phone'];
+        $business_email['business_email'] = $data['business_email'];
+        if(M('business')->where($business_name)->find()){
+            $this->error('商户名重复');die;
+        }elseif (M('business')->where($business_phone)->find()){
+            $this->error('手机号重复');die;
+        }elseif (M('business')->where($business_email)->find()){
+            $this->error('邮箱重复');die;
+        }else{
+            return true;
+        }
+
     }
 
 }

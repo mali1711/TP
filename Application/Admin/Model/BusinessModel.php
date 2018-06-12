@@ -2,6 +2,10 @@
 namespace Home\Model;
 use Think\Model;
 class BusinessModel extends Model{
+
+    protected $table = 'business';
+    protected $pk = 'business_id';
+
     public function __construct()
     {
         parent::__construct();
