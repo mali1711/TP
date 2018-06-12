@@ -30,9 +30,10 @@ class ConsumeController extends Controller {
         $redirect_url = "http://www.hkxitong.com/TP/index.php/Home/Consume/paymentSucess";//成功支付后跳转的地址
         $res =  $Payment->h5ZhiFu($amount=$amount,$operator_id=$operator_id,$notify_url,$redirect_url);
         $res = json_decode($res);
+//        dump($res);
         if($res->data->url==''){
             $info = $this->result['errorMsg'];
-            $this->error("$info.请选用其他方式支付，抱歉");
+            $this->error("$info.网络延迟，请再支付一次！抱歉");
         }else{
             $payUrl = $res->data->url;
             $_SESSION['user']['payInfo'] = NULL;
