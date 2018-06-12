@@ -13,12 +13,14 @@ class IndexController extends Controller {
     public function index()
     {
         $users = A('Users');
-        $_SESSION['user']['bus'] = $_GET['business_id'];
+        if($_GET['business_id']){
+            $_SESSION['user']['bus'] = $_GET['business_id'];
+        }
         $id = $_SESSION['user']['bus'];
         $_SESSION['user']['agent'] = M('business')->find($id)['agent_id'];
         $users->index();
     }
-    
+        
 
     /*
      * 进入商家列表页
