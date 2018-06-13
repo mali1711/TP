@@ -238,16 +238,18 @@ class UsersController extends Controller {
             ->where($where)->join("business ON users_integral.business_id = business.business_id")
                ->select();
         $where['users_id'] = $_SESSION['user']['userinfo']['users_id'];
-        $where['buniess_id'] =  $_SESSION['user']['bus'];
-        $list['useIntegral'] = M('users_integral')->field('users_integral_num')->where($where)->find()['users_integral_num'];//店铺可用积分
+        $where['business_id'] =  $_SESSION['user']['bus'];
+        //店铺现有红包
+        $list['useIntegral'] = M('users_integral')->field('users_integral_num')->where($where)->find()['users_integral_num'];
         $list['useIntegral'] = floor($list['useIntegral'] * 1000) / 1000;
         //本店铺所有收益
         $list['conut'] = M('users_integral_list')->where($where)->Sum('users_get_integral');
         $list['conut'] = floor($list['conut'] * 1000) / 1000;
         //汇客所有收益
-        unset($where['buniess_id']);
+        unset($where['business_id']);
         $list['hkcount'] = M('users_integral_list')->where($where)->Sum('users_get_integral');
         $list['hkcount'] = floor($list['hkcount'] * 1000) / 1000;
+
         $list['list'] = $res;
         $this->assign('list',$list);
 //        $this->display('Index/income');
