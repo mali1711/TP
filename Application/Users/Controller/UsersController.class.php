@@ -255,45 +255,9 @@ class UsersController extends Controller {
 //        $this->display('Index/income');
         $this->display('fwj.sir6.cn/shouyi');
     }
+    
 
-    /*
-     * 收益分红的具体详情
-     * */
-    public function incomeDetail()
-    {
-        $users_integral_list = M('users_integral_list');
-        $where['users_integral_list.users_id'] = $_SESSION['user']['userinfo']['users_id'];
-        $where['users_integral_list.users_get_integral'] = array('neq',0);
-        $count      = $users_integral_list->where($where)->count();
-        $Page       = new \Think\Page($count,10);
-        $show       = $Page->show();
-        $list = $users_integral_list->where($where)
-                            ->field('consume_list.consume_time,consume_list.consume_money,users_integral_list.users_integral_addtime,users_integral_list.users_get_integral')
-                            ->join('consume_list ON consume_list.consume_list_id = users_integral_list.consume_list_id')
-                            ->order('users_integral_list.users_integral_addtime desc')
-                            ->limit($Page->firstRow.','.$Page->listRows)
-                            ->select();
-
-        foreach ($list as $k=>$v){
-            $string = $v['consume_money'];
-            $list[$k]['consume_money'] = preg_replace('/^0*/', '', $string);
-        }
-
-        $this->assign('page',$show);
-        $this->assign('list',$list);
-        $this->display('Index/IncomeDetail');
-/*  直接输出了
-    foreach($list as $v){
-            $time1 = date('Y-m-d',$v['consume_time']);
-            $mon1 = $v['consume_money'];
-            $time2 = date('Y-m-d',$v['users_integral_addtime']);
-            $mon2 = $v['users_get_integral'];
-            $str = sprintf("您%s,消费的%s,于%s,返还了%s",$time1,$mon1,$time2,$mon2);
-            echo $str.'<br/>';
-        }*/
-    }
-
-
+    
     /*
      * 用户支付成功。跳转次页面
      * 商家互推广告页面
