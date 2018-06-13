@@ -47,7 +47,7 @@
 <form  action="{$list.url}" method="post">
     <div id="top">
         <div class="top_img"></div>
-        <a href="__MODULE__/Users/index">&lt;返回首页</a>
+        <a href="__MODULE__/Users/?business_id={$id}">&lt;返回首页</a>
     </div>
     <div id="san02"></div>
     <foreach name="list.adve" item="vo">
@@ -75,7 +75,7 @@
     // 定时跳转页面
     var time = 5; //时间,秒
     function Redirect(){
-        window.location = "__MODULE__/Users/index";
+        window.location = "__MODULE__/Users/?business_id={$id}";
     }
     var i = 0;
     function dis(){

@@ -301,6 +301,8 @@ class UsersController extends Controller {
     public function showAdve()
     {
         $list['adve'] = $this->adveList();
+        $id = $_SESSION['user']['bus'];
+        $this->assign('id',$id);
         $this->assign('list',$list);
         $this->display('Index/showAdve');
     }
