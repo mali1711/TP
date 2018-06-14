@@ -106,4 +106,9 @@ class IndexController extends Controller {
         $this->display('Index/IncomeDetail');
 
     }
+
+    public function _empty()
+    {
+        $this->error("页面出现问题，请稍后");
+    }
 }
