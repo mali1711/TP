@@ -1,4 +1,4 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 <head>
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
@@ -116,10 +116,9 @@
     </div>
     <div class="banner">
         <div id="owl-demo" class="owl-carousel">
-
             <foreach name="adve.one" item="vo">
                 <div class="item">
-                    <a href="{$vo.adve_url}"><img src="__ROOT__/Uploads/{$vo.adve_pic}" alt=""></a>
+                    <a href="{$vo.adve_url}"><img style="width: 100%" src="__ROOT__/Uploads/{$vo.adve_pic}" alt=""></a>
                 </div>
             </foreach>
         </div>

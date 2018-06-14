@@ -1,0 +1,63 @@
+	*{
+		margin:0px; padding:0px;
+	}
+	a{
+		text-decoration:none;
+	}
+	#top{
+			width:100%;  height:128px; background:#009dff;
+		}
+	.zhuangtailan {
+			width:98%; height:40px;
+			margin:0px auto;
+
+		}
+	.huike {
+			background:url(../img/8_top_bg.png)  no-repeat 20px center;
+			width:100%; height:88px;color:#fff; font-size:40px;  text-align:center; line-height:88px;  letter-spacing:6px;
+	}
+	#banner {
+		width:100%;height:350px;background:url(../img/7_banner.png)no-repeat center center;background-size:cover;
+	}
+	#content {
+		width:100%;height:856px;background:#ffffff;
+	}
+	.content01 {
+		width:100%;height:88px;border-bottom:2px solid #f2f2f2;font-size:30px;color:#333333;line-height:88px;background:url(../img/icon08.png) no-repeat 20px center;
+	}
+	.content01 b {
+		margin-left:40px;
+	}
+	.content02,.content03,.content04,.content05 {
+		width:100%;height:164px;padding-top:28px;
+	}
+	.content02_01 {
+		float:left;margin-left:20px;width:164px;height:164px;background:url(../img/7_bg01.png) no-repeat center center;
+	}
+	.content02_02,.content03_02,.content04_02,.content05_02{
+		float:right;width:78%;height:162px;border-bottom:2px solid #f2f2f2;
+	}
+	.content_text {
+		float:left;width:40%;height:162px;font-size:30px;color:#b2b2b2;
+	}
+	.content_text p {
+		font-size:36px;color:#aeaeae;line-height:50px;
+	}
+	.content_text p b {
+		font-size:40px;color:#333333;
+	}
+	.content_text span {
+		font-size:28px;color:#009cfe;
+	}
+	.content_push {
+		float:right;margin-right:20px;width:19%;  height:42px;background-color:#019dfc;border-radius:21px;color:#ffffff;font-size:30px;text-align:center;line-height:42px;
+	}
+	.content03_01 {
+		float:left;margin-left:20px;width:164px;height:164px;background:url(../img/7_bg02.png) no-repeat center center;
+	}
+	.content04_01 {
+		float:left;margin-left:20px;width:164px;height:164px;background:url(../img/7_bg03.png) no-repeat center center;
+	}
+	.content05_01 {
+		float:left;margin-left:20px;width:164px;height:164px;background:url(../img/7_bg04.png) no-repeat center center;
+	}
