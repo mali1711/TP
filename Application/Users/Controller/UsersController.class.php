@@ -38,10 +38,28 @@ class UsersController extends Controller {
         $where['agent_id'] = $_SESSION['user']['agent'];
         $where['adve_status'] = $map['id']  = array(array('gt',12),array('lt',20),'and'); ;
         $adve['tow'] = M('adve')->where($where)->select();
-        $this->assign('adve',$adve);
-        $this->assign('wxInfo',$wxInfo);
-        $this->assign('list',$list);
+        $business_name = $this->getBunName($_SESSION['user']['bus']);
+        $this->assign('adve',$adve);//广告
+        $this->assign('wxInfo',$wxInfo);//微信二维码参数
+        $this->assign('list',$list);//数据线索
+        $this->assign('bunname',$business_name);//扫描过的店铺名字
         $this->display('fwj.sir6.cn/huiyuan');
+    }
+
+    /**
+     * @param  $id 店铺id
+     * 获取商家名字
+     * @return string
+     */
+    public function getBunName($id)
+    {
+
+        if($id==null){
+            $res = M('business')->find($id)['business_name'];
+            return $res;
+        }else{
+            return "会客系统（您还没有进入店铺)";
+        }
     }
 
     /*
@@ -150,7 +168,7 @@ class UsersController extends Controller {
                 }
             }
         }
-        
+
     }
 
 
@@ -182,7 +200,7 @@ class UsersController extends Controller {
         }
        $this->display('Index/userInfo');
     }
-    
+
     /*
   * 统计用户一共还剩下多少积分
   * */
@@ -225,7 +243,7 @@ class UsersController extends Controller {
 //        $this->display('Index/pay');
         $this->display('fwj.sir6.cn/fenhong');
     }
-    
+
     /*
      * 用户收益详情记录
      * 记录用户每笔收益
@@ -256,9 +274,9 @@ class UsersController extends Controller {
 //        $this->display('Index/income');
         $this->display('fwj.sir6.cn/shouyi');
     }
-    
 
-    
+
+
     /*
      * 用户支付成功。跳转次页面
      * 商家互推广告页面
