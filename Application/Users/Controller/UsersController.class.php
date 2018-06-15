@@ -213,6 +213,7 @@ class UsersController extends Controller {
         $list = $consume_list->field('business_name,consume_money,consume_time')
                 ->join("business ON consume_list.business_id = business.business_id")
                 ->where($where)
+                ->order('consume_time desc')
                 ->limit($Page->firstRow.','.$Page->listRows)
                 ->select();
         foreach($list as $k=>$v){

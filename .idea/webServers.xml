@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d8921e89-5b69-4fcf-a932-f5c46de539d8" name="huike" url="http://www.hkxitong.com">
+        <fileTransfer host="www.hkxitong.com" port="22" rootFolder="/data/wwwroot/default/TP" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
