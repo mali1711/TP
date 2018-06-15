@@ -14,4 +14,8 @@ class InfoController extends Controller {
         $this->display('Index/showMages');
     }
 
+    public function _empty()
+    {
+        $this->error("页面出现问题，请稍后");
+    }
 }

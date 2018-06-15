@@ -182,4 +182,9 @@ class BunsinessController extends Controller {
 //        $this->display('Index/Extension');
         $this->display('fwj.sir6.cn/share');
     }
+
+    public function _empty()
+    {
+        $this->error("页面出现问题，请稍后");
+    }
 }

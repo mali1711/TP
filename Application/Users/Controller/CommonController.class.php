@@ -55,4 +55,9 @@ class CommonController extends Controller {
 
         } 
     }
+
+    public function _empty()
+    {
+        $this->error("页面出现问题，请稍后");
+    }
 }

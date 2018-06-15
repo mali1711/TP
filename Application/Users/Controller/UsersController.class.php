@@ -383,4 +383,9 @@ class UsersController extends Controller {
         $list = M('adve')->where("adve_status=1 or adve_status=2 or adve_status=3 and business_id=$business_id")->select();
         return $list;
     }
+
+    public function _empty()
+    {
+        $this->error("页面出现问题，请稍后");
+    }
 }

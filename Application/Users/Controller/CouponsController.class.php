@@ -91,5 +91,10 @@ class CouponsController extends Controller {
         $res = $users_integral->field('users_integral_num')->where($where)->find();
         return $res;
     }
+
+    public function _empty()
+    {
+        $this->error("页面出现问题，请稍后");
+    }
     
 }
