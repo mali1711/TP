@@ -54,7 +54,7 @@ class UsersController extends Controller {
     public function getBunName($id)
     {
 
-        if($id==null){
+        if(isset($id)){
             $res = M('business')->find($id)['business_name'];
             return $res;
         }else{

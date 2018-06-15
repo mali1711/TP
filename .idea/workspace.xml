@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d7e659c-d397-4260-a95f-717422f72ebe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/iconfont.eot" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/iconfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/iconfont.ttf" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/iconfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/iconfont.woff" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/iconfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/20180613185323.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/20180613185323.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/act.jpg" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/act.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/bg_1.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/bg_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/juan1.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/juan1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/juan2.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/juan2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/juan3.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/juan3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/lingdang.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/lingdang.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/logo.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/logo1.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/logo1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/logo2.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/logo2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/logo3.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/logo3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/logo4.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/logo4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/man.jpg" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/man.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/pic01.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/pic01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/pic02.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/pic02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/pic03.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/pic03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/pic04.jpg" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/pic04.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/pic05.jpg" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/pic05.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/pic06.jpg" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/pic06.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/shop1.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/shop1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/shop2.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/shop2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/shop3.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/shop3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/shop4.png" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/images/shop4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/css/owl.carousel.css" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/css/owl.carousel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/css/style.css" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/demo.css" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/demo_fontclass.html" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/demo_fontclass.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/demo_symbol.html" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/demo_symbol.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/demo_unicode.html" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/demo_unicode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/iconfont.css" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/iconfont.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/iconfont.js" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/iconfont.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/iconfont.svg" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/font/iconfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/huiyuan.html" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/huiyuan.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/js/jquery-1.8.2.min.js" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/js/jquery-1.8.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/js/owl.carousel.js" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/js/owl.carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/quan.html" afterPath="$PROJECT_DIR$/Application/Public/Style/User/fwj.sir6.cn/quan.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/Controller/UsersController.class.php" afterPath="$PROJECT_DIR$/Application/Users/Controller/UsersController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/huiyuan.html" afterPath="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/huiyuan.html" />
     </list>
     <ignored path="TP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,8 +34,8 @@
       <file leaf-file-name="UsersController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Users/Controller/UsersController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            <state relative-caret-position="159">
+              <caret line="40" column="69" lean-forward="false" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -368,16 +327,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\TP\Public\Style\User\App\img" />
+      <recent name="D:\wamp64\www\TP\Application\Admin\View\Phone" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\wamp64\www\TP\Public\Style\User\fwj.sir6.cn\images" />
       <recent name="D:\wamp64\www\TP\Application\Users\View" />
       <recent name="D:\wamp64\www\TP\Application\Users\View\Index" />
       <recent name="D:\wamp64\www\TP\Public\Style\User" />
       <recent name="D:\wamp64\www\TP\Public\Style\User\App\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\TP\Public\Style\User\App\img" />
-      <recent name="D:\wamp64\www\TP\Application\Admin\View\Phone" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -508,7 +467,7 @@
       <workItem from="1528785817920" duration="18627000" />
       <workItem from="1528874724905" duration="7000000" />
       <workItem from="1528883719808" duration="2106000" />
-      <workItem from="1528947771718" duration="14455000" />
+      <workItem from="1528947771718" duration="15049000" />
     </task>
     <task id="LOCAL-00001" summary="提交测试 togo">
       <created>1512741371135</created>
@@ -584,7 +543,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="445467000" />
+    <option name="totallyTimeSpent" value="446061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1056,8 +1015,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Users/Controller/UsersController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        <state relative-caret-position="159">
+          <caret line="40" column="69" lean-forward="false" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
           <folding />
         </state>
       </provider>
