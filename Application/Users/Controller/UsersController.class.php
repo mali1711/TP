@@ -252,6 +252,7 @@ class UsersController extends Controller {
     {
         $users_integral = M('users_integral');
         $where['users_id'] = $_SESSION['user']['userinfo']['users_id'];
+        $where['users_get_integral'] = array('neq',0);;
         //其他店铺收益详情
         $res = $users_integral->field('business_name,users_integral_num,business.business_id')
             ->where($where)->join("business ON users_integral.business_id = business.business_id")

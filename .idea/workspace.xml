@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d7e659c-d397-4260-a95f-717422f72ebe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/Controller/BunsinessController.class.php" afterPath="$PROJECT_DIR$/Application/Users/Controller/BunsinessController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/Controller/CommonController.class.php" afterPath="$PROJECT_DIR$/Application/Users/Controller/CommonController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/Controller/CouponsController.class.php" afterPath="$PROJECT_DIR$/Application/Users/Controller/CouponsController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/Controller/InfoController.class.php" afterPath="$PROJECT_DIR$/Application/Users/Controller/InfoController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php" afterPath="$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/Controller/UsersController.class.php" afterPath="$PROJECT_DIR$/Application/Users/Controller/UsersController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/shouyi.html" afterPath="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/shouyi.html" />
     </list>
     <ignored path="TP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,94 +31,22 @@
     <favorites_list name="TP" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="UsersController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Users/Controller/UsersController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="389" column="5" lean-forward="false" selection-start-line="389" selection-start-column="5" selection-end-line="389" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="271" column="0" lean-forward="true" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="huiyuan.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/huiyuan.html">
+      <file leaf-file-name="shouyi.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/shouyi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#title#0;n#head#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fenhong.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/fenhong.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="75" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Users/Controller/IndexController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="113" column="1" lean-forward="true" selection-start-line="113" selection-start-column="1" selection-end-line="113" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Users/Controller/InfoController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShareController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="84" column="5" lean-forward="false" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BunsinessController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Users/Controller/BunsinessController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="188" column="5" lean-forward="false" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommonController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Users/Controller/CommonController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CouponsController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Users/Controller/CouponsController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="97" column="5" lean-forward="false" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
+            <state relative-caret-position="436">
+              <caret line="45" column="86" lean-forward="false" selection-start-line="45" selection-start-column="86" selection-end-line="45" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -144,6 +68,7 @@
       <find>pay</find>
       <find>__userinfo</find>
       <find>_em</find>
+      <find>income</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,7 +116,6 @@
         <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/quan.html" />
         <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/share.html" />
         <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/shop.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/shouyi.html" />
         <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/xiaofei.html" />
         <option value="$PROJECT_DIR$/Application/Users/Controller/IndexController.class.php" />
         <option value="&lt;d8921e89-5b69-4fcf-a932-f5c46de539d8&gt;/Application/Users/View/fwj.sir6.cn/huiyuan.html" />
@@ -205,6 +129,7 @@
         <option value="$PROJECT_DIR$/Application/Users/Controller/CouponsController.class.php" />
         <option value="$PROJECT_DIR$/Application/Users/Controller/InfoController.class.php" />
         <option value="$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/shouyi.html" />
         <option value="$PROJECT_DIR$/Application/Users/Controller/UsersController.class.php" />
       </list>
     </option>
@@ -224,8 +149,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="351" />
-    <option name="y" value="80" />
+    <option name="x" value="321" />
+    <option name="y" value="148" />
     <option name="width" value="1340" />
     <option name="height" value="876" />
   </component>
@@ -334,28 +259,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fwj.sir6.cn" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.sir6hk.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www.sir6hk.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Users" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,7 +421,8 @@
       <workItem from="1528874724905" duration="7000000" />
       <workItem from="1528883719808" duration="2106000" />
       <workItem from="1528947771718" duration="15135000" />
-      <workItem from="1529030038176" duration="163000" />
+      <workItem from="1529030038176" duration="2550000" />
+      <workItem from="1529075283454" duration="461000" />
     </task>
     <task id="LOCAL-00001" summary="提交测试 togo">
       <created>1512741371135</created>
@@ -594,7 +498,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446310000" />
+    <option name="totallyTimeSpent" value="449158000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -606,7 +510,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="351" y="80" width="1340" height="876" extended-state="0" />
+    <frame x="321" y="148" width="1340" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22713178" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -614,6 +518,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273684" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06580938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -630,7 +535,6 @@
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496124" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -772,13 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/shouyi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1030,10 +927,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/shouyi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="45" column="86" lean-forward="false" selection-start-line="45" selection-start-column="86" selection-end-line="45" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Users/Controller/UsersController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="389" column="5" lean-forward="false" selection-start-line="389" selection-start-column="5" selection-end-line="389" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="271" column="0" lean-forward="true" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
           <folding />
         </state>
       </provider>
