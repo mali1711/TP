@@ -94,7 +94,7 @@
                 <img src="__PUBLIC__/Style/User/App/img/people_blue.png" width="50px;" />
                 <div class="info">
                   <div>会员：{$vo.users_phone} &nbsp;&nbsp;&nbsp;&nbsp;</div>
-                  <div style="color: #B1B1B1">支付订单{$vo['consume_money']+$vo['consume_list_use_integral']}元<br/><small style="color: #FE7D7C;">实际支付实际付款{$vo.consume_money}元，分红抵用{$vo.consume_list_use_integral}元</small></div>
+                  <div style="color: #B1B1B1">支付订单{$vo['consume_money']+$vo['consume_list_use_integral']}元<br/><small>分红抵用 <span style="color: red;font-size: 30px;"> <b>&nbsp;{$vo.consume_list_use_integral}&nbsp;</b> </span>元</small></div>
                 </div>
             </li>
             <div style="height: 4px;width: 100%;background: #F2F2F2;margin-top: 60px;"></div>
