@@ -324,13 +324,17 @@ class AdminInfoController extends CommonController {
         $business_name['business_name'] = $data['business_name'];
         $business_phone['business_phone'] = $data['business_phone'];
         $business_email['business_email'] = $data['business_email'];
+        $business_account['business_account'] = $data['business_account'];
         if(M('business')->where($business_name)->find()){
             $this->error('商户名重复');die;
         }elseif (M('business')->where($business_phone)->find()){
             $this->error('手机号重复');die;
+        }elseif (M('business')->where($business_account)->find()){
+            $this->error('登录账号重复');die;
         }else{
             return true;
         }
+
 
     }
 

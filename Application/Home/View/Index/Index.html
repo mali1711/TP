@@ -118,7 +118,10 @@
                                                             <a title="恢复" style="color: green" href="__MODULE__/Business/activation_bun/business_id/{$vo.business_id}"><i class="icon-flag bigger-120"></i></a>
                                                         </button>
                                                     </if>
+                                                    <button class="btn btn-xs btn-danger">
 
+                                                        <a title="删除商家" style="color: white" href="__MODULE__/Business/delBusiness/business_id/{$vo.business_id}" onClick="return confirm('确定删除?');"><i class="icon-trash bigger-120"></i></a>
+                                                    </button>
 
                                                 </div>
 

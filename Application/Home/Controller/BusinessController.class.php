@@ -110,4 +110,20 @@ class BusinessController extends Controller {
             $this->success('operator_id添加成功');
         }
     }
+
+    /**
+     * 删除商家
+     * @GET id（商家id）
+     */
+    public function delBusiness()
+    {
+        $id = I('get.business_id');
+        $business = M('business');
+        $res = $business->delete($id);
+        if($res){
+            $this->success('已经删除此商家');
+        }else{
+            $this->error('操作失误');
+        }
+    }
 }
