@@ -8,7 +8,7 @@ class IndexController extends Controller {
 
     public function __construct()
     {
-        $this->tday = time();
+       $this->tday = time();
         $this->yesterday = strtotime("-1 day");
         parent::__construct();
     }
@@ -125,8 +125,13 @@ class IndexController extends Controller {
         $users_integral_list  = array();
         foreach ($list as $key=>$value){
             $business_id = $value['business_id'];//商家所在id
+			
             $ress = floor($value['consume_money']/$data[$business_id]['b_turnover_in_the_day_money']*10000)/10000;
-            echo $ress.'*'.$data[$business_id]['b_turnover_in_the_day_integral_new'].'-->'.$ress*$data[$business_id]['b_turnover_in_the_day_integral_new'];
+			if($ress==INF){
+				$ress = 0;
+			}
+			echo $ress;
+            // echo $ress.'*'.$data[$business_id]['b_turnover_in_the_day_integral_new'].'-->'.$ress*$data[$business_id]['b_turnover_in_the_day_integral_new'];
             echo '<br/>';
             $users_integral_list[$key]['users_id'] = $value['users_id'];
             $users_integral_list[$key]['consume_list_id'] = $value['consume_list_id'];
@@ -162,7 +167,11 @@ class IndexController extends Controller {
             $bun_id = $val['business_id'];
             //用户每单消费占总金额的比例，去除4位小数以后的小数
             $bili = floor($val['consume_money']/$allBun[$bun_id]['business_info_total']*10000)/10000;
-            dump($bili);
+			echo $allBun[$bun_id]['business_info_total'];
+            if($bili==INF){
+				$bili = 0;
+			}
+			echo $bili;
             $data[$key]['business_id'] = $val['business_id'];
             $data[$key]['users_get_integral'] = $bili*$dayData[$bun_id]['b_turnover_in_the_day_integral_new']; //老用户积分的比例
             $data[$key]['users_id'] = $val['users_id'];
