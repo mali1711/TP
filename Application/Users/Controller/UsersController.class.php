@@ -273,8 +273,6 @@ class UsersController extends Controller {
         }
         $list['list'] = $res;
         $this->assign('list',$list);
-
-//        $this->display('Index/income');
         $this->display('fwj.sir6.cn/shouyi');
     }
 
