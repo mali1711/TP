@@ -3,7 +3,15 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="d8921e89-5b69-4fcf-a932-f5c46de539d8" name="huike" url="http://www.hkxitong.com">
-        <fileTransfer host="www.hkxitong.com" port="22" rootFolder="/data/wwwroot/default/TP" accessType="SFTP">
+        <fileTransfer host="www.hkxitong.com" port="22" rootFolder="/data/wwwroot/default/TP" accessType="SFTP" username="">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d9e9ed19-2bbf-4e87-b19f-33cc7d880b70" name="汇客测试" url="http://www.sir6.cn">
+        <fileTransfer host="www.sir6.cn" port="22" rootFolder="/data/wwwroot/hk.sir6.cn/TP" accessType="SFTP" password="dfebdfc8dfc9df9bdf98df99df9edf9fdf9cdf9ddf92df93dfea" username="root">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
