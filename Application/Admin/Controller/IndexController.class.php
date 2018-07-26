@@ -8,8 +8,8 @@ class IndexController extends Controller {
 
     public function __construct()
     {
-       $this->tday = time();
-        $this->yesterday = strtotime("-1 day");
+        $this->tday = 1532534280;
+        $this->yesterday = 1532533801;
         parent::__construct();
     }
 
@@ -18,7 +18,7 @@ class IndexController extends Controller {
         $AdminInfo = A('AdminInfo');
         $AdminInfo->index();
     }
-    
+
     /*积分返还机制 start*/
     /*
      * 计算商家昨天所有的收益记录
@@ -45,7 +45,7 @@ class IndexController extends Controller {
         $this->UsersTotalIntegral();
     }
 
-    
+
     /*
      * 所有用户昨天的消费的金额的统计
      * 当天消费的数据的的处理
@@ -125,13 +125,11 @@ class IndexController extends Controller {
         $users_integral_list  = array();
         foreach ($list as $key=>$value){
             $business_id = $value['business_id'];//商家所在id
-			
             $ress = floor($value['consume_money']/$data[$business_id]['b_turnover_in_the_day_money']*10000)/10000;
-			if($ress==INF){
-				$ress = 0;
-			}
-			echo $ress;
-            // echo $ress.'*'.$data[$business_id]['b_turnover_in_the_day_integral_new'].'-->'.$ress*$data[$business_id]['b_turnover_in_the_day_integral_new'];
+            if($ress==INF){
+                $ress=0;
+            }
+            echo $ress.'*'.$data[$business_id]['b_turnover_in_the_day_integral_new'].'-->'.$ress*$data[$business_id]['b_turnover_in_the_day_integral_new'];
             echo '<br/>';
             $users_integral_list[$key]['users_id'] = $value['users_id'];
             $users_integral_list[$key]['consume_list_id'] = $value['consume_list_id'];
@@ -154,10 +152,14 @@ class IndexController extends Controller {
         $alluser = $consume_list->where($where)->select();
         //获取店铺总收益
         $allBun = M('business_info')->select();
+        foreach ($allBun as $key=>$val){
+            $bun_id =  $val['business_id'].'<br/>';
+            $allBun[$key]['business_info_total'] =  A('Public')->getAllBunPro($bun_id);
+        }
         foreach ($allBun as $k=>$v){
             unset($allBun[$k]);
             $k = $v['business_id'];
-            $allBun[$k ] = $v;
+            $allBun[$k] = $v;
         }
         //获取所有店铺的总收益
         $dayData = $this->__inTheDayGeTMon();
@@ -167,11 +169,10 @@ class IndexController extends Controller {
             $bun_id = $val['business_id'];
             //用户每单消费占总金额的比例，去除4位小数以后的小数
             $bili = floor($val['consume_money']/$allBun[$bun_id]['business_info_total']*10000)/10000;
-			echo $allBun[$bun_id]['business_info_total'];
+
             if($bili==INF){
-				$bili = 0;
-			}
-			echo $bili;
+                $bili = 0;
+            };
             $data[$key]['business_id'] = $val['business_id'];
             $data[$key]['users_get_integral'] = $bili*$dayData[$bun_id]['b_turnover_in_the_day_integral_new']; //老用户积分的比例
             $data[$key]['users_id'] = $val['users_id'];
@@ -182,43 +183,6 @@ class IndexController extends Controller {
 
     }
 
-    /*
-     * ord 版本，因为需求被改变
-     * 返还之前用户所有的消费积分
-     *
-    public function returnIntegralToOrder()
-    {
-        //获取除了今天以外所有的用户
-        $consume_list = M('consume_list');
-        $yesTime = $this->tday;
-        $time = $this->__startAndOverTime($yesTime);
-        $where['consume_time'] = array('ELT',$time['start']);
-        $list = $consume_list->where($where)->select();//除了今天消费的所有用户的消费信息
-//        所有店铺今天盈利的信息
-        $data = $this->__inTheDayGeTMon();
-        //获取所有店铺的总收益
-        $allBun = M('business_info')->select();
-        foreach ($allBun as $k=>$v){
-            $allBun[$v['business_id']] = $allBun[$k];
-            unset($allBun[$k]);
-        }
-
-        //获取二次分红的数据
-        $array = array();
-        foreach($list as $k=>$v){
-            $business_id = $v['business_id'];
-            //初始化比例
-            $ress = floor($v['consume_money']/($allBun[$business_id]['business_info_total']-$data[$business_id]['b_turnover_in_the_day_money'])*100)/100;
-            $array[$k]['business_id'] = $v['business_id'];
-            $array[$k]['users_id'] = $v['users_id'];
-            $array[$k]['users_integral_addtime'] = time();
-            $array[$k]['users_get_integral'] =  $ress*$data[$business_id]['b_turnover_in_the_day_integral_new'];
-
-        }
-        return $array;
-
-    }
-    */
 
 
     /*
@@ -253,7 +217,7 @@ class IndexController extends Controller {
             }
         }
     }
-    
+
 
  /********************************公用函数********************************************/
 /*
