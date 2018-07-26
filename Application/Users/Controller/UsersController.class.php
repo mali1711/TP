@@ -262,7 +262,7 @@ class UsersController extends Controller {
         $list['useIntegral'] = M('users_integral')->field('users_integral_num')->where($where)->find()['users_integral_num'];
         $list['useIntegral'] = floor($list['useIntegral'] * 1000) / 1000;
         //本店铺所有收益
-        $list['conut'] = M('users_integral_list')->where($where)->Sum('users_get_integral');
+        $list['conut'] = M('users_integral')->where($where)->find()['users_integral_num'];
         $list['conut'] = floor($list['conut'] * 1000) / 1000;
         //汇客所有收益
         unset($where['business_id']);

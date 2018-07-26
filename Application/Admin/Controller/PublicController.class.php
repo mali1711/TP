@@ -40,6 +40,7 @@ class PublicController extends Controller {
         }
         $this->emptyTable('business_info');
         $res = M('business_info')->addAll($dataList);
+        return $res;
     }
 
 }

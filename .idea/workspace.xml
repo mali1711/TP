@@ -1,806 +1,199 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="9d7e659c-d397-4260-a95f-717422f72ebe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Admin/Controller/PublicController.class.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Public/Style/User/App/img/΢��ͼƬ_20171225195337.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Public/Style/User/App/img/΢��ͼƬ_20171225195337.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
-    </list>
-    <ignored path="TP.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="TP" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Users/Controller/IndexController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="835">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="151" column="45" selection-start-line="151" selection-start-column="45" selection-end-line="151" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublicController.class.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/PublicController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Application/Admin/Controller/ShareController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
-        <option value="$PROJECT_DIR$/Application/Users/View/Index/login1.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/Index/login.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/Index/register1.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/Index/register.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/Index/personal.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/Index/payment.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/Index/subMoney.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/Index/Extension.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Layout/Index.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/addKeyApp.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Index/Login.html" />
-        <option value="$PROJECT_DIR$/Application/Home/Controller/ConsumeController.class.php" />
-        <option value="&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Home/Controller/ConsumeController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Admin/Model/BusinessModel.php" />
-        <option value="&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Admin/Controller/AdminInfoController.class.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Library/Think/Page.class.php" />
-        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/fukuan.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/pay.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/quan.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/share.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/shop.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/xiaofei.html" />
-        <option value="$PROJECT_DIR$/Application/Users/Controller/IndexController.class.php" />
-        <option value="&lt;d8921e89-5b69-4fcf-a932-f5c46de539d8&gt;/Application/Users/View/fwj.sir6.cn/huiyuan.html" />
-        <option value="$PROJECT_DIR$/Public/Style/User/fwj.sir6.cn/css/style.css" />
-        <option value="&lt;d8921e89-5b69-4fcf-a932-f5c46de539d8&gt;/Application/Public/Style/User/fwj.sir6.cn/css/style.css" />
-        <option value="&lt;d8921e89-5b69-4fcf-a932-f5c46de539d8&gt;/Application/Admin/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/fenhong.html" />
-        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/huiyuan.html" />
-        <option value="$PROJECT_DIR$/Application/Users/Controller/BunsinessController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Users/Controller/CommonController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Users/Controller/CouponsController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Users/Controller/InfoController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/shouyi.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/Controller/OrderUserListController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Phone/OrdOrder.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/Conf/config.php" />
-        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Home/Controller/BusinessController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/Index.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/Controller/AdminInfoController.class.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Layout/Index.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/Controller/DividendsdsController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Users/Controller/UsersController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Admin/Controller/PublicController.class.php" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-  </component>
-  <component name="PhpServers">
-    <servers />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="添加" />
-    <OptionsSetting value="true" id="移除" />
-    <OptionsSetting value="true" id="签出" />
-    <OptionsSetting value="true" id="更新" />
-    <OptionsSetting value="true" id="状态" />
-    <OptionsSetting value="true" id="编辑" />
-    <ConfirmationsSetting value="0" id="添加" />
-    <ConfirmationsSetting value="0" id="移除" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Users" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Users" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Users" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Users" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-    </panes>
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\TP\Application\Admin\Controller" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
-      <BehatRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13375000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22713178" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22617246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273684" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06580938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19171779" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496124" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>REMOTE_DEPLOYMENT_FS://&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Rgent/Controller/IndexController.class.php</url>
-          <line>46</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>REMOTE_DEPLOYMENT_FS://&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Rgent/View/Index/Index.html</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>REMOTE_DEPLOYMENT_FS://&lt;ea218e60-f260-4273-9219-03b11849d25f&gt;/Application/Home/View/Index/addMail.html</url>
-          <line>5</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="3" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/countIncome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/CouponsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/ex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/Extension.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/GoodList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-537">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/income.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/IncomeDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-573">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/index.bak">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/pay.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/payment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="24" column="72" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/paymentCode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/personal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1761">
-          <caret line="139" column="42" selection-start-line="139" selection-start-column="42" selection-end-line="139" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/register1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/showMages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/showShareDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1041">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/subMoney.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/userInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-339">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/Index/showAdve.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1117">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/fukuan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/Style/User/fwj.sir6.cn/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="128" column="73" selection-start-line="128" selection-start-column="73" selection-end-line="128" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/fenhong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="75" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/huiyuan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/Controller/BunsinessController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/Controller/CommonController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/Controller/CouponsController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="97" column="5" selection-start-line="97" selection-start-column="5" selection-end-line="97" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/Controller/InfoController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/Controller/ShareController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/View/fwj.sir6.cn/shouyi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="45" column="86" selection-start-line="45" selection-start-column="86" selection-end-line="45" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Phone/OrdOrder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="99" column="93" selection-start-line="99" selection-start-column="93" selection-end-line="99" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ConsumeController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/BusinessController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" column="33" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/OrderUserListController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/LoginController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AdminInfoController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/CommonController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/CouponsController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Layout/Index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2482">
-          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-          <folding>
-            <marker date="1532566454378" expanded="true" signature="10385:10515" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/DividendsdsController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="108" column="5" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/Controller/UsersController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="270" column="0" selection-start-line="270" selection-start-column="0" selection-end-line="270" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Users/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="151" column="45" selection-start-line="151" selection-start-column="45" selection-end-line="151" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/PublicController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-  </component>
-</project>
+<!DOCTYPE HTML><html lang='zh' dir='ltr' class='firefox firefox61'><head><meta charset="utf-8" /><meta name="referrer" content="no-referrer" /><meta name="robots" content="noindex,nofollow" /><meta http-equiv="X-UA-Compatible" content="IE=Edge"><style id="cfs-style">html{display: none;}</style><link rel="icon" href="favicon.ico" type="image/x-icon" /><link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /><link rel="stylesheet" type="text/css" href="print.css" /><title>打印预览 - phpMyAdmin 4.4.15.10</title><script data-cfasync='false' type='text/javascript' src='js/whitelist.php?lang=zh_CN&amp;db=huike&amp;token=d0fd14e63b1a0f1c1f8fff4f9ded530b'></script><script data-cfasync="false" type="text/javascript" src="js/get_scripts.js.php?scripts%5B%5D=jquery/jquery-1.11.1.min.js&amp;scripts%5B%5D=sprintf.js&amp;scripts%5B%5D=ajax.js&amp;scripts%5B%5D=keyhandler.js&amp;scripts%5B%5D=jquery/jquery-ui-1.11.2.min.js&amp;scripts%5B%5D=jquery/jquery.cookie.js&amp;scripts%5B%5D=jquery/jquery.mousewheel.js&amp;scripts%5B%5D=jquery/jquery.event.drag-2.2.js&amp;scripts%5B%5D=jquery/jquery-ui-timepicker-addon.js&amp;scripts%5B%5D=jquery/jquery.ba-hashchange-1.3.js"></script><script data-cfasync="false" type="text/javascript" src="js/get_scripts.js.php?scripts%5B%5D=jquery/jquery.debounce-1.0.5.js&amp;scripts%5B%5D=menu-resizer.js&amp;scripts%5B%5D=cross_framing_protection.js&amp;scripts%5B%5D=rte.js&amp;scripts%5B%5D=tracekit/tracekit.js&amp;scripts%5B%5D=error_report.js&amp;scripts%5B%5D=doclinks.js&amp;scripts%5B%5D=functions.js&amp;scripts%5B%5D=navigation.js&amp;scripts%5B%5D=indexes.js"></script><script data-cfasync="false" type="text/javascript" src="js/get_scripts.js.php?scripts%5B%5D=common.js&amp;scripts%5B%5D=codemirror/lib/codemirror.js&amp;scripts%5B%5D=codemirror/mode/sql/sql.js&amp;scripts%5B%5D=codemirror/addon/runmode/runmode.js&amp;scripts%5B%5D=codemirror/addon/hint/show-hint.js&amp;scripts%5B%5D=codemirror/addon/hint/sql-hint.js&amp;scripts%5B%5D=console.js&amp;scripts%5B%5D=config.js"></script><script data-cfasync='false' type='text/javascript' src='js/messages.php?lang=zh_CN&amp;db=huike&amp;token=d0fd14e63b1a0f1c1f8fff4f9ded530b'></script><script data-cfasync='false' type='text/javascript' src='js/get_image.js.php?theme=pmahomme'></script><script data-cfasync="false" type="text/javascript">// <![CDATA[
+PMA_commonParams.setAll({common_query:"?token=d0fd14e63b1a0f1c1f8fff4f9ded530b",opendb_url:"db_structure.php",safari_browser:"0",collation_connection:"utf8mb4_unicode_ci",lang:"zh_CN",server:"1",table:"",db:"huike",token:"d0fd14e63b1a0f1c1f8fff4f9ded530b",text_dir:"ltr",show_databases_navigation_as_tree:"1",pma_absolute_uri:"http://www.hkxitong.com/phpMyAdmin/",pma_text_default_tab:"浏览",pma_text_left_default_tab:"结构",pma_text_left_default_tab2:"",LimitChars:"50",pftext:"P",confirm:"1",LoginCookieValidity:"1440",logged_in:"1",auth_type:"cookie"});
+AJAX.scriptHandler.add("jquery/jquery-1.11.1.min.js",0).add("whitelist.php?lang=zh_CN&amp;db=huike&amp;token=d0fd14e63b1a0f1c1f8fff4f9ded530b",1).add("sprintf.js",1).add("ajax.js",0).add("keyhandler.js",1).add("jquery/jquery-ui-1.11.2.min.js",0).add("jquery/jquery.cookie.js",0).add("jquery/jquery.mousewheel.js",0).add("jquery/jquery.event.drag-2.2.js",0).add("jquery/jquery-ui-timepicker-addon.js",0).add("jquery/jquery.ba-hashchange-1.3.js",0).add("jquery/jquery.debounce-1.0.5.js",0).add("menu-resizer.js",1).add("cross_framing_protection.js",0).add("rte.js",1).add("tracekit/tracekit.js",1).add("error_report.js",1).add("messages.php?lang=zh_CN&amp;db=huike&amp;token=d0fd14e63b1a0f1c1f8fff4f9ded530b",0).add("get_image.js.php?theme=pmahomme",0).add("doclinks.js",1).add("functions.js",1).add("navigation.js",0).add("indexes.js",1).add("common.js",1).add("codemirror/lib/codemirror.js",0).add("codemirror/mode/sql/sql.js",0).add("codemirror/addon/runmode/runmode.js",0).add("codemirror/addon/hint/show-hint.js",0).add("codemirror/addon/hint/sql-hint.js",0).add("console.js",1).add("config.js",1);
+$(function() {AJAX.fireOnload("whitelist.php?lang=zh_CN&amp;db=huike&amp;token=d0fd14e63b1a0f1c1f8fff4f9ded530b");AJAX.fireOnload("sprintf.js");AJAX.fireOnload("keyhandler.js");AJAX.fireOnload("menu-resizer.js");AJAX.fireOnload("rte.js");AJAX.fireOnload("tracekit/tracekit.js");AJAX.fireOnload("error_report.js");AJAX.fireOnload("doclinks.js");AJAX.fireOnload("functions.js");AJAX.fireOnload("indexes.js");AJAX.fireOnload("common.js");AJAX.fireOnload("console.js");AJAX.fireOnload("config.js");});
+// ]]></script><noscript><style>html{display:block}</style></noscript></head><body><div id="prefs_autoload" class="notice" style="display:none"><form action="prefs_manage.php" method="post" class="disableAjax"><input type="hidden" name="token" value="d0fd14e63b1a0f1c1f8fff4f9ded530b" /><input type="hidden" name="json" value="" /><input type="hidden" name="submit_import" value="1" /><input type="hidden" name="return_url" value="db_datadict.php?db=huike&amp;token=d0fd14e63b1a0f1c1f8fff4f9ded530b&amp;goto=db_structure.php" />你的浏览器中有当前域的 phpMyAdmin 设置。是否导入到当前会话中？<br /><a href="#yes">是</a> / <a href="#no">否</a></form></div><noscript><div class="error"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_error" /> 该处必须启用 Javascript！</div></noscript><div id="page_content"><div>
+<h2>admin</h2>
+表注释： 超级管理员<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">admin_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(5)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">admin_name</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="odd"><td class="nowrap">admin_phone</td><td class="nowrap" lang="en" dir="ltr">varchar(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">admin_email</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>否</td><td class="nowrap"></td>    <td>邮箱</td>
+</tr><tr class="odd"><td class="nowrap">admin_password</td><td class="nowrap" lang="en" dir="ltr">char(32)</td><td>否</td><td class="nowrap"></td>    <td>密码</td>
+</tr><tr class="even"><td class="nowrap">admin_status</td><td class="nowrap" lang="en" dir="ltr">tinyint(2)</td><td>否</td><td class="nowrap">0</td>    <td></td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>admin_id</td><td>2</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr><tr class="noclick even"><td  rowspan="1" >admin_name</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>admin_name</td><td>2</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr><tr class="noclick odd"><td  rowspan="1" >phone</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>admin_phone</td><td></td><td>A</td><td>是</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>adve</h2>
+表注释： 广告表<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">adve_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(6)</td><td>否</td><td class="nowrap"></td>    <td>广告id</td>
+</tr><tr class="even"><td class="nowrap">adve_desc</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>简介</td>
+</tr><tr class="odd"><td class="nowrap">business_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap">0</td>    <td>所属商家</td>
+</tr><tr class="even"><td class="nowrap">adve_name</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="odd"><td class="nowrap">adve_url</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>跳转地址</td>
+</tr><tr class="even"><td class="nowrap">adve_pic</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>图片</td>
+</tr><tr class="odd"><td class="nowrap">adve_status</td><td class="nowrap" lang="en" dir="ltr">int(4)</td><td>否</td><td class="nowrap">4</td>    <td>状态1~3是互推，4是工位广告</td>
+</tr><tr class="even"><td class="nowrap">adve_addtime</td><td class="nowrap" lang="en" dir="ltr">int(10)</td><td>否</td><td class="nowrap"></td>    <td>添加时间</td>
+</tr><tr class="odd"><td class="nowrap">agent_id</td><td class="nowrap" lang="en" dir="ltr">int(6)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>代理商id</td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>adve_id</td><td>6</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>agent</h2>
+表注释： 代理商表<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">agent_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(6)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">agent_license</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>营业执照副本</td>
+</tr><tr class="odd"><td class="nowrap">agent_id_face</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>法人身份证正面</td>
+</tr><tr class="even"><td class="nowrap">agent_id_con</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>法人身份证反面</td>
+</tr><tr class="odd"><td class="nowrap">agent_iphone</td><td class="nowrap" lang="en" dir="ltr">char(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>法人联系方式</td>
+</tr><tr class="even"><td class="nowrap">agent_email</td><td class="nowrap" lang="en" dir="ltr">varchar(18)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>邮箱</td>
+</tr><tr class="odd"><td class="nowrap">agent_pass</td><td class="nowrap" lang="en" dir="ltr">char(32)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>密码</td>
+</tr><tr class="even"><td class="nowrap">agent_status</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap">1</td>    <td>状态0代表禁用</td>
+</tr><tr class="odd"><td class="nowrap">app</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>支付凭证</td>
+</tr><tr class="even"><td class="nowrap">key</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>支付凭证</td>
+</tr><tr class="odd"><td class="nowrap">agent_addtime</td><td class="nowrap" lang="en" dir="ltr">int(10)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>添加时间</td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>agent_id</td><td>2</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>b_turnover_in_the_day</h2>
+表注释： 商家当天的营业额<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">b_turnover_in_the_day_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(5)</td><td>否</td><td class="nowrap"></td>    <td>id</td>
+</tr><tr class="even"><td class="nowrap">b_turnover_in_the_day_money</td><td class="nowrap" lang="en" dir="ltr">decimal(4,0)</td><td>否</td><td class="nowrap">0</td>    <td>当天的营业额</td>
+</tr><tr class="odd"><td class="nowrap">b_turnover_in_the_day_total</td><td class="nowrap" lang="en" dir="ltr">float(5,0)</td><td>否</td><td class="nowrap">0</td>    <td>总金额</td>
+</tr><tr class="even"><td class="nowrap">b_turnover_in_the_day_info</td><td class="nowrap" lang="en" dir="ltr">double</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>备注</td>
+</tr><tr class="odd"><td class="nowrap">b_turnover_in_the_day_integral_new</td><td class="nowrap" lang="en" dir="ltr">float</td><td>否</td><td class="nowrap"></td>    <td>积分分配（当天消费的用户）</td>
+</tr><tr class="even"><td class="nowrap">b_turnover_in_the_day_integral_ord</td><td class="nowrap" lang="en" dir="ltr">float</td><td>否</td><td class="nowrap"></td>    <td>积分分配（之前消费的用户）</td>
+</tr><tr class="odd"><td class="nowrap">b_turnover_in_the_day_time</td><td class="nowrap" lang="en" dir="ltr">varchar(11)</td><td>否</td><td class="nowrap"></td>    <td>营业时间</td>
+</tr><tr class="even"><td class="nowrap">business_id</td><td class="nowrap" lang="en" dir="ltr">int(5)</td><td>否</td><td class="nowrap"></td>    <td>商家id</td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>b_turnover_in_the_day_id</td><td>330</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>be_share_detail</h2>
+表注释： 被分享的具体详情<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">be_share_detail_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td>id</td>
+</tr><tr class="even"><td class="nowrap">users_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>分享的人</td>
+</tr><tr class="odd"><td class="nowrap">share_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>被分享的内容</td>
+</tr><tr class="even"><td class="nowrap">be_share_detail_person</td><td class="nowrap" lang="en" dir="ltr">longtext</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>有谁访问过</td>
+</tr><tr class="odd"><td class="nowrap">be_share_detail_buy</td><td class="nowrap" lang="en" dir="ltr">longtext</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>有谁购买过</td>
+</tr><tr class="even"><td class="nowrap">be_share_addtime</td><td class="nowrap" lang="en" dir="ltr">char(10)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>分享时间</td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>be_share_detail_id</td><td>0</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>bun_goods</h2>
+表注释： 商品表<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">bun_goods_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">business_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="odd"><td class="nowrap">bun_goods_name</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">bun_goods_price</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="odd"><td class="nowrap">bun_goods_num</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">bun_goods_pic</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="odd"><td class="nowrap">goods_detail_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">bun_goods_status</td><td class="nowrap" lang="en" dir="ltr">int(1)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>状态</td>
+</tr><tr class="odd"><td class="nowrap">bun_goods_desc</td><td class="nowrap" lang="en" dir="ltr">text</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>描述</td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>bun_goods_id</td><td>0</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>business</h2>
+表注释： 商家表<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">business_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(5)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">business_account</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>登陆账号</td>
+</tr><tr class="odd"><td class="nowrap">agent_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>代理商id</td>
+</tr><tr class="even"><td class="nowrap">business_pass</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>登陆密码</td>
+</tr><tr class="odd"><td class="nowrap">business_title</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">business_name</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>商户名称（原则上与营业执照一致）</td>
+</tr><tr class="odd"><td class="nowrap">business_phone</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">business_true_name</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>运营者姓名</td>
+</tr><tr class="odd"><td class="nowrap">business_email</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">business_address</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td></td>
+</tr><tr class="odd"><td class="nowrap">business_industry</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>所属行业</td>
+</tr><tr class="even"><td class="nowrap">business_status</td><td class="nowrap" lang="en" dir="ltr">int(1)</td><td>否</td><td class="nowrap">1</td>    <td>状态</td>
+</tr><tr class="odd"><td class="nowrap">buniess_bonus</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap">5</td>    <td>分红数量</td>
+</tr><tr class="even"><td class="nowrap">operator_id</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>收银员 operator_id</td>
+</tr><tr class="odd"><td class="nowrap">business_addtime</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>business_id</td><td>17</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr><tr class="noclick even"><td  rowspan="1" >business_name</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>business_name</td><td></td><td>A</td><td>是</td><td  rowspan="1" ></td></tr><tr class="noclick odd"><td  rowspan="1" >business_phone</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>business_phone</td><td></td><td>A</td><td>是</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>business_info</h2>
+<table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">business_info_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(6)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">business_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="odd"><td class="nowrap">business_info_total</td><td class="nowrap" lang="en" dir="ltr">decimal(10,2)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>business_info_id</td><td>17</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr><tr class="noclick even"><td  rowspan="1" >business_id</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>business_id</td><td>17</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>consume_list</h2>
+表注释： 商家消费记录<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">consume_list_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(5)</td><td>否</td><td class="nowrap"></td>    <td>id</td>
+</tr><tr class="even"><td class="nowrap">users_id</td><td class="nowrap" lang="en" dir="ltr">int(5)</td><td>否</td><td class="nowrap"></td>    <td>消费的用户</td>
+</tr><tr class="odd"><td class="nowrap">business_id</td><td class="nowrap" lang="en" dir="ltr">int(5)</td><td>否</td><td class="nowrap"></td>    <td>在哪个商家进行的消费</td>
+</tr><tr class="even"><td class="nowrap">consume_list_use_integral</td><td class="nowrap" lang="en" dir="ltr">int(5)</td><td>是</td><td class="nowrap">0</td>    <td>使用积分</td>
+</tr><tr class="odd"><td class="nowrap">consume_money</td><td class="nowrap" lang="en" dir="ltr">decimal(10,2)</td><td>否</td><td class="nowrap"></td>    <td>消费的金额</td>
+</tr><tr class="even"><td class="nowrap">consume_return_money</td><td class="nowrap" lang="en" dir="ltr">decimal(10,5)</td><td>否</td><td class="nowrap">0.00000</td>    <td>剩余返还的金额</td>
+</tr><tr class="odd"><td class="nowrap">consume_time</td><td class="nowrap" lang="en" dir="ltr">varchar(11)</td><td>否</td><td class="nowrap"></td>    <td>消费的时间</td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>consume_list_id</td><td>559</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>coupons</h2>
+表注释： 优惠券<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">coupons_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">coupons_desc</td><td class="nowrap" lang="en" dir="ltr">text</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>简介</td>
+</tr><tr class="odd"><td class="nowrap">business_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td>所属商家</td>
+</tr><tr class="even"><td class="nowrap">coupons_num</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>数量</td>
+</tr><tr class="odd"><td class="nowrap">coupons_satisfy</td><td class="nowrap" lang="en" dir="ltr">int(10)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>满足跳转</td>
+</tr><tr class="even"><td class="nowrap">coupons_money</td><td class="nowrap" lang="en" dir="ltr">int(10)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>价值金额</td>
+</tr><tr class="odd"><td class="nowrap">coupons_image</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>优惠劵图片</td>
+</tr><tr class="even"><td class="nowrap">coupons_overtime</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>过期时间</td>
+</tr><tr class="odd"><td class="nowrap">coupons_addtime</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td>添加时间</td>
+</tr><tr class="even"><td class="nowrap">coupons_name</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>否</td><td class="nowrap">优惠券</td>    <td>优惠券名称</td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>coupons_id</td><td>0</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>get_coupons</h2>
+<table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">get_coupons_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">users_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="odd"><td class="nowrap">coupons_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>get_coupons_id</td><td>0</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>mail</h2>
+表注释： 汇客站内信<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">mail_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">admin_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>总后台发</td>
+</tr><tr class="odd"><td class="nowrap">agent_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>代理商发</td>
+</tr><tr class="even"><td class="nowrap">business_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>商家发</td>
+</tr><tr class="odd"><td class="nowrap">mail_title</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>标题</td>
+</tr><tr class="even"><td class="nowrap">mail_content</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>内容</td>
+</tr><tr class="odd"><td class="nowrap">mail_see</td><td class="nowrap" lang="en" dir="ltr">mediumtext</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>已经查看的用户</td>
+</tr><tr class="even"><td class="nowrap">mail_status</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap">1</td>    <td>状态</td>
+</tr><tr class="odd"><td class="nowrap">mail_addtime</td><td class="nowrap" lang="en" dir="ltr">char(10)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>添加时间</td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>mail_id</td><td>1</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>reward</h2>
+表注释： 奖励表<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">reward_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td>id</td>
+</tr><tr class="even"><td class="nowrap">share_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td>关联活动</td>
+</tr><tr class="odd"><td class="nowrap">reward_red_where</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>获取条件</td>
+</tr><tr class="even"><td class="nowrap">reward_red_packets</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>通过购买获取红包</td>
+</tr><tr class="odd"><td class="nowrap">reward_integral</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>通过购买获取积分</td>
+</tr><tr class="even"><td class="nowrap">reward_coupons</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>通过购买获取卡券</td>
+</tr><tr class="odd"><td class="nowrap">reward_visit_where</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap">999999</td>    <td>获取条件</td>
+</tr><tr class="even"><td class="nowrap">reward_Visit_red_packets</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>通过访问量获取红包</td>
+</tr><tr class="odd"><td class="nowrap">reward_Visit_integral</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>通过访问量获取积分</td>
+</tr><tr class="even"><td class="nowrap">reward_Visit_coupons</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>通过访问量获取卡券</td>
+</tr><tr class="odd"><td class="nowrap">reward_addtime</td><td class="nowrap" lang="en" dir="ltr">datetime</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">reward_status</td><td class="nowrap" lang="en" dir="ltr">tinyint(1)</td><td>是</td><td class="nowrap">1</td>    <td>0禁用，1使用</td>
+</tr><tr class="odd"><td class="nowrap">reward_desc</td><td class="nowrap" lang="en" dir="ltr">varchar(30)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>描述</td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>reward_id</td><td>0</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr><tr class="noclick even"><td  rowspan="1" >share_id</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>share_id</td><td>0</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>share</h2>
+表注释： 优惠券分享！以及分享成功后，用户获取奖励机制<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">share_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td>id</td>
+</tr><tr class="even"><td class="nowrap">business_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>否</td><td class="nowrap"></td>    <td>商家id</td>
+</tr><tr class="odd"><td class="nowrap">share_pic</td><td class="nowrap" lang="en" dir="ltr">varchar(255)</td><td>否</td><td class="nowrap"></td>    <td>展示图片</td>
+</tr><tr class="even"><td class="nowrap">share_title</td><td class="nowrap" lang="en" dir="ltr">varchar(30)</td><td>否</td><td class="nowrap"></td>    <td>标题</td>
+</tr><tr class="odd"><td class="nowrap">share_content</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>否</td><td class="nowrap"></td>    <td>内容</td>
+</tr><tr class="even"><td class="nowrap">share_desc</td><td class="nowrap" lang="en" dir="ltr">text</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>描述</td>
+</tr><tr class="odd"><td class="nowrap">reward_id</td><td class="nowrap" lang="en" dir="ltr">int(6)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>奖励机制表</td>
+</tr><tr class="even"><td class="nowrap">share_overtime</td><td class="nowrap" lang="en" dir="ltr">datetime</td><td>否</td><td class="nowrap"></td>    <td>开始时间</td>
+</tr><tr class="odd"><td class="nowrap">share_addtime</td><td class="nowrap" lang="en" dir="ltr">datetime</td><td>否</td><td class="nowrap"></td>    <td>结束时间</td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>share_id</td><td>0</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>users</h2>
+表注释： 用户表<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">users_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(5)</td><td>否</td><td class="nowrap"></td>    <td>用户id</td>
+</tr><tr class="even"><td class="nowrap">users_name</td><td class="nowrap" lang="en" dir="ltr">varchar(50)</td><td>否</td><td class="nowrap"></td>    <td>用户名</td>
+</tr><tr class="odd"><td class="nowrap">sex</td><td class="nowrap" lang="en" dir="ltr">varchar(20)</td><td>否</td><td class="nowrap">男</td>    <td>性别</td>
+</tr><tr class="even"><td class="nowrap">users_phone</td><td class="nowrap" lang="en" dir="ltr">char(11)</td><td>否</td><td class="nowrap"></td>    <td>手机号</td>
+</tr><tr class="odd"><td class="nowrap">users_pass</td><td class="nowrap" lang="en" dir="ltr">varchar(32)</td><td>否</td><td class="nowrap">null</td>    <td>密码</td>
+</tr><tr class="even"><td class="nowrap">users_pic</td><td class="nowrap" lang="en" dir="ltr">varchar(100)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>用户头像</td>
+</tr><tr class="odd"><td class="nowrap">users_status</td><td class="nowrap" lang="en" dir="ltr">tinyint(2)</td><td>否</td><td class="nowrap">0</td>    <td>状态</td>
+</tr><tr class="even"><td class="nowrap">users_addtime</td><td class="nowrap" lang="en" dir="ltr">varchar(11)</td><td>是</td><td class="nowrap"><i>NULL</i></td>    <td>注册时间</td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>users_id</td><td>319</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr><tr class="noclick even"><td  rowspan="1" >users_phone</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>users_phone</td><td>319</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr><tr class="noclick odd"><td  rowspan="1" >users_name_2</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >否</td><td  rowspan="1" >否</td><td>users_name</td><td></td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>users_integral</h2>
+表注释： 用户积分表<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">users_integral_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(6)</td><td>否</td><td class="nowrap"></td>    <td>积分id</td>
+</tr><tr class="even"><td class="nowrap">users_integral_num</td><td class="nowrap" lang="en" dir="ltr">float</td><td>否</td><td class="nowrap"></td>    <td>积分数量</td>
+</tr><tr class="odd"><td class="nowrap">users_integral_total_amount</td><td class="nowrap" lang="en" dir="ltr">decimal(6,2)</td><td>是</td><td class="nowrap">0.00</td>    <td>总金额</td>
+</tr><tr class="even"><td class="nowrap">business_id</td><td class="nowrap" lang="en" dir="ltr">int(5)</td><td>否</td><td class="nowrap"></td>    <td>所属商家</td>
+</tr><tr class="odd"><td class="nowrap">users_id</td><td class="nowrap" lang="en" dir="ltr">int(5)</td><td>否</td><td class="nowrap"></td>    <td>所属用户</td>
+</tr><tr class="even"><td class="nowrap">users_integral_addtime</td><td class="nowrap" lang="en" dir="ltr">varchar(12)</td><td>否</td><td class="nowrap">1513424058</td>    <td>订单生成时间</td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>users_integral_id</td><td>300</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><div>
+<h2>users_integral_list</h2>
+表注释： 用户积分获取记录<br /><br /><table width="100%" class="print"><tr><th width="50">字段</th><th width="80">类型</th><th width="40">空</th><th width="70">默认</th>    <th>注释</th>
+</tr><tr class="odd"><td class="nowrap">users_integral_id <em>(主键)</em></td><td class="nowrap" lang="en" dir="ltr">int(6)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">users_spend_num</td><td class="nowrap" lang="en" dir="ltr">float</td><td>否</td><td class="nowrap">0</td>    <td>消费金额</td>
+</tr><tr class="odd"><td class="nowrap">business_id</td><td class="nowrap" lang="en" dir="ltr">int(6)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">users_get_integral</td><td class="nowrap" lang="en" dir="ltr">float</td><td>否</td><td class="nowrap">0</td>    <td>实际获取积分数量</td>
+</tr><tr class="odd"><td class="nowrap">users_id</td><td class="nowrap" lang="en" dir="ltr">int(6)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr><tr class="even"><td class="nowrap">consume_list_id</td><td class="nowrap" lang="en" dir="ltr">int(11)</td><td>是</td><td class="nowrap">0</td>    <td>消费单</td>
+</tr><tr class="odd"><td class="nowrap">users_integral_addtime</td><td class="nowrap" lang="en" dir="ltr">varchar(11)</td><td>否</td><td class="nowrap"></td>    <td></td>
+</tr></table><h3>索引</h3><div class='no_indexes_defined hide'><div class="notice"><img src="themes/dot.gif" title="" alt="" class="icon ic_s_notice" /> 没有已定义的索引！</div></div><table id="table_index"><thead><tr><th>键名</th><th>类型</th><th>唯一</th><th>紧凑</th><th>字段</th><th>基数</th><th>排序规则</th><th>空</th><th>注释</th></tr></thead><tbody><tr class="noclick odd"><td  rowspan="1" >PRIMARY</td><td  rowspan="1" >BTREE</td><td  rowspan="1" >是</td><td  rowspan="1" >否</td><td>users_integral_id</td><td>22204</td><td>A</td><td>否</td><td  rowspan="1" ></td></tr></tbody></table></div><p class="print_ignore"><input type="button" class="button" id="print" value="打印" /></p></div><div id="selflink" class="print_ignore"><a href="db_datadict.php?db=huike&amp;table=users_integral_list&amp;server=1&amp;target=&amp;token=d0fd14e63b1a0f1c1f8fff4f9ded530b" title="打开新的 phpMyAdmin 窗口" target="_blank"><img src="themes/dot.gif" title="打开新的 phpMyAdmin 窗口" alt="打开新的 phpMyAdmin 窗口" class="icon ic_window-new" /></a></div><div class="clearfloat" id="pma_errors"></div><script data-cfasync="false" type="text/javascript">// <![CDATA[
+AJAX.cache.primer = { url: "db_datadict.php?db=huike&table=users_integral_list&server=1&target=&token=d0fd14e63b1a0f1c1f8fff4f9ded530b", scripts: [{"name":"jquery\/jquery-1.11.1.min.js","fire":0},{"name":"sprintf.js","fire":1},{"name":"ajax.js","fire":0},{"name":"keyhandler.js","fire":1},{"name":"jquery\/jquery-ui-1.11.2.min.js","fire":0},{"name":"jquery\/jquery.cookie.js","fire":0},{"name":"jquery\/jquery.mousewheel.js","fire":0},{"name":"jquery\/jquery.event.drag-2.2.js","fire":0},{"name":"jquery\/jquery-ui-timepicker-addon.js","fire":0},{"name":"jquery\/jquery.ba-hashchange-1.3.js","fire":0},{"name":"jquery\/jquery.debounce-1.0.5.js","fire":0},{"name":"menu-resizer.js","fire":1},{"name":"cross_framing_protection.js","fire":0},{"name":"rte.js","fire":1},{"name":"tracekit\/tracekit.js","fire":1},{"name":"error_report.js","fire":1},{"name":"doclinks.js","fire":1},{"name":"functions.js","fire":1},{"name":"navigation.js","fire":0},{"name":"indexes.js","fire":1},{"name":"common.js","fire":1},{"name":"codemirror\/lib\/codemirror.js","fire":0},{"name":"codemirror\/mode\/sql\/sql.js","fire":0},{"name":"codemirror\/addon\/runmode\/runmode.js","fire":0},{"name":"codemirror\/addon\/hint\/show-hint.js","fire":0},{"name":"codemirror\/addon\/hint\/sql-hint.js","fire":0},{"name":"console.js","fire":1},{"name":"config.js","fire":1}], menuHash: "eae10dc5"};
+AJAX.scriptHandler;
+$(function() {});
+// ]]></script></body></html>

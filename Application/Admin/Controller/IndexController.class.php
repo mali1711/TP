@@ -8,8 +8,8 @@ class IndexController extends Controller {
 
     public function __construct()
     {
-        $this->tday = 1532534280;
-        $this->yesterday = 1532533801;
+        $this->tday = time();
+        $this->yesterday = $this->tday-(24*3600);
         parent::__construct();
     }
 
@@ -43,6 +43,7 @@ class IndexController extends Controller {
         M('users_integral_list')->addAll($order_inte);
         //将积分追加到用户账户中
         $this->UsersTotalIntegral();
+        A('Public')->addBunAllData();//更新商家收益信息
     }
 
 
