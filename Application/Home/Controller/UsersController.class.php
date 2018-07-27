@@ -13,6 +13,7 @@ class UsersController extends Controller {
      * */
     public function getUsersList()
     {
+
         $Users = M('Users'); // 实例化User对象$User = M('User'); // 实例化User对象
         $count      = $Users->count();// 查询满足要求的总记录数
         $Page       = new \Think\Page($count,15);// 实例化分页类 传入总记录数和每页显示的记录数(25)
@@ -20,6 +21,19 @@ class UsersController extends Controller {
         $list = $Users->limit($Page->firstRow.','.$Page->listRows)->select();
         $this->assign('list',$list);// 赋值数据集
         $this->assign('page',$show);// 赋值分页输出
+        $this->display('Index/usersList');
+    }
+
+    /*
+     * 查找用户
+     * */
+    public function findUsers()
+    {
+        if(I('post.users_phone')){
+            $where['users_phone'] = I('post.users_phone');
+        }
+        $list = M('Users')->where($where)->select();
+        $this->assign('list',$list);// 赋值数据集
         $this->display('Index/usersList');
     }
 

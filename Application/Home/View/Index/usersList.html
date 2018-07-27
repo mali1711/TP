@@ -12,12 +12,30 @@
                     <a href="#">用户列表</a>
                 </li>
 
-
             </ul><!-- .breadcrumb -->
 
         </div>
 
+
+
+
+
         <div class="page-content">
+            <form method="post" action="__MODULE__/Users/findUsers" class="form-search" style="float: right">
+
+                <div class="col-xs-12 col-sm-12">
+                    <div class="input-group">
+                        <input class="form-control search-query" name="users_phone" placeholder="请输入手机号" type="text">
+                                    <span class="input-group-btn">
+                                        <button type="submit" class="btn btn-purple btn-sm">
+                                            查找
+                                            <i class="icon-search icon-on-right bigger-110"></i>
+                                        </button>
+                                    </span>
+                    </div>
+                </div>
+
+            </form>
             <div class="page-header">
                 <h1>
                     用户
@@ -45,7 +63,7 @@
                                             </label>
                                         </th>
                                         <th>Domain</th>
-                                        <th>账号</th>
+                                        <th>姓名</th>
                                         <th class="hidden-480">手机号</th>
 
                                         <th class="hidden-480">状态</th>
