@@ -27,6 +27,7 @@ class IndexController extends Controller {
     public function BusinessShouYesterday()
     {
         //写入商家当天的获取收益信息
+        $this->addBunAllData();
         $list = $this->UsersYesterdayIsConsumption();
         $b_turnover_in_the_day = M('b_turnover_in_the_day');
         $b_turnover_in_the_day->addAll($list);
@@ -43,9 +44,14 @@ class IndexController extends Controller {
         M('users_integral_list')->addAll($order_inte);
         //将积分追加到用户账户中
         $this->UsersTotalIntegral();
-        A('Public')->addBunAllData();//更新商家收益信息
+       //更新商家收益信息
+
     }
 
+    public function addBunAllData()
+    {
+        A('Public')->addBunAllData();
+    }
 
     /*
      * 所有用户昨天的消费的金额的统计
@@ -157,29 +163,43 @@ class IndexController extends Controller {
             $bun_id =  $val['business_id'].'<br/>';
             $allBun[$key]['business_info_total'] =  A('Public')->getAllBunPro($bun_id);
         }
-        foreach ($allBun as $k=>$v){
-            unset($allBun[$k]);
-            $k = $v['business_id'];
-            $allBun[$k] = $v;
+        $newallbun = array();
+        foreach ($allBun as $key=>$value){
+            $bid = $value['business_id'];
+            $newallbun[$bid] = $value;
         }
-        //获取所有店铺的总收益
+        //获取当天收益
         $dayData = $this->__inTheDayGeTMon();
         $data = array();
+        echo '<table width="700" border="1">';
+        echo '<tr>';
+        echo "<th>消费单<th>消费者金额<th>商家应该给的分红<th>总营业额<th>消费单和总营业额的比例<th>实际获取金额<th>";
+        echo '</tr>';
         foreach ($alluser as $key=>$val){
             //商家信息
             $bun_id = $val['business_id'];
             //用户每单消费占总金额的比例，去除4位小数以后的小数
-            $bili = floor($val['consume_money']/$allBun[$bun_id]['business_info_total']*10000)/10000;
+            $bili = floor($val['consume_money']/$newallbun[$bun_id]['business_info_total']*10000)/10000;
 
-            if($bili==INF){
-                $bili = 0;
-            };
             $data[$key]['business_id'] = $val['business_id'];
             $data[$key]['users_get_integral'] = $bili*$dayData[$bun_id]['b_turnover_in_the_day_integral_new']; //老用户积分的比例
             $data[$key]['users_id'] = $val['users_id'];
             $data[$key]['consume_list_id'] = $val['consume_list_id'];
             $data[$key]['users_integral_addtime'] = time();
+         /*   echo '用户的id是：'.$data[$key]['consume_list_id'].'->'.$val['consume_money'].'-->'.$dayData[$bun_id]['business_info_total'];
+            echo '用户的id是：'.$data[$key]['consume_list_id'].'->'.$bili;
+            echo '金额是'.$data[$key]['users_get_integral'];
+            echo '<br/>';*/
+            echo '<tr>';
+            echo "<td>".$data[$key]['consume_list_id']."</td>";
+            echo "<td>".$val['consume_money']."</td>";
+            echo "<td>".$dayData[$bun_id]['b_turnover_in_the_day_integral_new']."</td>";
+            echo "<td>".$newallbun[$bun_id]['business_info_total']."</td>";
+            echo "<td>".$bili."</td>";
+            echo "<td>".$data[$key]['users_get_integral']."</td>";
+            echo '</tr>';
         }
+        echo '</table>';
         return $data;
 
     }
