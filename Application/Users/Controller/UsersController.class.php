@@ -266,7 +266,7 @@ class UsersController extends Controller {
         $list['conut'] = floor($list['conut'] * 100) / 100;
         //汇客所有收益
         unset($where['business_id']);
-        $list['hkcount'] = M('users_integral_list')->where($where)->Sum('users_get_integral');
+        $list['hkcount'] = $this->allCount();
         $list['hkcount'] = floor($list['hkcount'] * 100) / 100;
         foreach ($res as $k=>$v){
             $res[$k]['users_integral_num'] = floor($v['users_integral_num']*100)/100;//我的收益列表保留小数点后两位
@@ -277,6 +277,17 @@ class UsersController extends Controller {
     }
 
 
+    /*
+     * 汇客总收益
+     * @return fool
+     * */
+    public function allCount()
+    {
+        $where['users_id'] = $_SESSION['user']['userinfo']['users_id'];
+        $users_integral_num = M('users_integral')->where($where)->sum('users_integral_num');//已经使用的所有积分
+        $consume_list_use_integral = M('consume_list')->where($where)->sum('consume_list_use_integral');//拥有积分
+        return $consume_list_use_integral+$users_integral_num;
+    }
 
     /*
      * 用户支付成功。跳转次页面
