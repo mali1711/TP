@@ -28,6 +28,7 @@ class IndexController extends Controller {
     {
         //写入商家当天的获取收益信息
         $this->addBunAllData();
+        $this->jiFenJiLu();//判断积分是否已经生成过，如果生成将不往下执行了。
         $list = $this->UsersYesterdayIsConsumption();
         $b_turnover_in_the_day = M('b_turnover_in_the_day');
         $b_turnover_in_the_day->addAll($list);
@@ -48,6 +49,26 @@ class IndexController extends Controller {
 
     }
 
+    /*
+     * 判断今天是否生成过积分
+     * */
+    public function jiFenJiLu()
+    {
+        $yesTime = $this->tday;
+        $time = $this->__startAndOverTime($yesTime);
+        $where['users_integral_addtime'] = array(array('EGT',$time['start']),array('ELT',$time['end']));
+        $users_integral_list = M('users_integral_list');
+        //获取今天的消费记录
+        $list = $users_integral_list->where($where)->select();
+        if($list != null){
+            die;
+        }
+    }
+
+
+    /*
+     * 更新商家盈利信息
+     * */
     public function addBunAllData()
     {
         A('Public')->addBunAllData();

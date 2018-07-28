@@ -156,6 +156,7 @@ class UsersController extends Controller {
                 die;
             }else{
                 $_POST['users_pass'] = md5($_POST['users_pass']);
+                $_POST['users_addtime'] = time();
                 $res = $users->data($_POST)->add();
                 if($res){
                     $data['status'] = true;
