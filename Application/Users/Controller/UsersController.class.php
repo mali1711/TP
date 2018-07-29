@@ -74,13 +74,26 @@ class UsersController extends Controller {
         $wheremon['users_id']= $_SESSION['user']['userinfo']['users_id'];
         $wheremon['business_id']= $_SESSION['user']['bus'];
         $list['users_money_total'] = $consume_list->where($wheremon)->sum("consume_money");
-        $list['consume_return_money_total'] = floor($consume_list->where($wheremon)->sum("consume_return_money")*1000)/1000;
+        $list['consume_return_money_total'] = floor($this->yuQiFenHong()*1000)/1000;
         $list['users_integral_total_amount']= floor($users_integral->where($wheremon)->sum("users_integral_num")*1000)/1000;
         $list['userDetail'] = M('users')->find($where['users_id']);
         $list['business_name'] = $this->__business_name();
         return $list;
     }
 
+   /*
+    * 预期分红
+    * 消费总额-（用户拥有积分+已经消费积分）
+    * */
+    public function yuQiFenHong()
+    {
+        $consume_list = M('consume_list');
+        $where['users_id']= $_SESSION['user']['userinfo']['users_id'];
+        $where['business_id']= $_SESSION['user']['bus'];
+       return  $consume_list->where($where)->sum('consume_money')-($consume_list->where($where)->sum('consume_list_use_integral')
+        +M('users_integral')->where($where)->sum('users_integral_num'));
+    }
+    
     /*
      * 获取用户此刻访问的商家账号
      * */

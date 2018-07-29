@@ -86,6 +86,8 @@ class IndexController extends Controller {
         $users_integral_list = M('users_integral_list');
         $where['users_integral_list.users_id'] = $_SESSION['user']['userinfo']['users_id'];
         $where['users_integral_list.users_get_integral'] = array('neq',0);
+        $time = time()-(3600*24*60);
+        $where['users_integral_addtime'] = array('egt',$time);
         $count      = $users_integral_list->where($where)->count();
         $Page       = new \Think\Page($count,10);
         $show       = $Page->show();
@@ -93,7 +95,7 @@ class IndexController extends Controller {
             ->field('consume_list.consume_time,consume_list.consume_money,users_integral_list.users_integral_addtime,users_integral_list.users_get_integral')
             ->join('consume_list ON consume_list.consume_list_id = users_integral_list.consume_list_id')
             ->order('users_integral_list.users_integral_addtime desc')
-            ->limit($Page->firstRow.','.$Page->listRows)
+            ->limit($Page->firstRow.','.$Page->lisRows)
             ->select();
 
         foreach ($list as $k=>$v){
