@@ -1,0 +1,386 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>汇客</title>
+    <link href="__PUBLIC__/Style/Admin/Phone/xinZeng/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="__PUBLIC__/Style/Admin/Phone/xinZeng/font/iconfont.css" rel="stylesheet">
+    <script src="__PUBLIC__/Style/Admin/Phone/xinZeng/js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <link href="../favicon.ico" rel="icon" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Style/Admin/Phone/Pagination/common/reset.css"
+          media="screen">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Style/Admin/Phone/Pagination/common/highlight.min.css"
+          media="screen">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Style/Admin/Phone/Pagination/common/common.css"
+          media="screen">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Style/Admin/Phone/Pagination/common/pagination.css"
+          media="screen">
+</head>
+<body>
+
+<div class="wrap">
+
+    <div class="jilu">
+        <h3><a href=""><i class="iconfont icon-jiantou1"></i></a>兑换详情</h3>
+    </div>
+
+    <div class="xiangqing">
+        <div class="xiangqing-tit">
+            <p><a href="">会员姓名</a></p>
+        </div>
+        <div class="xiangqing-txt">
+            <!--     	<ul>
+                         <li>2018-06-06  10:06<span>1</span></li>
+                         <li>2018-06-06  11:38<span>6</span></li>
+                         <li>2018-06-06  16:44<span>2</span></li>
+                     </ul>-->
+            <div class="total">
+                总计：<span>9</span>
+            </div>
+        </div>
+
+        <!--        <div class="xiangqing-tit">
+                <p><a href="">会员姓名</a></p>
+                </div>
+                <div class="xiangqing-txt">
+                    <ul>
+                        <li>2018-06-06  10:06<span>1</span></li>
+                        <li>2018-06-06  11:38<span>6</span></li>
+                        <li>2018-06-06  16:44<span>2</span></li>
+                    </ul>
+                    <div class="total">
+                    总计：<span>9</span>
+                    </div>
+                </div>
+                -->
+    </div>
+    <div class="n-page">
+
+        <div class="n-page M-box4"></div>
+    </div>
+    <!--   <div class="wrapper">
+           <div class="container">
+               <div class="content">
+                   <div class="n-page M-box4"></div>
+               </div>
+           </div>
+       </div>-->
+    <script src="__PUBLIC__/Style/Admin/Phone/Pagination/common/highlight.min.js"></script>
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="__PUBLIC__/Style/Admin/Phone/Pagination/common/jquery.pagination.js"></script>
+    <script>
+        $(function () {
+            /*
+             $('pre code').each(function (i, block) {
+             hljs.highlightBlock(block);
+             });
+             $('.M-box').pagination({
+             callback: function (api) {
+             $('.now').text(api.getCurrent());
+             }
+             }, function (api) {
+             $('.now').text(api.getCurrent());
+             });
+
+             $('.M-box11').pagination({
+             mode: 'fixed'
+             });
+
+             $('.M-box2').pagination({
+             coping: true,
+             homePage: '首页',
+             endPage: '末页',
+             prevContent: '上页',
+             nextContent: '下页'
+             });
+
+             $('.M-box1').pagination({
+             totalData: 100,
+             showData: 5,
+             coping: true
+             });
+
+             $('.M-box3').pagination({
+             pageCount: 50,
+             jump: true,
+             coping: true,
+             homePage: '首页',
+             endPage: '末页',
+             prevContent: '上页',
+             nextContent: '下页',
+             callback: function (api) {
+             console.log(api.getCurrent())
+             }
+             });
+             */
+
+            $('.M-box4').pagination({
+                pageCount: {$count},
+                prevContent: '上一页',
+                nextContent: '下一页',
+                jump: false,
+                callback: function (api) {
+                    var data = {
+                        page: api.getCurrent(),
+                        /*              name: 'mss',
+                         say: 'oh'*/
+                    };
+                    $.getJSON(
+                            'http://www.sir6hk.com/Admin/Dividendsds/xiangQingData',
+                            data,
+                            function (json) {
+//                                console.log(json);
+                                var con = '';
+                                $.each(json, function (index, item) {
+                                    con += '<div class="xiangqing-tit"><p><a href="">'+item.users_name;
+                                    con += '</a></p></div><div class="xiangqing-txt"><div class="total">总计：'+item.consume_list_use_integral;
+                                    con += '</span> </div> </div>';
+                                });
+                                $(".xiangqing").html(con); //把内容入到这个div中即完成
+//                                console.log(con);
+                            });
+                }
+            });
+        });
+    </script>
+</div>
+
+<style>
+
+
+    .jilu {
+        width: 96%;
+        height: 40px;
+        line-height: 40px;
+        background-color: #009cff;
+        padding: 10px 2%;
+    }
+
+    .jilu h3 {
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .jilu h3 i {
+        display: inline-block;
+        width: 30px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        color: #fff;
+        vertical-align: middle;
+    }
+
+    .jilu01 {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        background-color: #fff;
+        margin-top: 10px;
+    }
+
+    .jilu01-txt {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .jilu-bt {
+        width: 100%;
+        height: 48px;
+    }
+
+    .jilu-bt ul li {
+        width: 33.33%;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        float: left;
+    }
+
+    .jilu-bt ul li a {
+        font-size: 16px;
+        display: block;
+    }
+
+    .jilu-bt ul li:hover a, .jilu-bt ul li.casehover a {
+        border-bottom: 2px solid #f08300;
+    }
+
+    .jilu-nr {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        border-top: 10px solid #f2f2f2;
+    }
+
+    .jilu-tp {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    table {
+        width: 100%;
+        border: none;
+        border-collapse: collapse;
+        background: none;
+        text-align: center;
+    }
+
+    table tr {
+        background: none;
+        height: 60px;
+        border: none;
+    }
+
+    table td {
+        border: none;
+        border-bottom: 1px solid #e8e8e8;
+        padding: 5px;
+        text-align: center;
+    }
+
+    table tr {
+        font-size: 14px;
+        color: #999;
+    }
+
+    table tr.jilu-tit {
+        font-size: 14px;
+        color: #666;
+    }
+
+    .jilu-sj {
+        text-align: left;
+        font-size: 16px;
+        color: #666;
+    }
+
+    table td span {
+        display: block;
+        line-height: 20px;
+        font-size: 14px;
+        color: #999;
+    }
+
+    .n-page {
+        text-align: center;
+        clear: both;
+        margin: 40px 0;
+    }
+
+    .n-page a {
+        padding: 5px 10px;
+        margin: 0px 3px;
+        border: #e0e0e0 1px solid;
+        background-color: #f5f5f5;
+        color: #474747;
+    }
+
+    .n-page span {
+        padding: 5px 10px;
+        margin: 0px 3px;
+        color: #FFF;
+        background-color: #009cff;
+        border: #009cff 1px solid;
+    }
+
+    .n-page a:hover {
+        color: #FFF;
+        background-color: #009cff;
+        border: #009cff 1px solid;
+    }
+
+    .xiangqing {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        background-color: #fff;
+        margin-top: 10px;
+    }
+
+    .xiangqing-tit p {
+        padding-left: 10px;
+        border-left: 5px solid #299afd;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 16px;
+        margin-left: 2%;
+    }
+
+    .xiangqing-tit {
+        width: 100%;
+        height: 50px;
+        border-bottom: 1px solid #e8e8e8;
+        border-top: 10px solid #f2f2f2;
+    }
+
+    .xiangqing-tit:first-child {
+        border-top: none;
+    }
+
+    .xiangqing-txt {
+        width: 96%;
+        padding: 10px 2%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .xiangqing-txt ul {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    .xiangqing-txt ul li {
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        color: #666;
+        font-size: 14px;
+    }
+
+    .xiangqing-txt ul li span {
+        font-size: 18px;
+        float: right;
+        color: #666;
+    }
+
+    .total {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .total span {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: right;
+        font-size: 20px;
+        color: #f08300;
+        padding-left: 6px;
+    }
+
+
+</style>
+
+
+<div class="social_nav">
+    <ul>
+        <li class="curr"><a href="" title=""><i class="iconfont icon-wo"></i>我的</a></li>
+        <li><a href="" title=""><i class="iconfont icon-shouyi"></i>收益</a></li>
+        <li><a href="" title=""><i class="iconfont icon-huodong"></i>活动</a></li>
+        <li><a href="" title=""><i class="iconfont icon-scan"></i>商城</a></li>
+    </ul>
+</div>
+
+</body>
+</html>

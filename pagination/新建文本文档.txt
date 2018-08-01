@@ -1,0 +1,14 @@
+<div class="eg">
+                    <div class="m-style M-box2"><span class="active">1</span><a href="javascript:;" data-page="2">2</a><a href="javascript:;" data-page="3">3</a><a href="javascript:;" data-page="4">4</a><a href="javascript:;" data-page="5">5</a><span>...</span><a href="javascript:;" data-page="9">末页</a><a href="javascript:;" class="next">下页</a></div>
+                    <p class="tips">开启第一页和最后一页的按钮,并且内容可自定义。内容默认为1和总页数。（注：如coping为false，homePage和endPage无效。）</p>
+                    <p>HTML</p>
+                    <pre><code class="html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"M-box2"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre>
+                    <p>Javascript</p>
+                    <pre><code class="hljs javascript">$(<span class="hljs-string">'.M-box2'</span>).pagination({
+    <span class="hljs-attr">coping</span>: <span class="hljs-literal">true</span>,
+    <span class="hljs-attr">homePage</span>: <span class="hljs-string">'首页'</span>,
+    <span class="hljs-attr">endPage</span>: <span class="hljs-string">'末页'</span>,
+    <span class="hljs-attr">prevContent</span>: <span class="hljs-string">'上页'</span>,
+    <span class="hljs-attr">nextContent</span>: <span class="hljs-string">'下页'</span>
+});</code></pre>
+                </div>
