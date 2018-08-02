@@ -20,16 +20,93 @@ class DividendsdsController extends CommonController {
      * */
     public function jiaoyi()
     {
+        
         $this->display('Phone/jiaoyi');
     }
 
     /**
-     *
      * 兑换详情（日，年，月账单）
      */
     public function duihuan()
     {
+        $data = $this->duihuanData();
+        $this->assign('list',$data);
         $this->display('Phone/duihuan');
+    }
+
+    public function duihuantext()
+    {
+        $time = array();
+        $day = array();
+        for($i=0;$i<=31;$i++){
+            $day[] =  date("Y-m-d",strtotime("-$i day"));
+        }
+        $mon = array();
+        for($i=0;$i<=12;$i++){
+            $mon[] =  date("Y-m",strtotime("-$i month"));
+        }
+        $yea = array('2018','2017');
+        $time['day'] = $day;
+        $time['mon'] = $mon;
+        $time['yea'] = $yea;
+        return $time;
+    }
+
+    /*
+     * 兑换详情信息
+     * */
+    public function duihuanData()
+    {
+        $time = $this->duihuantext();
+        $res = array();
+        foreach ($time['day'] as $key=>$value){
+            $res['day'][$key] = $this->find_list('day',$value);
+            $res['day'][$key]['time'] = $value;
+            if($res['day'][$key]['Realpay']==null){
+                unset($res['day'][$key]);
+            }
+        }
+        foreach ($time['mon'] as $key=>$value){
+            $res['mon'][$key] = $this->find_list('month',$value);
+            $res['mon'][$key]['time'] = $value;
+            if($res['mon'][$key]['Realpay']==null){
+                unset($res['mon'][$key]);
+            }
+        }
+        foreach ($time['yea'] as $key=>$value){
+            $res['yea'][$key] = $this->find_list('year',$value);
+            $res['yea'][$key]['time'] = $value;
+            if($res['yea'][$key]['Realpay']==null){
+                unset($res['yea'][$key]);
+            }
+        }
+        return $res;
+    }
+
+    /*
+     * $sta 年.月，日
+     * $time 具体时间
+     * return array 分红详情
+     * */
+    public function find_list($sta='',$time)
+    {
+        if($sta=='day'){
+            $time = $time;
+            $sta = strtotime("$time 00:00:00");
+            $end = strtotime("$time 23:59:59");
+        }elseif ($sta=='month'){
+            $time = $time;
+            $sta = strtotime("$time 00:00:00");
+            $end  = strtotime("$time"."-".date('t',strtotime($time))."23:59:59");
+        }elseif ($sta=='year'){
+            $time = $time;
+            $sta = strtotime("$time-01-01 00:00:00");
+            $end = strtotime("$time-12-31 23:59:59");
+        }
+
+        $data = $this->findOrderOfTime($sta,$end);
+        return $data;
+
     }
 
     /**
@@ -105,7 +182,7 @@ class DividendsdsController extends CommonController {
         $data['RedEn'] = M('consume_list')->where($where)->sum('consume_list_use_integral');//会员使用的红包数
         return $data;
     }
-    
+
     /**
      * 按天、月、年查询订单
      *
@@ -141,10 +218,12 @@ class DividendsdsController extends CommonController {
         $where['business_id'] = $this->business_id;
         $where['users_integral_addtime'] = array(array('EGT',$staTime),array('ELT',$endTime),'and');
         $data['Mysum'] = floor(M('users_integral_list')->where($where)->sum('users_get_integral')*100)/100;//本商家生成的所有的分红
-        //$data['allSum'] = floor(M('users_integral_list')->sum('users_get_integral')*100)/100;//整个汇客系统产生的所有的分红数量
+       //$data['allSum'] = floor(M('users_integral_list')->sum('users_get_integral')*100)/100;//整个汇客系统产生的所有的分红数量
         $whereCon['business_id'] = $this->business_id;
         $whereCon['consume_time'] = array(array('EGT',$staTime),array('ELT',$endTime),'and');
         $data['useSum'] = M('consume_list')->where($whereCon)->sum('consume_list_use_integral');//本商家已经兑换的积分
+        $data['Realpay'] = M('consume_list')->where($whereCon)->sum('consume_money');//实际支付的金额
+        $data['total'] =$data['useSum']+$data['Realpay'];//总金额
         return $data;
     }
 

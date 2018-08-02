@@ -41,43 +41,24 @@
                         <td>支付总金额</td>
                         <td>实际支付金额</td>
                       </tr>
-                      <tr>
-                        <td class="jilu-sj">19:05<span>2018-05-26</span></td>
-                        <td>30</td>
-                        <td>26</td>
-                        <td>300</td>
-                        <td>285</td>
-                      </tr>
-                      <tr>
-                        <td class="jilu-sj">19:05<span>2018-05-26</span></td>
-                        <td>30</td>
-                        <td>26</td>
-                        <td>300</td>
-                        <td>285</td>
-                      </tr>
-                      <tr>
-                        <td class="jilu-sj">19:05<span>2018-05-26</span></td>
-                        <td>30</td>
-                        <td>26</td>
-                        <td>300</td>
-                        <td>285</td>
-                      </tr>
-                      <tr>
-                        <td class="jilu-sj">19:05<span>2018-05-26</span></td>
-                        <td>30</td>
-                        <td>26</td>
-                        <td>300</td>
-                        <td>285</td>
-                      </tr>
+                        <volist name="list.day" id="vo">
+                          <tr>
+                            <td class="jilu-sj"><span>{$vo.time}</span></td>
+                            <td>{$vo.Mysum}</td>
+                            <td>{$vo.useSum}</td>
+                            <td>{$vo.total}</td>
+                            <td>{$vo.Realpay}</td>
+                          </tr>
+                        </volist>
                     </table>
                     
-                    <div class="n-page">
+             <!--       <div class="n-page">
                         <a class="a1">共11条</a> 
                         <a href="" class="a1">上一页</a> 
                         <span>1</span> 
                         <a href="">2</a> 
                         <a href="" class="a1">下一页</a>
-                    </div>
+                    </div>-->
                     
                 </div>
                 <div class="jilu-tp" style="display:none">
@@ -89,42 +70,23 @@
                         <td>支付总金额</td>
                         <td>实际支付金额</td>
                       </tr>
-                      <tr>
-                        <td class="jilu-sj">2018-05</td>
-                        <td>302</td>
-                        <td>216</td>
-                        <td>300</td>
-                        <td>285</td>
-                      </tr>
-                      <tr>
-                        <td class="jilu-sj">2018-05</td>
-                        <td>30</td>
-                        <td>26</td>
-                        <td>300</td>
-                        <td>285</td>
-                      </tr>
-                      <tr>
-                        <td class="jilu-sj">2018-05</td>
-                        <td>30</td>
-                        <td>26</td>
-                        <td>300</td>
-                        <td>285</td>
-                      </tr>
-                      <tr>
-                        <td class="jilu-sj">2018-05</td>
-                        <td>30</td>
-                        <td>26</td>
-                        <td>300</td>
-                        <td>285</td>
-                      </tr>
+                        <volist name="list.mon" id="vo">
+                            <tr>
+                                <td class="jilu-sj"><span>{$vo.time}</span></td>
+                                <td>{$vo.Mysum}</td>
+                                <td>{$vo.useSum}</td>
+                                <td>{$vo.total}</td>
+                                <td>{$vo.Realpay}</td>
+                            </tr>
+                        </volist>
                     </table>
-                    <div class="n-page">
+      <!--              <div class="n-page">
                         <a class="a1">共11条</a> 
                         <a href="" class="a1">上一页</a> 
                         <span>1</span> 
                         <a href="">2</a> 
                         <a href="" class="a1">下一页</a>
-                    </div>
+                    </div>-->
                 </div>
                 <div class="jilu-tp" style="display:none">
                 	<table border="1">
@@ -135,42 +97,23 @@
                         <td>支付总金额</td>
                         <td>实际支付金额</td>
                       </tr>
-                      <tr>
-                        <td class="jilu-sj">2018</td>
-                        <td>310</td>
-                        <td>26</td>
-                        <td>300</td>
-                        <td>285</td>
-                      </tr>
-                      <tr>
-                        <td class="jilu-sj">2018</td>
-                        <td>30</td>
-                        <td>26</td>
-                        <td>300</td>
-                        <td>285</td>
-                      </tr>
-                      <tr>
-                        <td class="jilu-sj">2018</td>
-                        <td>30</td>
-                        <td>26</td>
-                        <td>300</td>
-                        <td>285</td>
-                      </tr>
-                      <tr>
-                        <td class="jilu-sj">2018</td>
-                        <td>30</td>
-                        <td>26</td>
-                        <td>300</td>
-                        <td>285</td>
-                      </tr>
+                        <volist name="list.yea" id="vo">
+                            <tr>
+                                <td class="jilu-sj"><span>{$vo.time}</span></td>
+                                <td>{$vo.Mysum}</td>
+                                <td>{$vo.useSum}</td>
+                                <td>{$vo.total}</td>
+                                <td>{$vo.Realpay}</td>
+                            </tr>
+                        </volist>
                     </table>
-                    <div class="n-page">
+<!--                    <div class="n-page">
                         <a class="a1">共11条</a> 
                         <a href="" class="a1">上一页</a> 
                         <span>1</span> 
                         <a href="">2</a> 
                         <a href="" class="a1">下一页</a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <script>
