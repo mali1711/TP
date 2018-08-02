@@ -41,19 +41,15 @@ class DividendsdsController extends CommonController {
         $today=strtotime(date('Y-m-d 00:00:00'));
         $where['consume_time'] = array('egt',$today);
         $where['business_id'] = $this->business_id;
-        $count = M('consume_list')->distinct(true)->field('users_id')->where($where)->count();
-        $count = ceil($count/3);
+        $count = M('consume_list')->where($where)->count('distinct(users_id)');
+        $count = ceil($count/6);
         $this->assign('count',$count); 
         $this->display('Phone/xiangqing');
     }
 
-    /**
-     * 测试
-     */
-    public function demo()
-    {
-        $this->display('Phone/demo');
-    }
+    /*
+     * 查询当天任意一个用户的
+     * */
 
     /**
      * 查看所有用户列表
@@ -187,11 +183,11 @@ class DividendsdsController extends CommonController {
     {
 
         $page = $_GET['page']?$_GET['page']:1;
-        $sta = ($page-1)*3;
+        $sta = ($page-1)*6;
         $today=strtotime(date('Y-m-d 00:00:00'));
         $where['consume_time'] = array('egt',$today);
         $where['business_id'] = $this->business_id;
-        $userList = M('consume_list')->distinct(true)->field('users_id')->where($where)->limit($sta,3)->select();    $xiangQingData = array();
+        $userList = M('consume_list')->distinct(true)->field('users_id')->where($where)->limit($sta,6)->select();    $xiangQingData = array();
         foreach ($userList as $k=>$v) {
             $where['users_id'] = $v['users_id'];
             $xiangQingData[$k]['consume_list_use_integral'] = M('consume_list')->where($where)->sum('consume_list_use_integral');
@@ -201,5 +197,27 @@ class DividendsdsController extends CommonController {
 //        dump($json);
         echo json_encode($xiangQingData);
     }
+
+    /**
+     * @param users_id
+     * 当日用户使用红包详情
+     * @return json
+     * */
+    public function toDayUser()
+    {
+        $today=strtotime(date('Y-m-d 00:00:00'));
+        $where['users_id'] = $_GET['users_id'];
+        $where['consume_time'] = array('egt',$today);
+        $where['business_id'] = $this->business_id;
+        $userList = M('consume_list')->where($where)->select();
+        foreach ($userList as $k=>$v) {
+            $where['users_id'] = $v['users_id'];
+            $userList[$k]['users_name'] = M('users')->find($v['users_id'])['users_phone'];
+            $userList[$k]['consume_time'] = date("Y-m-d H:i:s",$v['consume_time']);
+            $xiangQingData[$k]['users_id'] = M('users')->find($v['users_id'])['users_id'];
+        }
+        echo json_encode($userList);
+    }
+
 
 }

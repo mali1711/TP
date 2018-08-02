@@ -130,14 +130,14 @@
                          say: 'oh'*/
                     };
                     $.getJSON(
-                            'http://www.sir6hk.com/Admin/Dividendsds/xiangQingData',
+                            '__MODULE__/Dividendsds/xiangQingData',
                             data,
                             function (json) {
 //                                console.log(json);
                                 var con = '';
                                 $.each(json, function (index, item) {
                                     con += '<div class="xiangqing-tit"><p><a href="">'+item.users_name;
-                                    con += '</a></p></div><div class="xiangqing-txt"><div class="total">总计：'+item.consume_list_use_integral;
+                                    con += '<span></a></p></div><div class="xiangqing-txt" onclick="detail(this,'+item.users_id+')"><div class="total">总计：<span>'+item.consume_list_use_integral;
                                     con += '</span> </div> </div>';
                                 });
                                 $(".xiangqing").html(con); //把内容入到这个div中即完成
@@ -146,6 +146,32 @@
                 }
             });
         });
+        //ajax 刷新，自动加载第一页信息
+        $.getJSON("__MODULE__/Dividendsds/xiangQingData/xiangQingData?page=1",function(json,status){
+            var con = '';
+            $.each(json, function (index, item) {
+                con += '<div class="xiangqing-tit"><p><a href="javascript:">'+item.users_name;
+                con += '</span></a></p></div><div class="xiangqing-txt" onclick="detail(this,'+item.users_id+')"><div class="total">总计：<span>'+item.consume_list_use_integral;
+                con += '</span> </div> </div>';
+            });
+            $(".xiangqing").html(con); //把内容入到这个div中即完成
+//                                console.log(con);
+        });
+        function detail(obj,id) {
+            $.getJSON("__MODULE__/Dividendsds/toDayUser?users_id="+id,function (json,status) {
+                var con = '';
+                con += '<ul>';
+                //<li>2018-06-06  10:06<span>1</span></li>
+                $.each(json, function (index, item) {
+                    con += '<li>'+item.consume_time+'<span>'+item.consume_list_use_integral+'<spam></li>'
+                });
+                con += '</ul>';
+                $(obj).children("ul").remove();
+                $(obj).prepend(con);
+            })
+
+        }
+
     </script>
 </div>
 

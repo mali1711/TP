@@ -21,24 +21,24 @@
 
     <div class="jiaoyi">
         <div class="jiaoyi-tit">
-            <p>红包总数（个）</p>
+            <p>红包金额</p>
         </div>
         <div class="jiaoyi-txt">
             <ul>
-                <li><img src="__PUBLIC__/Style/Admin/Phone/xinZeng/images/ico11.png">已分配的红包数<span class="yifenpei">21</span></li>
-                <li><img src="__PUBLIC__/Style/Admin/Phone/xinZeng/images/ico12.png">已兑换的红包数<span class="yiyuehuan">16</span></li>
+                <li><img src="__PUBLIC__/Style/Admin/Phone/xinZeng/images/ico11.png">已分配的红包金额<span class="yifenpei">21</span></li>
+                <li><img src="__PUBLIC__/Style/Admin/Phone/xinZeng/images/ico12.png">已兑换的红包金额<span class="yiyuehuan">16</span></li>
             </ul>
         </div>
     </div>
 
     <div class="jiaoyi">
         <div class="jiaoyi-tit">
-            <p>红包兑换数（个）</p>
+            <p>红包兑换金额</p>
         </div>
         <div class="jiaoyi-txt">
             <ul>
-                <li><a href="">当日总的红包兑换数：<span>1</span></a></li>
-                <li><a href="">当日会员已兑换红包数：<span>6</span></a></li>
+                <li><a href="">当日总的红包兑换金额：<span class="totalNum">0</span></a></li>
+                <li><a href="__MODULE__/Dividendsds/xiangqing">当日会员已兑换红包金额：<span>点击查看详情</span></a></li>
             </ul>
         </div>
     </div>
@@ -114,6 +114,7 @@
     //获取当日消费比例
     $.getJSON("__MODULE__/Dividendsds/DetOFCon",function(data,status){
         var res = data;
+        $('.totalNum').html(data.RedEn);//当日总的红包兑换金额：
     var dom = document.getElementById("container");
     var myChart = echarts.init(dom);
     var app = {};
@@ -162,6 +163,7 @@
     if (option && typeof option === "object") {
         myChart.setOption(option, true);
     }
+
     });
 </script>
 <script>
@@ -170,6 +172,7 @@
         $(".yiyuehuan").html(data.useSum);
         $(".jinRiSouRu").html(data.TodayIncome);
     });
+
 </script>
 
 </body>
