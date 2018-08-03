@@ -45,7 +45,7 @@ class AdminInfoController extends CommonController {
         $this->display('Index/BunDetail');
 
     }
-    
+
     /*
      * 手机登录页面
      * */
@@ -118,7 +118,7 @@ class AdminInfoController extends CommonController {
         return $array;
     }
 
-    
+
     /*
      * 获取今日成交的总金额，实时更新
      * */
@@ -132,7 +132,7 @@ class AdminInfoController extends CommonController {
         return $data;
 
     }
-    
+
     /*
      * 判断是手机登录还是电脑登录
      * */
@@ -266,7 +266,7 @@ class AdminInfoController extends CommonController {
         unset($_SESSION['Admin']);
         $this->display('Index/Login');
     }
-    
+
     /*
      * 获取当前分红比例
      * */
@@ -291,7 +291,7 @@ class AdminInfoController extends CommonController {
         }
 
     }
-    
+
     /*
      * 注册
      * */
