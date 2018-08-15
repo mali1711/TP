@@ -220,7 +220,7 @@ class UsersController extends Controller {
   * */
     public function sumIntegral()
     {
-        $where['users_id']= 11;//$_SESSION['user']['userinfo']['users_id'];
+        $where['users_id']= $_SESSION['user']['userinfo']['users_id'];
         $users_integral_list = M('users_integral_list');
         $sum = $users_integral_list->where($where)->Sum('users_get_integral');
         if($sum){
