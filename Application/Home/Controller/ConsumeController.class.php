@@ -21,7 +21,7 @@ class ConsumeController extends Controller {
         }
         //调用支付接口
         $Payment = A('WX/Payment');
-        $operator_id = time();//本地的订单号
+        $operator_id = time().rand(100000,999999);//本地的订单号
 //        $amount = ($money-$resCou-$inMon)/100;/*支付的实际金额，比原来的小扫10000倍 并且去掉支付的积分和优惠券*/
 
         $money = floatval($money);
