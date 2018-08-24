@@ -56,10 +56,12 @@ class UsersController extends Controller {
     public function upUsersPass()
     {
         $where['users_id'] = I('get.id');
-        $data['users_pass'] = md5(MD5('123456'));
+        $data['users_pass'] = md5('123456');
         $res = M('users')->where($where)->save($data);
         if($res){
             $this->success('改用户此刻密码初始化成了123456');
+        }else{
+            $this->success('位置错误');
         }
     }
 }
