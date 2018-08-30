@@ -61,7 +61,7 @@ class UsersController extends Controller {
         if($res){
             $this->success('改用户此刻密码初始化成了123456');
         }else{
-            $this->success('位置错误');
+            $this->success('当前密码已经是初始密码，无序更改');
         }
     }
 }
